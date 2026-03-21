@@ -174,6 +174,84 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconPalIndex = 1,
     },
 
+    [SPECIES_LUMO] =
+    {
+        .baseHP        = 110,
+        .baseAttack    = 95,
+        .baseDefense   = 95,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 130,
+        .baseSpDefense = 135,
+        .types = MON_TYPES(TYPE_FAIRY, TYPE_ELECTRIC),
+        .catchRate = 3,
+    #if P_UPDATED_EXP_YIELDS >= GEN_8
+        .expYield = 300,
+    #elif P_UPDATED_EXP_YIELDS >= GEN_5
+        .expYield = 270,
+    #else
+        .expYield = 64,
+    #endif
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 120,
+        .friendship = 100,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+        .abilities = { ABILITY_PRANKSTER, ABILITY_NONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_YELLOW,
+        .speciesName = _("Lumo"),
+        .cryId = CRY_MEW,
+        .natDexNum = NATIONAL_DEX_LUMO,
+        .categoryName = _("Radiant"),
+        .height = 4,
+        .weight = 40,
+        .description = COMPOUND_STRING(
+            "A strange aura surrounds this Pokémon.\n"
+            "Even in darkness, its body glows with\n"
+            "a steady electric light that bends\n"
+            "the will of those nearby."),
+        .pokemonScale = 457,
+        .pokemonOffset = -2,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Mew,
+        .frontPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(40, 40) : MON_COORDS_SIZE(64, 48),
+        .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 13 : 9,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 50),
+            ANIMCMD_FRAME(1, 40),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = P_GBA_STYLE_SPECIES_GFX ? ANIM_SWING_CONVEX : ANIM_ZIGZAG_SLOW,
+        .enemyMonElevation = P_GBA_STYLE_SPECIES_GFX ? 8 : 11,
+        .backPic = gMonBackPic_Mew,
+        .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(48, 48) : MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 8 : 0,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_Mew,
+        .shinyPalette = gMonShinyPalette_Mew,
+        .iconSprite = gMonIcon_Mew,
+        .iconPalIndex = 0,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 13, SHADOW_SIZE_S)
+        FOOTPRINT(Mew)
+        OVERWORLD(
+            sPicTable_Mew,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_NONE,
+            sAnimTable_Following,
+            gOverworldPalette_Mew,
+            gShinyOverworldPalette_Mew
+        )
+        .isRestrictedLegendary = TRUE,
+        .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
+        .teachingType = ALL_TEACHABLES,
+        .levelUpLearnset = sMewLevelUpLearnset,
+        .teachableLearnset = sMewTeachableLearnset,
+    },
+
     /* You may add any custom species below this point based on the following structure: */
 
     /*
