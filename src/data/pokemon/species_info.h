@@ -159,6 +159,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     #include "species_info/localized/gen_6_families_fr.h"
     #include "species_info/localized/gen_7_families_fr.h"
     #include "species_info/localized/gen_8_families_fr.h"
+    #include "species_info/localized/gen_9_families_fr.h"
     #else
     #include "species_info/gen_1_families.h"
     #include "species_info/gen_2_families.h"

@@ -17,8 +17,8 @@ POKEDEX_FILE = REPO_ROOT / "localization" / "pokedex.json"
 SPECIES_INFO_DIR = REPO_ROOT / "src" / "data" / "pokemon" / "species_info"
 OUTPUT_DIR = REPO_ROOT / "src" / "data" / "pokemon" / "species_info"
 
-# Generations to process (up to gen 8 as per user request)
-GENERATIONS = list(range(1, 9))
+# Generations to process (up to gen 9)
+GENERATIONS = list(range(1, 9+1))
 
 def load_pokedex():
     """Load Pokemon data from pokedex.json"""
