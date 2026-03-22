@@ -29,11 +29,10 @@ def load_pokedex():
 def create_name_mapping(pokedex_data):
     """Create a mapping of English names to French names by Pokemon ID"""
     mapping = {}
-    for entry in pokedex_data:
-        pokemon_id = entry['id']
+    for pokemon_id, entry in pokedex_data.items():
         english_name = entry['name']['english']
         french_name = entry['name']['french']
-        mapping[pokemon_id] = {
+        mapping[int(pokemon_id)] = {
             'english': english_name,
             'french': french_name
         }
