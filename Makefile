@@ -46,6 +46,8 @@ LTO          ?= 0
 # Makes an optimized build for release, also enabling NDEBUG macro and disabling other debugging features
 # Enables LTO by default, but can be changed in the config.mk file
 RELEASE      ?= 0
+# Language for Pokemon names and other localized content (EN or FR)
+LANGUAGE     ?= EN
 
 ifeq (compare,$(MAKECMDGOALS))
   COMPARE := 1
@@ -158,6 +160,9 @@ else
 O_LEVEL ?= 2
 endif
 CPPFLAGS := $(INCLUDE_CPP_ARGS) -Wno-trigraphs -DMODERN=1 -DTESTING=$(TEST) -D$(GAME_VERSION) -std=gnu17
+ifeq ($(LANGUAGE),FR)
+	override CPPFLAGS += -DLANGUAGE_FR
+endif
 ifeq ($(RELEASE),1)
 	override CPPFLAGS += -DRELEASE
 	ifeq ($(USE_LTO_ON_RELEASE),1)
