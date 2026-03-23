@@ -1542,17 +1542,6 @@ const struct Tileset gTileset_HallOfFame =
 
 #endif // IS_FRLG
 
-const struct Tileset gTileset_test =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_test,
-    .palettes = gTilesetPalettes_test,
-    .metatiles = gMetatiles_test,
-    .metatileAttributes = gMetatileAttributes_test,
-    .callback = NULL,
-};
-
 const struct Tileset gTileset_Gibounet =
 {
     .isCompressed = TRUE,
