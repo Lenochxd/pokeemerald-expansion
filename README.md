@@ -6,6 +6,9 @@
 - ```sh
   sudo cp tools/porytiles/porytiles /usr/local/bin
   ```
+- ```sh
+  sudo chmod +x ./tools/poryscript/poryscript
+  ```
 
 
 # About `pokeemerald-expansion`
