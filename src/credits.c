@@ -1202,7 +1202,7 @@ static bool8 LoadBikeScene(u8 scene, u8 taskId)
         if (gSaveBlock2Ptr->playerGender == MALE)
         {
             LoadCompressedSpriteSheet(gSpriteSheet_CreditsBrendan);
-            LoadCompressedSpriteSheet(gSpriteSheet_CreditsRivalMay);
+            LoadCompressedSpriteSheet(gSpriteSheet_CreditsRivalAntoine);
             LoadCompressedSpriteSheet(gSpriteSheet_CreditsBicycle);
             LoadSpritePalettes(gSpritePalettes_Credits);
 
@@ -1211,7 +1211,7 @@ static bool8 LoadBikeScene(u8 scene, u8 taskId)
             gSprites[spriteId].callback = SpriteCB_Player;
             gSprites[spriteId].anims = sAnims_Player;
 
-            spriteId = CreateIntroMaySprite(DISPLAY_WIDTH + 32, 46);
+            spriteId = CreateIntroAntoineSprite(DISPLAY_WIDTH + 32, 46);
             gTasks[taskId].tRivalSpriteId = spriteId;
             gSprites[spriteId].callback = SpriteCB_Rival;
             gSprites[spriteId].anims = sAnims_Rival;
@@ -1219,7 +1219,7 @@ static bool8 LoadBikeScene(u8 scene, u8 taskId)
         else
         {
             LoadCompressedSpriteSheet(gSpriteSheet_CreditsMay);
-            LoadCompressedSpriteSheet(gSpriteSheet_CreditsRivalBrendan);
+            LoadCompressedSpriteSheet(gSpriteSheet_CreditsRivalAntoine);
             LoadCompressedSpriteSheet(gSpriteSheet_CreditsBicycle);
             LoadSpritePalettes(gSpritePalettes_Credits);
 
@@ -1228,7 +1228,7 @@ static bool8 LoadBikeScene(u8 scene, u8 taskId)
             gSprites[spriteId].callback = SpriteCB_Player;
             gSprites[spriteId].anims = sAnims_Player;
 
-            spriteId = CreateIntroBrendanSprite(DISPLAY_WIDTH + 32, 46);
+            spriteId = CreateIntroAntoineSprite(DISPLAY_WIDTH + 32, 46);
             gTasks[taskId].tRivalSpriteId = spriteId;
             gSprites[spriteId].callback = SpriteCB_Rival;
             gSprites[spriteId].anims = sAnims_Rival;

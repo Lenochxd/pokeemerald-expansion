@@ -97,7 +97,7 @@
     },
     {
       "local_id": "LOCALID_RIVALS_HOUSE_1F_RIVAL",
-      "graphics_id": "OBJ_EVENT_GFX_RIVAL_MAY_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_RIVAL_ANTOINE_NORMAL",
       "x": 2,
       "y": 8,
       "elevation": 3,
@@ -119,7 +119,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 2,
+      "x": 3,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN",
@@ -136,7 +136,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 2,
+      "x": 3,
       "y": 8,
       "elevation": 0,
       "var": "VAR_LITTLEROOT_INTRO_STATE",

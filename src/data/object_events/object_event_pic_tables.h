@@ -41,6 +41,65 @@ static const struct SpriteFrameImage sPicTable_BrendanFieldMove[] = {
     overworld_ascending_frames(gObjectEventPic_BrendanFieldMove, 4, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_AntoineNormal[] = {
+    overworld_ascending_frames(gObjectEventPic_AntoineNormalRunning, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineMachBike[] = {
+    overworld_ascending_frames(gObjectEventPic_AntoineMachBike, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineAcroBike[] = {
+    overworld_ascending_frames(gObjectEventPic_AntoineAcroBike, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineSurfing[] = {
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 1),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 3),
+    overworld_frame(gObjectEventPic_AntoineSurfing, 4, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineUnderwater[] = {
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 1),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 2),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 1),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 1),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 2),
+    overworld_frame(gObjectEventPic_AntoineUnderwater, 4, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineFieldMove[] = {
+    overworld_ascending_frames(gObjectEventPic_AntoineFieldMove, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineFishing[] = {
+    overworld_ascending_frames(gObjectEventPic_AntoineFishing, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_AntoineWatering[] = {
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 0),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 2),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 4),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 5),
+    overworld_frame(gObjectEventPic_AntoineWatering, 4, 4, 5),
+};
+
 static const struct SpriteFrameImage sPicTable_QuintyPlump[] = {
     overworld_ascending_frames(gObjectEventPic_QuintyPlump, 4, 4),
 };

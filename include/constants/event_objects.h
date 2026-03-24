@@ -412,6 +412,14 @@
 #define OBJ_EVENT_GFX_PUSHABLE_BOULDER_FRLG      385
 #define OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG         386
 #define OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG        387
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_NORMAL       388
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_MACH_BIKE    389
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_ACRO_BIKE    390
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_SURFING      391
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_FIELD_MOVE   392
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_UNDERWATER   393
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_FISHING      394
+#define OBJ_EVENT_GFX_RIVAL_ANTOINE_WATERING     395
 
 // FRLG equivalents
 
@@ -423,7 +431,7 @@
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        388
+#define NUM_OBJ_EVENT_GFX                        396
 
 
 // These are dynamic object gfx ids.

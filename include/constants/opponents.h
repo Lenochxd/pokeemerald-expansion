@@ -859,13 +859,29 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
+#define TRAINER_ANTOINE_ROUTE_103_MUDKIP    855
+#define TRAINER_ANTOINE_ROUTE_110_MUDKIP    856
+#define TRAINER_ANTOINE_ROUTE_119_MUDKIP    857
+#define TRAINER_ANTOINE_ROUTE_103_TREECKO   858
+#define TRAINER_ANTOINE_ROUTE_110_TREECKO   859
+#define TRAINER_ANTOINE_ROUTE_119_TREECKO   860
+#define TRAINER_ANTOINE_ROUTE_103_TORCHIC   861
+#define TRAINER_ANTOINE_ROUTE_110_TORCHIC   862
+#define TRAINER_ANTOINE_ROUTE_119_TORCHIC   863
+#define TRAINER_ANTOINE_RUSTBORO_TREECKO    864
+#define TRAINER_ANTOINE_RUSTBORO_MUDKIP     865
+#define TRAINER_ANTOINE_RUSTBORO_TORCHIC    866
+#define TRAINER_ANTOINE_LILYCOVE_MUDKIP     867
+#define TRAINER_ANTOINE_LILYCOVE_TREECKO    868
+#define TRAINER_ANTOINE_LILYCOVE_TORCHIC    869
+#define TRAINER_ANTOINE_PLACEHOLDER         870
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     855
-#define MAX_TRAINERS_COUNT_EMERALD 864
+#define TRAINERS_COUNT_EMERALD     871
+#define MAX_TRAINERS_COUNT_EMERALD 880
 
 #if IS_FRLG
 #define TRAINERS_COUNT                      TRAINERS_COUNT_FRLG

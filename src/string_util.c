@@ -484,10 +484,10 @@ static const u8 *ExpandPlaceholder_RivalName(void)
         return gSaveBlock1Ptr->rivalName;
 #endif
 
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        return (IS_FRLG ? gText_ExpandedPlaceholder_Green : gText_ExpandedPlaceholder_May);
-    else
-        return (IS_FRLG ? gText_ExpandedPlaceholder_Red : gText_ExpandedPlaceholder_Brendan);
+    if (IS_FRLG)
+        return (gSaveBlock2Ptr->playerGender == MALE ? gText_ExpandedPlaceholder_Green : gText_ExpandedPlaceholder_Red);
+
+    return gText_ExpandedPlaceholder_Antoine;
 }
 
 static const u8 *ExpandPlaceholder_Version(void)

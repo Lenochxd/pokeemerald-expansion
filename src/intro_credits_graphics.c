@@ -20,6 +20,7 @@
 #define TAG_BICYCLE 1001
 #define TAG_BRENDAN 1002
 #define TAG_MAY     1003
+#define TAG_ANTOINE 1006
 #define TAG_FLYGON_LATIOS  1004
 #define TAG_FLYGON_LATIAS  1005
 
@@ -62,6 +63,8 @@ static const u32 sHouses_Tilemap[]        = INCBIN_U32("graphics/intro/scene_2/h
 static const u32 sHouseSilhouette_Gfx[]   = INCBIN_U32("graphics/intro/scene_2/house_silhouette.4bpp.smol");
 static const u16 sBrendanCredits_Pal[]    = INCBIN_U16("graphics/intro/scene_2/brendan_credits.gbapal");
 static const u32 sBrendanCredits_Gfx[]    = INCBIN_U32("graphics/intro/scene_2/brendan_credits.4bpp.smol");
+static const u16 sAntoineCredits_Pal[]    = INCBIN_U16("graphics/intro/scene_2/antoine_credits.gbapal");
+static const u32 sAntoineCredits_Gfx[]    = INCBIN_U32("graphics/intro/scene_2/antoine_credits.4bpp.smol");
 static const u16 sMayCredits_Pal[]        = INCBIN_U16("graphics/intro/scene_2/may_credits.gbapal");
 static const u16 sUnused[0xF0]            = {0};
 static const u32 sMayCredits_Gfx[]        = INCBIN_U32("graphics/intro/scene_2/may_credits.4bpp.smol");
@@ -477,6 +480,15 @@ static const struct SpriteTemplate sSpriteTemplate_May =
     .callback = SpriteCB_Player
 };
 
+static const struct SpriteTemplate sSpriteTemplate_Antoine =
+{
+    .tileTag = TAG_ANTOINE,
+    .paletteTag = TAG_ANTOINE,
+    .oam = &sOamData_Player,
+    .anims = sAnims_Player,
+    .callback = SpriteCB_Player
+};
+
 static const struct OamData sOamData_Bicycle =
 {
     .y = DISPLAY_HEIGHT,
@@ -512,6 +524,15 @@ static const struct SpriteTemplate sSpriteTemplate_MayBicycle =
 {
     .tileTag = TAG_BICYCLE,
     .paletteTag = TAG_MAY,
+    .oam = &sOamData_Bicycle,
+    .anims = sAnims_Bicycle,
+    .callback = SpriteCB_Bicycle
+};
+
+static const struct SpriteTemplate sSpriteTemplate_AntoineBicycle =
+{
+    .tileTag = TAG_BICYCLE,
+    .paletteTag = TAG_ANTOINE,
     .oam = &sOamData_Bicycle,
     .anims = sAnims_Bicycle,
     .callback = SpriteCB_Bicycle
@@ -677,8 +698,19 @@ const struct SpritePalette gSpritePalettes_Credits[] =
 {
     { .data = sBrendanCredits_Pal, .tag = TAG_BRENDAN },
     { .data = sMayCredits_Pal,     .tag = TAG_MAY },
+    { .data = sAntoineCredits_Pal, .tag = TAG_ANTOINE },
     { .data = sLatios_Pal,         .tag = TAG_FLYGON_LATIOS },
     { .data = sLatias_Pal,         .tag = TAG_FLYGON_LATIAS },
+    {}
+};
+
+const struct CompressedSpriteSheet gSpriteSheet_CreditsRivalAntoine[] =
+{
+    {
+        .data = sAntoineCredits_Gfx,
+        .size = 0x2000,
+        .tag = TAG_ANTOINE
+    },
     {}
 };
 
@@ -1112,6 +1144,14 @@ u8 CreateIntroMaySprite(s16 x, s16 y)
 {
     u8 playerSpriteId = CreateSprite(&sSpriteTemplate_May, x, y, 2);
     u8 bicycleSpriteId = CreateSprite(&sSpriteTemplate_MayBicycle, x, y + 8, 3);
+    gSprites[bicycleSpriteId].sPlayerSpriteId = playerSpriteId;
+    return playerSpriteId;
+}
+
+u8 CreateIntroAntoineSprite(s16 x, s16 y)
+{
+    u8 playerSpriteId = CreateSprite(&sSpriteTemplate_Antoine, x, y, 2);
+    u8 bicycleSpriteId = CreateSprite(&sSpriteTemplate_AntoineBicycle, x, y + 8, 3);
     gSprites[bicycleSpriteId].sPlayerSpriteId = playerSpriteId;
     return playerSpriteId;
 }

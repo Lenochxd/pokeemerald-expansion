@@ -107,6 +107,14 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayMac
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayAcroBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMaySurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineUnderwater;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalAntoineWatering;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cameraman;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanUnderwater;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayUnderwater;
@@ -645,6 +653,14 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
     [OBJ_EVENT_GFX_APRICORN_TREE] =            &gObjectEventGraphicsInfo_ApricornTree,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_NORMAL] =     &gObjectEventGraphicsInfo_RivalAntoineNormal,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_MACH_BIKE] =  &gObjectEventGraphicsInfo_RivalAntoineMachBike,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_ACRO_BIKE] =  &gObjectEventGraphicsInfo_RivalAntoineAcroBike,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_SURFING] =    &gObjectEventGraphicsInfo_RivalAntoineSurfing,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_FIELD_MOVE] = &gObjectEventGraphicsInfo_RivalAntoineFieldMove,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_UNDERWATER] = &gObjectEventGraphicsInfo_RivalAntoineUnderwater,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_FISHING] =    &gObjectEventGraphicsInfo_RivalAntoineFishing,
+    [OBJ_EVENT_GFX_RIVAL_ANTOINE_WATERING] =   &gObjectEventGraphicsInfo_RivalAntoineWatering,
 #if IS_FRLG
     [OBJ_EVENT_GFX_RED_NORMAL] =               &gObjectEventGraphicsInfo_RedNormal,
     [OBJ_EVENT_GFX_RED_BIKE] =                 &gObjectEventGraphicsInfo_RedBike,

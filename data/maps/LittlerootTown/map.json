@@ -169,8 +169,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 11,
-      "y": 5,
+      "x": 10,
+      "y": 1,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "0",
@@ -205,8 +205,8 @@
     },
     {
       "type": "trigger",
-      "x": 4,
-      "y": 5,
+      "x": 9,
+      "y": 9,
       "elevation": 3,
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "3",
