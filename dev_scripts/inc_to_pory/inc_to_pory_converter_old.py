@@ -7,6 +7,9 @@ After converting, it deletes the original .inc file.
 
 update: do not use this, I think it's stupid and would be better to just convert the needed files manually.
 I see no purpose in converting all .inc files to .pory with the raw statement lol, my bad
+
+update 2: use inc_to_pory_converter.py instead, which actually converts code instead of just wrapping it
+in a raw statement (which is pretty much useless).
 """
 
 
