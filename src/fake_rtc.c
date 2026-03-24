@@ -39,13 +39,23 @@ void FakeRtc_GetRawInfo(struct SiiRtcInfo *rtc)
 
 void FakeRtc_TickTimeForward(void)
 {
+    u32 secondsToAdvance;
+
     if (!OW_USE_FAKE_RTC)
         return;
 
     if (FlagGet(OW_FLAG_PAUSE_TIME))
         return;
 
-    FakeRtc_AdvanceTimeBy(0, 0, 0, FakeRtc_GetSecondsRatio());
+    secondsToAdvance = FakeRtc_GetSecondsRatio();
+
+    if (OW_NIGHT_TIME_MULTIPLIER > 1
+     && IsBetweenHours(FakeRtc_GetCurrentTime()->hour, NIGHT_HOUR_BEGIN, NIGHT_HOUR_END))
+    {
+        secondsToAdvance *= OW_NIGHT_TIME_MULTIPLIER;
+    }
+
+    FakeRtc_AdvanceTimeBy(0, 0, 0, secondsToAdvance);
 }
 
 void FakeRtc_AdvanceTimeBy(u32 days, u32 hours, u32 minutes, u32 seconds)
@@ -123,6 +133,7 @@ u32 FakeRtc_GetSecondsRatio(void)
 }
 
 STATIC_ASSERT((OW_FLAG_PAUSE_TIME == 0 || OW_USE_FAKE_RTC == TRUE), FakeRtcMustBeTrueToPauseTime);
+STATIC_ASSERT(OW_NIGHT_TIME_MULTIPLIER > 0, FakeRtcNightMultiplierMustBeGreaterThanZero);
 
 void Script_PauseFakeRtc(void)
 {
