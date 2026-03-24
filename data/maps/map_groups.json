@@ -2,7 +2,7 @@
   "group_order": [
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
-    "gMapGroup_IndoorOldale",
+    "gMapGroup_IndoorBourgEnBiol",
     "gMapGroup_IndoorDewford",
     "gMapGroup_IndoorLavaridge",
     "gMapGroup_IndoorFallarbor",
@@ -87,7 +87,6 @@
     "SootopolisCity",
     "EverGrandeCity",
     "LittlerootTown",
-    "OldaleTown",
     "DewfordTown",
     "LavaridgeTown",
     "FallarborTown",
@@ -133,7 +132,11 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "BourgEnBiol",
+    "Route305",
+    "RouteAlleeGolri",
+    "Route_TEMPLATE"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -142,12 +145,12 @@
     "LittlerootTown_MaysHouse_2F",
     "LittlerootTown_ProfessorBirchsLab"
   ],
-  "gMapGroup_IndoorOldale": [
-    "OldaleTown_House1",
-    "OldaleTown_House2",
-    "OldaleTown_PokemonCenter_1F",
-    "OldaleTown_PokemonCenter_2F",
-    "OldaleTown_Mart"
+  "gMapGroup_IndoorBourgEnBiol": [
+    "BourgEnBiol_House1",
+    "BourgEnBiol_House2",
+    "BourgEnBiol_PokemonCenter_1F",
+    "BourgEnBiol_PokemonCenter_2F",
+    "BourgEnBiol_Mart"
   ],
   "gMapGroup_IndoorDewford": [
     "DewfordTown_House1",

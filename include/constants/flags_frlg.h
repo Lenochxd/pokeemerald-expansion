@@ -1558,7 +1558,7 @@
 #define FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN  0
 #define FLAG_DEFEATED_RIVAL_ROUTE103         0
 #define FLAG_RECEIVED_DOLL_LANETTE           0
-#define FLAG_RECEIVED_POTION_OLDALE          0
+#define FLAG_RECEIVED_POTION_BOURG_EN_BIOL          0
 #define FLAG_RECEIVED_AMULET_COIN            0
 #define FLAG_THANKED_FOR_PLAYING_WITH_WALLY  0
 #define FLAG_ENABLE_FIRST_WALLY_POKENAV_CALL 0 // Set after defeating Wally outside Mauville Gym. Will activate a call later to register Wally.
@@ -2277,7 +2277,7 @@
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0
 #define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1                      0
 #define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2                      0
-#define FLAG_HIDE_OLDALE_TOWN_RIVAL                                 0
+#define FLAG_HIDE_BOURG_EN_BIOL_RIVAL                                 0
 #define FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE      0
 #define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE_SHADOW                   0
 #define FLAG_HIDE_ROUTE_120_KECLEON_1                               0
@@ -2327,7 +2327,7 @@
 #define FLAG_ITEM_ROUTE_119_SUPER_REPEL                             0
 #define FLAG_ITEM_ROUTE_119_ZINC                                    0
 #define FLAG_ITEM_ROUTE_119_ELIXIR_1                                0
-#define FLAG_ITEM_ROUTE_119_LEAF_STONE                              0
+#define FLAG_ITEM_ROUTE_ALLEE_GOLRI_LEAF_STONE                              0
 #define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0
 #define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0
 #define FLAG_ITEM_ROUTE_120_NUGGET                                  0
@@ -2499,7 +2499,7 @@
 
 // Towns and Cities
 #define FLAG_VISITED_LITTLEROOT_TOWN                0
-#define FLAG_VISITED_OLDALE_TOWN                    0
+#define FLAG_VISITED_BOURG_EN_BIOL                    0
 #define FLAG_VISITED_DEWFORD_TOWN                   0
 #define FLAG_VISITED_LAVARIDGE_TOWN                 0
 #define FLAG_VISITED_FALLARBOR_TOWN                 0

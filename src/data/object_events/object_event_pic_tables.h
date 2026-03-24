@@ -397,6 +397,13 @@ static const struct SpriteFrameImage sPicTable_CuttableTree[] = {
     overworld_ascending_frames(gObjectEventPic_CuttableTree, 2, 2),
 };
 
+static const struct SpriteFrameImage sPicTable_CuttableTreeFrlg[] = {
+    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 0),
+    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 1),
+    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 2),
+    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 3),
+};
+
 static const struct SpriteFrameImage sPicTable_MartEmployee[] = {
     overworld_ascending_frames(gObjectEventPic_MartEmployee, 2, 4),
 };
@@ -2251,13 +2258,6 @@ static const struct SpriteFrameImage sPicTable_Bruno[] = {
     overworld_frame(gObjectEventPic_Bruno, 2, 4, 1),
     overworld_frame(gObjectEventPic_Bruno, 2, 4, 2),
     overworld_frame(gObjectEventPic_Bruno, 2, 4, 2),
-};
-
-static const struct SpriteFrameImage sPicTable_CuttableTreeFrlg[] = {
-    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 0),
-    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 1),
-    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 2),
-    overworld_frame(gObjectEventPic_CuttableTreeFrlg, 2, 2, 3),
 };
 
 static const struct SpriteFrameImage sPicTable_Clerk[] = {

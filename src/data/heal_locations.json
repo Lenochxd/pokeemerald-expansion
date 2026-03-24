@@ -113,14 +113,6 @@
       "respawn_y": 7
     },
     {
-      "id": "HEAL_LOCATION_OLDALE_TOWN",
-      "map": "MAP_OLDALE_TOWN",
-      "x": 6,
-      "y": 17,
-      "respawn_map": "MAP_OLDALE_TOWN_POKEMON_CENTER_1F",
-      "respawn_npc": "LOCALID_OLDALE_NURSE"
-    },
-    {
       "id": "HEAL_LOCATION_DEWFORD_TOWN",
       "map": "MAP_DEWFORD_TOWN",
       "x": 2,
@@ -349,6 +341,26 @@
       "y": 12,
       "respawn_map": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_SIX_ISLAND_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_BOURG_EN_BIOL",
+      "map": "MAP_BOURG_EN_BIOL",
+      "x": 6,
+      "y": 17,
+      "respawn_map": "MAP_BOURG_EN_BIOL_POKEMON_CENTER_1F",
+      "respawn_npc": "LOCALID_BOURG_EN_BIOL_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_BOURG_EN_BIOL_2",
+      "map": "MAP_BOURG_EN_BIOL",
+      "x": 14,
+      "y": 7
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE101",
+      "map": "MAP_ROUTE101",
+      "x": 10,
+      "y": 11
     }
   ]
 }

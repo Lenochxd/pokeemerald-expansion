@@ -81,7 +81,7 @@ LittlerootTown_OnTransition:
 	call_if_eq VAR_LITTLEROOT_TOWN_STATE, 3, LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos
 	call_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
 	call_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
-	call_if_eq VAR_OLDALE_RIVAL_STATE, 1, LittlerootTown_EventScript_MoveRivalFromOldale
+	call_if_eq VAR_BOURG_EN_BIOL_RIVAL_STATE, 1, LittlerootTown_EventScript_MoveRivalFromOldale
 	call_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_EventScript_SetRivalLeftForRoute103
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_HideMapNamePopup
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_EventScript_LeftLabAfterDexUpgrade
@@ -100,8 +100,8 @@ LittlerootTown_EventScript_SetRivalLeftForRoute103::
 	return
 
 LittlerootTown_EventScript_MoveRivalFromOldale::
-	setvar VAR_OLDALE_RIVAL_STATE, 2
-	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
+	setvar VAR_BOURG_EN_BIOL_RIVAL_STATE, 2
+	setflag FLAG_HIDE_BOURG_EN_BIOL_RIVAL
 	return
 
 LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent::
@@ -992,65 +992,65 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "Si tu utilises un PC, tu peux stocker des objets\n"
+	.string "et des POKéMON.\p"
+	.string "Le pouvoir de la science est stupéfiant !$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "PROF. POMMIER passe ses journées dans son\n"
+	.string "LABO à étudier, puis il sort soudainement dans\l"
+	.string "la nature pour faire plus de recherches…\p"
+	.string "Quand est-ce que PROF. POMMIER passe du temps\n"
+	.string "avec sa famille ?$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+	.string "Si tu vas dans l'herbe,\n"
+	.string "des POKéMON sauvages vont t'agresser !$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+	.string "C'est très dangereux si tu n'as pas\n"
+	.string "tes propres POKéMON.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any POKéMON…\p"
-	.string "Can you go see what's happening\n"
-	.string "for me?$"
+	.string "Euh, salut !\p"
+	.string "Il y a vraiment des POKéMONS qui font\n"
+	.string "peur ! J'entend leur cri, agrougrou !\p"
+	.string "J'aimerais voir kékisepasse,\n"
+	.string "mais j'ai pô de POKéMON…\p"
+	.string "Eske tu peux aller voir\n"
+	.string "pour moi ?$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "T'as sauvé le PROF. POMMIER !\n"
+	.string "Wahouyouhou !$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
-	.string "Are you going to catch POKéMON?\n"
-	.string "Good luck!$"
+	.string "Alors dis, tu vas capturer du POKé ?\n"
+	.string "Bonne chance !$"
 
 LittlerootTown_Text_TownSign:
-	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "GIBOUNET\n"
+	.string "“Une ville pas si intéressante.”$"
 
 LittlerootTown_Text_ProfBirchsLab:
-	.string "PROF. BIRCH'S POKéMON LAB$"
+	.string "POKéLAB du PROF. POMMIER$"
 
 LittlerootTown_Text_PlayersHouse:
-	.string "{PLAYER}'s HOUSE$"
+	.string "Maison de {PLAYER}$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "Maison du voisin$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
-	.string "That was good work out there!\p"
-	.string "I knew there was something special\n"
-	.string "about you when I first saw you,\l"
-	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
-	.string "I gave you?\p"
-	.string "I have something to show you.\n"
-	.string "Let's go to my LAB.$"
+	.string "PROF. POMMIER: Hé beh, {PLAYER}{KUN}!\n"
+	.string "T'es vraiment solide sur tes appuis !\p"
+	.string "Ta mère m'a beaucoup parlé de toi\n"
+	.string "j'm'attendais à ce que tu sois bon,\l"
+	.string "mais là t'as dépassé toutes mes attentes.\p"
+	.string "Ah, oui. T'as toujours le POKéDEX\n"
+	.string "que j't'ai filé ?\p"
+	.string "J'ai un truc à te montrer.\n"
+	.string "Viens dans mon LABO.$"
 
 `

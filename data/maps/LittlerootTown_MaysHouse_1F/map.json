@@ -119,7 +119,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 3,
+      "x": 2,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN",
@@ -136,7 +136,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 3,
+      "x": 2,
       "y": 8,
       "elevation": 0,
       "var": "VAR_LITTLEROOT_INTRO_STATE",

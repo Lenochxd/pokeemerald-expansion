@@ -1,9 +1,9 @@
 {
-  "id": "MAP_OLDALE_TOWN",
-  "name": "OldaleTown",
-  "layout": "LAYOUT_OLDALE_TOWN",
+  "id": "MAP_BOURG_EN_BIOL",
+  "name": "BourgEnBiol",
+  "layout": "LAYOUT_BOURG_EN_BIOL",
   "music": "MUS_OLDALE",
-  "region_map_section": "MAPSEC_OLDALE_TOWN",
+  "region_map_section": "MAPSEC_BOURG_EN_BIOL",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",
@@ -14,17 +14,17 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE103",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
       "map": "MAP_ROUTE101",
       "offset": 0,
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE102",
+      "map": "MAP_ROUTE305",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE_ALLEE_GOLRI",
       "offset": 0,
       "direction": "left"
     }
@@ -40,11 +40,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OldaleTown_EventScript_Girl",
+      "script": "BourgEnBiol_EventScript_Girl",
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_OLDALE_MART_EMPLOYEE",
+      "local_id": "LOCALID_BOURG_EN_BIOL_MART_EMPLOYEE",
       "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
       "x": 13,
       "y": 7,
@@ -54,36 +54,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OldaleTown_EventScript_MartEmployee",
+      "script": "BourgEnBiol_EventScript_MartEmployee",
       "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_FOOTPRINTS_MAN",
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
-      "x": 8,
-      "y": 9,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "OldaleTown_EventScript_FootprintsMan",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_OLDALE_RIVAL",
-      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 11,
-      "y": 19,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "OldaleTown_EventScript_Rival",
-      "flag": "FLAG_HIDE_OLDALE_TOWN_RIVAL"
     }
   ],
   "warp_events": [
@@ -91,28 +63,28 @@
       "x": 5,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_OLDALE_TOWN_HOUSE1",
+      "dest_map": "MAP_BOURG_EN_BIOL_HOUSE1",
       "dest_warp_id": "0"
     },
     {
       "x": 15,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_OLDALE_TOWN_HOUSE2",
+      "dest_map": "MAP_BOURG_EN_BIOL_HOUSE2",
       "dest_warp_id": "0"
     },
     {
       "x": 6,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_OLDALE_TOWN_POKEMON_CENTER_1F",
+      "dest_map": "MAP_BOURG_EN_BIOL_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 14,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_OLDALE_TOWN_MART",
+      "dest_map": "MAP_BOURG_EN_BIOL_MART",
       "dest_warp_id": "0"
     }
   ],
@@ -122,36 +94,18 @@
       "x": 0,
       "y": 10,
       "elevation": 3,
-      "var": "VAR_OLDALE_TOWN_STATE",
-      "var_value": "0",
-      "script": "OldaleTown_EventScript_BlockedPath"
+      "var": "VAR_BOURG_EN_BIOL_RIVAL_STATE",
+      "var_value": "1",
+      "script": "BourgEnBiol_EventScript_RivalTrigger3"
     },
     {
       "type": "trigger",
-      "x": 8,
-      "y": 19,
+      "x": 0,
+      "y": 11,
       "elevation": 3,
-      "var": "VAR_OLDALE_RIVAL_STATE",
+      "var": "VAR_BOURG_EN_BIOL_RIVAL_STATE",
       "var_value": "1",
-      "script": "OldaleTown_EventScript_RivalTrigger1"
-    },
-    {
-      "type": "trigger",
-      "x": 9,
-      "y": 19,
-      "elevation": 3,
-      "var": "VAR_OLDALE_RIVAL_STATE",
-      "var_value": "1",
-      "script": "OldaleTown_EventScript_RivalTrigger2"
-    },
-    {
-      "type": "trigger",
-      "x": 10,
-      "y": 19,
-      "elevation": 3,
-      "var": "VAR_OLDALE_RIVAL_STATE",
-      "var_value": "1",
-      "script": "OldaleTown_EventScript_RivalTrigger3"
+      "script": "BourgEnBiol_EventScript_RivalTrigger2"
     }
   ],
   "bg_events": [
@@ -161,7 +115,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "OldaleTown_EventScript_TownSign"
+      "script": "BourgEnBiol_EventScript_TownSign"
     },
     {
       "type": "sign",

@@ -1,0 +1,82 @@
+raw `
+RouteAlleeGolri_MapScripts::
+	.byte 0
+
+RouteAlleeGolri_OnTransition:
+	setflag FLAG_TEMP_12
+	end
+
+`
+
+// script RouteAlleeGolri_EventScript_Girl {
+// 	trainerbattle_single(TRAINER_MARGAUX_1, RouteAlleeGolri_Text_MargauxIntro, RouteAlleeGolri_Text_MargauxDefeat, RouteAlleeGolri_EventScript_RegisterMargaux)
+// 	specialvar(VAR_RESULT, ShouldTryRematchBattle)
+// 	if (var(VAR_RESULT) == TRUE) {
+// 		goto(RouteAlleeGolri_EventScript_RematchMargaux)
+// 	}
+// 	checkplayergender
+// 	if (var(VAR_RESULT) == MALE) {
+// 		msgbox(RouteAlleeGolri_Text_MargauxPostBattleMale, MSGBOX_DEFAULT)
+// 	} else {
+// 		msgbox(RouteAlleeGolri_Text_MargauxPostBattleFemale, MSGBOX_DEFAULT)
+// 	}
+// 	release
+// 	end
+// }
+
+
+// script RouteAlleeGolri_EventScript_RegisterMargaux {
+// 	special(PlayerFaceTrainerAfterBattle)
+// 	waitmovement(0)
+// 	msgbox(RouteAlleeGolri_Text_MargauxRegister, MSGBOX_DEFAULT)
+// 	register_matchcall(TRAINER_MARGAUX_1)
+// 	release
+// 	end
+// }
+
+// script RouteAlleeGolri_EventScript_RematchMargaux {
+// 	trainerbattle_rematch(TRAINER_MARGAUX_1, RouteAlleeGolri_Text_MargauxRematchIntro, RouteAlleeGolri_Text_MargauxRematchDefeat)
+// 	checkplayergender
+// 	if (var(VAR_RESULT) == MALE) {
+// 		msgbox(RouteAlleeGolri_Text_MargauxPostBattleMale, MSGBOX_AUTOCLOSE)
+// 	} else {
+// 		msgbox(RouteAlleeGolri_Text_MargauxPostBattleFemale, MSGBOX_AUTOCLOSE)
+// 	}
+// 	release
+// 	end
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxIntro {
+// 	"Tu connais Che ?$"
+
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxDefeat {
+// 	"Ah bon bah…\n"
+// 	"Pas cool…$"
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxRegister {
+// 	"Top ! Je t'enregistre sur le\n"
+// 	"POKENAV pour une revanche !$"
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxRematchIntro {
+// 	"Tu repasses dans le coin ?\n"
+// 	"Parfait, revanche !$"
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxRematchDefeat {
+// 	"Encore perdue !\n"
+// 	"Mon SCATTERBUG reviendra !$"
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxPostBattleMale {
+// 	"Tu es nouveau dans le coin-coin ?\p"
+// 	"Bon courage alors ! Lol !$"
+// }
+
+// text(local) RouteAlleeGolri_Text_MargauxPostBattleFemale {
+// 	"Tu es nouvelle dans le coin-coin ?\p"
+// 	"Bon courage alors ! Lol !$"
+// }

@@ -228,6 +228,7 @@ const u32 gObjectEventPic_BigRegirockDoll[] = INCBIN_U32("graphics/object_events
 const u32 gObjectEventPic_BigRegiceDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_regice_doll.4bpp");
 const u32 gObjectEventPic_BigRegisteelDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_registeel_doll.4bpp");
 const u32 gObjectEventPic_CuttableTree[] = INCBIN_U32("graphics/object_events/pics/misc/cuttable_tree.4bpp");
+const u16 gObjectEventPic_CuttableTreeFrlg[] = INCBIN_U16("graphics/object_events/pics/misc/cuttable_tree_frlg.4bpp");
 const u32 gObjectEventPic_BreakableRock[] = INCBIN_U32("graphics/object_events/pics/misc/breakable_rock.4bpp");
 const u32 gObjectEventPic_PushableBoulder[] = INCBIN_U32("graphics/object_events/pics/misc/pushable_boulder.4bpp");
 const u32 gObjectEventPic_MrBrineysBoat[] = INCBIN_U32("graphics/object_events/pics/misc/mr_brineys_boat.4bpp");
@@ -582,7 +583,6 @@ const u16 gObjectEventPic_GBAKid[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_MomFrlg[] = INCBIN_U16("graphics/object_events/pics/people/mom_frlg.4bpp");
 const u16 gObjectEventPic_Policeman[] = INCBIN_U16("graphics/object_events/pics/people/policeman.4bpp");
 
-const u16 gObjectEventPic_CuttableTreeFrlg[] = INCBIN_U16("graphics/object_events/pics/misc/cuttable_tree_frlg.4bpp");
 const u32 gObjectEventPic_BreakableRockFrlg[] = INCBIN_U32("graphics/object_events/pics/misc/breakable_rock_frlg.4bpp");
 const u16 gObjectEventPic_PushableBoulderFrlg[] = INCBIN_U16("graphics/object_events/pics/misc/pushable_boulder_frlg.4bpp");
 const u32 gObjectEventPic_FossilFrlg[] = INCBIN_U32("graphics/object_events/pics/misc/fossil_frlg.4bpp");

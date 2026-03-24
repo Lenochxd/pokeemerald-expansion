@@ -1458,14 +1458,17 @@ u8 GetObjectEventIdByLocalId(u8 localId)
     return OBJECT_EVENTS_COUNT;
 }
 
+#if IS_FRLG
 static void SetHideObstacleFlag(const struct ObjectEventTemplate *template)
 {
     if (template->flagId >= FLAG_TEMP_11 && template->flagId <= FLAG_TEMP_1F)
         FlagSet(template->flagId);
 }
+#endif // IS_FRLG
 
 static bool8 TemplateIsObstacleAndWithinView(const struct ObjectEventTemplate *template, s16 x, s16 y)
 {
+#if IS_FRLG
     if (template->graphicsId == OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG || template->graphicsId == OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG)
     {
         if (gSaveBlock1Ptr->pos.x < x)
@@ -1484,11 +1487,13 @@ static bool8 TemplateIsObstacleAndWithinView(const struct ObjectEventTemplate *t
                 return FALSE;
         }
     }
+#endif // IS_FRLG
     return TRUE;
 }
 
 static bool8 TemplateIsObstacleAndVisibleFromConnectingMap(const struct ObjectEventTemplate *template, s16 unused1, s16 unused2)
 {
+#if IS_FRLG
     if (IsMapTypeOutdoors(GetCurrentMapType()))
     {
         s32 width = gBackupMapLayout.width - MAP_OFFSET_W - 1;
@@ -1521,6 +1526,7 @@ static bool8 TemplateIsObstacleAndVisibleFromConnectingMap(const struct ObjectEv
             }
         }
     }
+#endif // IS_FRLG
     return TRUE;
 }
 

@@ -285,18 +285,16 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "everything's all there on your desk.$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "ADVENTURE RULE NO. 1\n"
-	.string "Open the MENU with START.\p"
-	.string "ADVENTURE RULE NO. 2\n"
-	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "{PLAYER} ouvre le carnet.\p"
+	.string "RÈGLE D'AVENTURE NO. 1\n"
+	.string "Ouvre le MENU avec START.\p"
+	.string "RÈGLE D'AVENTURE NO. 2\n"
+	.string "Enregistre ta progression avec SAVE.\p"
+	.string "Les pages restantes sont vierges…$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "{REGION} region map.$"
+	.string "{PLAYER} regarde la carte de {REGION}$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "C'est une Nintendo GameCube.\p"
+	.string "C'est tuff.$"

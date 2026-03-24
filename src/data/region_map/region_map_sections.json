@@ -2,15 +2,15 @@
   "map_sections": [
     {
       "id": "MAPSEC_LITTLEROOT_TOWN",
-      "name": "LITTLEROOT TOWN",
+      "name": "GIBOUNET",
       "x": 4,
       "y": 11,
       "width": 1,
       "height": 1
     },
     {
-      "id": "MAPSEC_OLDALE_TOWN",
-      "name": "OLDALE TOWN",
+      "id": "MAPSEC_BOURG_EN_BIOL",
+      "name": "BOURG-EN-BIOL",
       "x": 4,
       "y": 9,
       "width": 1,
@@ -130,7 +130,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_101",
-      "name": "ROUTE 101",
+      "name": "ROUTE “UNE“",
       "x": 4,
       "y": 10,
       "width": 1,
@@ -1626,6 +1626,14 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "id": "MAPSEC_ROUTE_301",
+      "name": "ROUTE 301"
+    },
+    {
+      "id": "MAPSEC_ROUTE_ALLEE_GOLRI",
+      "name": "ALLÉE GOLRI"
     }
   ]
 }

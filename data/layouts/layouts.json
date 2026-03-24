@@ -112,17 +112,6 @@
       "layout_version": "emerald"
     },
     {
-      "id": "LAYOUT_OLDALE_TOWN",
-      "name": "OldaleTown_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/OldaleTown/border.bin",
-      "blockdata_filepath": "data/layouts/OldaleTown/map.bin",
-      "layout_version": "emerald"
-    },
-    {
       "id": "LAYOUT_DEWFORD_TOWN",
       "name": "DewfordTown_Layout",
       "width": 20,
@@ -9323,6 +9312,50 @@
       "border_height": 2,
       "border_width": 2,
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_BOURG_EN_BIOL",
+      "name": "BourgEnBiol_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BourgEnBiol/border.bin",
+      "blockdata_filepath": "data/layouts/BourgEnBiol/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE305",
+      "name": "Route305_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route305/border.bin",
+      "blockdata_filepath": "data/layouts/Route305/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE_ALLEE_GOLRI",
+      "name": "RouteAlleeGolri_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/RouteAlleeGolri/border.bin",
+      "blockdata_filepath": "data/layouts/RouteAlleeGolri/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE_TEMPLATE",
+      "name": "Route_TEMPLATE_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route_TEMPLATE/border.bin",
+      "blockdata_filepath": "data/layouts/Route_TEMPLATE/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
