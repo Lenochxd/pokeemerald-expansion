@@ -682,42 +682,40 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-	.string "PROF. BIRCH: So, {PLAYER}{KUN}.\p"
-	.string "I've heard so much about you from\n"
-	.string "your father.\p"
-	.string "I've heard that you don't have your\n"
-	.string "own POKéMON yet.\p"
-	.string "But the way you battled earlier,\n"
-	.string "you pulled it off with aplomb!\p"
-	.string "I guess you have your father's blood\n"
-	.string "in your veins after all!\p"
-	.string "Oh, yes. As thanks for rescuing me,\n"
-	.string "I'd like you to have the POKéMON you\l"
-	.string "used earlier.\p"
-	.string "{PLAYER} received the {STR_VAR_1}!$"
+	.string "PROF. POMMIER: Tu sais, {PLAYER}{KUN}.\p"
+	.string "J'ai pas mal entendu de toi de par\n"
+	.string "ta daronne.\p"
+	.string "J'crois avoir compris que t'avais pas\n"
+	.string "encore ton propre POKéBOY.\p"
+	.string "Mais tu te bats tellement bien,\n"
+	.string "que ça me surprend !\p"
+	.string "Comme remerciement\n"
+	.string "pour tout à l'heure, j'aimerais te filer\l"
+	.string "le POKéBOY que t'as utilisé.\p"
+	.string "{PLAYER} a reçu {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
-	.string "PROF. BIRCH: While you're at it, why not\n"
-	.string "give a nickname to that {STR_VAR_1}?$"
+	.string "PROF. POMMIER: T'as pas envie d'lui\n"
+	.string "donner un p'tit surnom à ce {STR_VAR_1} ?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-	.string "PROF. BIRCH: If you work at POKéMON\n"
-	.string "and gain experience, I think you'll make\l"
-	.string "an extremely good TRAINER.\p"
-	.string "My kid, {RIVAL}, is also studying\n"
-	.string "POKéMON while helping me out.\p"
-	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see {RIVAL}?$"
+	.string "PROF. POMMIER: T'as du cran petit, t'as\n"
+	.string "le potentiel pour rejoindre les Lakers.\l"
+	.string "La pluie n'arrête pas les POKéBOYS.\p"
+	.string "Mon morveux, {RIVAL}, il aime bien\n"
+	.string "les POKéBOYS, tout comme toi.\p"
+	.string "{PLAYER}{KUN}, pourquoi t'irais pas voir\n"
+	.string "{RIVAL} tiens ?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
-	.string "PROF. BIRCH: Great!\n"
-	.string "{RIVAL} should be happy, too.\p"
-	.string "Get {RIVAL} to teach you what it\n"
-	.string "means to be a TRAINER.$"
+	.string "PROF. POMMIER: Niquel ! {RIVAL}\n"
+	.string "devrait être content, j'crois.\p"
+	.string "Demande lui ce que c'est d'être un vrai\n"
+	.string "DRESSEUR ALPHA.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
-	.string "PROF. BIRCH: Oh, don't be that way.\n"
-	.string "You should go meet my kid.$"
+	.string "PROF. POMMIER: Allez fais pas l'con.\n"
+	.string "Va l'voir, c'est un bavon.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "PROF. BIRCH: {RIVAL}?\n"

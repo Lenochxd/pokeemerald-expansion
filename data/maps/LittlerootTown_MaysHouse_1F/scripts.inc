@@ -329,23 +329,25 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "Our {STR_VAR_1} is upstairs, I think.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
-	.string "Like child, like father.\p"
-	.string "My husband is as wild about POKéMON\n"
-	.string "as our child.\p"
-	.string "If he's not at his LAB, he's likely\n"
-	.string "scrabbling about in grassy places.$"
+	.string "Tel père, tel fils.\p"
+	.string "Mon mari est aussi passionné par les\n"
+	.string "POKéMON que notre enfant.\p"
+	.string "S'il n'est pas à son LABO, il est\n"
+	.string "probablement en train de fouiller dans\l"
+	.string "les herbes.\p"
+	.string "Il a une vraie obsession pour les\n"
+	.string "MACKOGNEUR…?\l"
+	.string "Je n'ai jamais compris pourquoi…$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
-	.string "That {RIVAL}!\p"
-	.string "I guess our child is too busy with\n"
-	.string "POKéMON to notice that you came\l"
-	.string "to visit, {PLAYER}{KUN}.$"
+	.string "{RIVAL} est un peu trop accro à ses jeux\n"
+	.string "vidéos mais on lui en veut pas…$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
-	.string "Oh, {RIVAL} went out to ROUTE 103\n"
-	.string "just a little while ago.\p"
-	.string "Like father, like child.\n"
-	.string "{RIVAL} can't stay quietly at home.$"
+	.string "Oh, {RIVAL} est allé à la ROUTE 103\n"
+	.string "pour un petit moment.\p"
+	.string "Tel père, tel fils. Il aurait pu\n"
+	.string "rester “farmer“ sur son jeu vidéo.$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "I think it's wonderful for people to\n"
@@ -390,5 +392,5 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "Le prends pas mal mdr.$"
 
 RivalsHouse_1F_Text_DoYouHavePokemon:
-	.string "Salut!\n"
-	.string "Tu as déjà ton propre POKéMON?$"
+	.string "Salut !\n"
+	.string "Tu as déjà ton propre POKéMON ?$"

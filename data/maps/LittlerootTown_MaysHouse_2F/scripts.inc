@@ -253,17 +253,10 @@ RivalsHouse_2F_EventScript_Brendan::
 RivalsHouse_2F_EventScript_RivalPostLilycove::
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, RivalsHouse_2F_EventScript_MayPostLilycove
-	call_if_eq VAR_RESULT, FEMALE, RivalsHouse_2F_EventScript_BrendanPostLilycove
+	call RivalsHouse_2F_EventScript_BrendanPostLilycove
 	setflag FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE
 	releaseall
 	end
-
-RivalsHouse_2F_EventScript_MayPostLilycove::
-	goto_if_set FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE, RivalsHouse_2F_EventScript_MayWhereShouldIGoNext
-	msgbox RivalsHouse_2F_Text_MayJustCheckingMyPokedex, MSGBOX_DEFAULT
-	return
 
 RivalsHouse_2F_EventScript_BrendanPostLilycove::
 	goto_if_set FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE, RivalsHouse_2F_EventScript_BrendanWhereShouldIGoNext
@@ -351,36 +344,27 @@ RivalsHouse_2F_Text_BrendanGettingReady:
 
 RivalsHouse_2F_Text_ItsRivalsPokeBall:
 	.string "C'est la pokéball de {RIVAL}!\p"
-	.string "Je vais éviter d'y toucher.$"
-
-RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
-	.string "MAY: {PLAYER}{KUN}!\p"
-	.string "I was just checking my POKéDEX.\p"
-	.string "There's still a lot of POKéMON that\n"
-	.string "I've seen but haven't caught.\p"
-	.string "And there are many others that\n"
-	.string "I think will evolve.\p"
-	.string "I wonder where I should go catch\n"
-	.string "some POKéMON next?$"
+	.string "Je vais éviter d'y toucher du coup.$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
-	.string "MAY: I wonder where I should go catch\n"
-	.string "some POKéMON next?\p"
-	.string "Wouldn't it be funny if we ran into each\n"
-	.string "other, {PLAYER}{KUN}?$"
+	.string "ANTOINE: Je me demande où je devrais aller attraper\n"
+	.string "des POKéMON ?\p"
+	.string "Ce ne serait pas drôle si on se croisait,\n"
+	.string "toi et moi, {PLAYER}{KUN}?$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
-	.string "BRENDAN: Hey, it's {PLAYER}.\p"
-	.string "I was just checking out my POKéDEX.\p"
-	.string "There are still many POKéMON that\n"
-	.string "I need to catch, I know, but this\l"
-	.string "is looking pretty good.\p"
-	.string "Checking this POKéDEX out gives me\n"
-	.string "the urge to hit the road again.$"
+	.string "ANTOINE: Hey {PLAYER}.\p"
+	.string "Je viens de recevoir mon POKéDEX.\p"
+	.string "J'aimerais bien le maxer mais il y\n"
+	.string "a encore beaucoup de POKéMON à attraper.\p"
+	.string "Il y en a aussi beaucoup que je pense\n"
+	.string "qui vont évoluer.\p"
+	.string "Je me demande où je devrais aller attraper\n"
+	.string "des POKéMON ?$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
-	.string "BRENDAN: I'm having a hard time deciding\n"
-	.string "where I should catch POKéMON next.\p"
-	.string "Hey, {PLAYER}, if I see you while I'm out\n"
-	.string "catching POKéMON, I can pitch you a\l"
-	.string "battle if you'd like.$"
+	.string "ANTOINE: J'ai du mal à décider\n"
+	.string "où je devrais aller attraper des POKéMON ensuite.\p"
+	.string "Hé, {PLAYER}, si je te vois pendant que je suis dehors\n"
+	.string "à attraper des POKéMON, je peux te lancer un\l"
+	.string "combat si tu veux.$"
