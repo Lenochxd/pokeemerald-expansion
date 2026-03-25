@@ -1,12 +1,19 @@
-raw `
-RouteAlleeGolri_MapScripts::
-	.byte 0
+mapscripts RouteAlleeGolri_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION {
+		setvar(VAR_TEMP_1, 1)
+	}
+}
 
-RouteAlleeGolri_OnTransition:
-	setflag FLAG_TEMP_12
-	end
-
-`
+script RouteAlleeGolri_GoRight {
+	lock
+	// warp(MAP_ROUTE_ALLEE_GOLRI, 3, 11)
+	applymovement(LOCALID_PLAYER, moves(
+		face_right
+		walk_right
+	))
+	waitmovement(0)
+	release
+}
 
 // script RouteAlleeGolri_EventScript_Girl {
 // 	trainerbattle_single(TRAINER_MARGAUX_1, RouteAlleeGolri_Text_MargauxIntro, RouteAlleeGolri_Text_MargauxDefeat, RouteAlleeGolri_EventScript_RegisterMargaux)

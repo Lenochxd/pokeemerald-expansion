@@ -136,7 +136,8 @@
     "BourgEnBiol",
     "Route305",
     "RouteAlleeGolri",
-    "Route_TEMPLATE"
+    "Route_TEMPLATE",
+    "BoisGolri"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

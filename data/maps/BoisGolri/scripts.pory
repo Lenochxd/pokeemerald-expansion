@@ -1,0 +1,22 @@
+mapscripts BoisGolri_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION {
+		setvar(VAR_TEMP_1, 1)
+	}
+}
+
+script BoisGolri_EventScript_DirectionSign {
+	msgbox(BoisGolri_Text_DirectionSign, MSGBOX_SIGN)
+}
+
+text BoisGolri_Text_DirectionSign {
+	"Sortie vers Matéciville"
+}
+
+
+script BoisGolri_EventScript_WelcomeSign {
+	msgbox(BoisGolri_Text_WelcomeSign, MSGBOX_SIGN)
+}
+
+text BoisGolri_Text_WelcomeSign {
+	"Bienvenue aux Bois Golri !"
+}

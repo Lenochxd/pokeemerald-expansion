@@ -1632,8 +1632,16 @@
       "name": "ROUTE 301"
     },
     {
+      "id": "MAPSEC_ROUTE_305",
+      "name": "ROUTE 305"
+    },
+    {
       "id": "MAPSEC_ROUTE_ALLEE_GOLRI",
       "name": "ALLÉE GOLRI"
+    },
+    {
+      "id": "MAPSEC_BOIS_GOLRI",
+      "name": "BOIS GOLRI"
     }
   ]
 }

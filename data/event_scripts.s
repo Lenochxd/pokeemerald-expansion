@@ -1743,3 +1743,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/RouteAlleeGolri/scripts.inc"
 
 	.include "data/maps/Route_TEMPLATE/scripts.inc"
+
+	.include "data/maps/BoisGolri/scripts.inc"
