@@ -1745,3 +1745,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Route_TEMPLATE/scripts.inc"
 
 	.include "data/maps/BoisGolri/scripts.inc"
+
+	.include "data/maps/Mateciville/scripts.inc"
+
+	.include "data/maps/Route_302/scripts.inc"

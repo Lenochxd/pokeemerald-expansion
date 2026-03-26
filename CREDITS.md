@@ -1,4 +1,11 @@
-## Credits ✨
+## Pokeportion Credits
+### Sprites and tiles
+- [KyuZee](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/tree/main/Tilesets/The%20Great%20Tileset%20Exchange/Individual%20Tiles/KyuZee) - fence tile
+- [pookachu](https://www.deviantart.com/aveontrainer/art/Fountain-815632536) - fountain tile
+- [chaoticcherrycake](https://www.deviantart.com/chaoticcherrycake/art/Pokemon-Tileset-From-Public-Tiles-358379026) - little bench
+
+
+## Pokeemerald-expansion Credits ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

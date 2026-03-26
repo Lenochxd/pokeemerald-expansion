@@ -1,0 +1,46 @@
+{
+  "id": "MAP_MATECIVILLE",
+  "name": "Mateciville",
+  "layout": "LAYOUT_MATECIVILLE",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_ROUTE_301",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE_ALLEE_GOLRI",
+      "offset": 68,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE_302",
+      "offset": 0,
+      "direction": "up"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 47,
+      "y": 38,
+      "elevation": 0,
+      "dest_map": "MAP_BOIS_GOLRI",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 47,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_BOIS_GOLRI",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -137,7 +137,9 @@
     "Route305",
     "RouteAlleeGolri",
     "Route_TEMPLATE",
-    "BoisGolri"
+    "BoisGolri",
+    "Mateciville",
+    "Route_302"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -2,7 +2,7 @@
   "id": "MAP_BOURG_EN_BIOL",
   "name": "BourgEnBiol",
   "layout": "LAYOUT_BOURG_EN_BIOL",
-  "music": "MUS_OLDALE",
+  "music": "MUS_RG_ROUTE1",
   "region_map_section": "MAPSEC_BOURG_EN_BIOL",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
