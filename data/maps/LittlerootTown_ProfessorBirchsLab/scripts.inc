@@ -718,12 +718,12 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "Va l'voir, c'est un bavon.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
-	.string "PROF. BIRCH: {RIVAL}?\n"
-	.string "Gone home, I think.\p"
-	.string "Or maybe that kid's scrabbling around\n"
-	.string "in tall grass again somewhere…\p"
-	.string "If you or your POKéMON get tired,\n"
-	.string "you should get some rest at home.$"
+	.string "PROF. POMMIER: {RIVAL}?\n"
+	.string "Il est chez lui, j'imagine.\p"
+	.string "Ou peut-être dans les hautes herbes\n"
+	.string "pour trouver des POKéBOYS…\p"
+	.string "D'ailleurs, si toi ou tes POKéBOYS sont\n"
+	.string "fatigués, vous devriez vous reposer.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
@@ -738,18 +738,15 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "this POKéDEX.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
-	.string "{PLAYER} received the POKéDEX!$"
+	.string "{PLAYER} a reçu le POKéDEX !$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "PROF. POMMIER: Le POKéDEX est un outil high-tech\n"
+	.string "qui enregistre automatiquement les données\l"
+	.string "de tout POKéBOYS que tu rencontres ou captures.\p"
+	.string "Chaque fois que tu attrapes un POKéBOY rare\n"
+	.string "et enregistre ses données dans le POKéDEX,\l"
+	.string "c'est comme un dunk de LeBron à mes yeux !$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless POKéMON\n"
