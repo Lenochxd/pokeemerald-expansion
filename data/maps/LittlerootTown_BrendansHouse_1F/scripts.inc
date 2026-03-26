@@ -284,8 +284,8 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "MOM: See, {PLAYER}?\n"
-	.string "Isn't it nice in here, too?$"
+	.string "MAMAN: Alors, {PLAYER} ?\n"
+	.string "Elle te plaît cette baraque ?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "The mover's POKéMON do all the work\n"
@@ -298,17 +298,18 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "Don't forget to set it!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "MOM: Well, {PLAYER}?\p"
-	.string "Aren't you interested in seeing your\n"
-	.string "very own room?$"
+	.string "MAMAN: Bon, {PLAYER}?\p"
+	.string "Ça te dirais pas d'aller voir\n"
+	.string "ta chambre ?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
-	.string "MOM: {PLAYER}.\p"
-	.string "Go set the clock in your room, honey.$"
+	.string "MAMAN: {PLAYER}.\p"
+	.string "Met l'horloge de ta chambre\n"
+	.string "à l'heure, mon chaton.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"
-	.string "Quick! Come quickly!$"
+	.string "MAMAN: Oh! {PLAYER}, {PLAYER}!\n"
+	.string "Vite! Viens vite!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
 	.string "MOM: Look! It's PETALBURG GYM!\n"
