@@ -1747,3 +1747,13 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Mateciville/scripts.inc"
 
 	.include "data/maps/Route_302/scripts.inc"
+
+	.include "data/maps/Route_303/scripts.inc"
+
+	.include "data/maps/Montcourant/scripts.inc"
+
+	.include "data/maps/DesertDeParticules/scripts.inc"
+
+	.include "data/maps/Route_304/scripts.inc"
+
+	.include "data/maps/PortDocil/scripts.inc"

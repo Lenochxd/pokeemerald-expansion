@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE_TEMPLATE",
-  "name": "Route_TEMPLATE",
-  "layout": "LAYOUT_ROUTE_TEMPLATE",
+  "id": "MAP_ROUTE_304",
+  "name": "Route_304",
+  "layout": "LAYOUT_ROUTE_304",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_TEMPLATE",
+  "region_map_section": "MAPSEC_ROUTE_304",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

@@ -139,7 +139,12 @@
     "Route_TEMPLATE",
     "BoisGolri",
     "Mateciville",
-    "Route_302"
+    "Route_302",
+    "Route_303",
+    "Montcourant",
+    "DesertDeParticules",
+    "Route_304",
+    "PortDocil"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

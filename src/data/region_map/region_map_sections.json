@@ -1628,8 +1628,12 @@
       "height": 1
     },
     {
-      "id": "MAPSEC_ROUTE_301",
+      "id": "MAPSEC_MATECIVILLE",
       "name": "MATÉCIVILLE"
+    },
+    {
+      "id": "MAPSEC_ROUTE_TEMPLATE",
+      "name": "TEMPLATE"
     },
     {
       "id": "MAPSEC_ROUTE_305",
@@ -1646,6 +1650,26 @@
     {
       "id": "MAPSEC_ROUTE_302",
       "name": "ROUTE 302"
+    },
+    {
+      "id": "MAPSEC_ROUTE_303",
+      "name": "ROUTE 303"
+    },
+    {
+      "id": "MAPSEC_MONTCOURANT",
+      "name": "MONTCOURANT"
+    },
+    {
+      "id": "MAPSEC_DESERT_DE_PARTICULES",
+      "name": "DÉSERT DE PARTICULES"
+    },
+    {
+      "id": "MAPSEC_ROUTE_304",
+      "name": "ROUTE 304"
+    },
+    {
+      "id": "MAPSEC_PORT_DOCIL",
+      "name": "PORT-DOCIL"
     }
   ]
 }

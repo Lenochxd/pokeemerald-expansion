@@ -3,7 +3,7 @@
   "name": "Mateciville",
   "layout": "LAYOUT_MATECIVILLE",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_301",
+  "region_map_section": "MAPSEC_MATECIVILLE",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",
