@@ -27,7 +27,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Bulbasaur"),
         .cryId = CRY_BULBASAUR,
         .natDexNum = NATIONAL_DEX_BULBASAUR,
-        .categoryName = _("Seed"),
+        .categoryName = _("GRAINE"),
         .height = 7,
         .weight = 69,
         .description = COMPOUND_STRING(
@@ -73,7 +73,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sBulbasaurEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_IVYSAUR}),
     },
-
     [SPECIES_IVYSAUR] =
     {
         .baseHP        = 60,
@@ -98,7 +97,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ivysaur"),
         .cryId = CRY_IVYSAUR,
         .natDexNum = NATIONAL_DEX_IVYSAUR,
-        .categoryName = _("Seed"),
+        .categoryName = _("GRAINE"),
         .height = 10,
         .weight = 130,
         .description = COMPOUND_STRING(
@@ -143,7 +142,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sIvysaurTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_VENUSAUR}),
     },
-
 #if P_UPDATED_EXP_YIELDS >= GEN_8
     #define VENUSAUR_EXP_YIELD 263
 #elif P_UPDATED_EXP_YIELDS >= GEN_5
@@ -175,7 +173,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Venusaur"),
         .cryId = CRY_VENUSAUR,
         .natDexNum = NATIONAL_DEX_VENUSAUR,
-        .categoryName = _("Seed"),
+        .categoryName = _("GRAINE"),
         .height = 20,
         .weight = 1000,
         .description = COMPOUND_STRING(
@@ -234,7 +232,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sVenusaurFormSpeciesIdTable,
         .formChangeTable = sVenusaurFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_VENUSAUR_MEGA] =
     {
@@ -263,7 +260,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_VENUSAUR,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_VENUSAUR,
-        .categoryName = _("Seed"),
+        .categoryName = _("GRAINE"),
         .height = 24,
         .weight = 1555,
         .description = COMPOUND_STRING(
@@ -333,7 +330,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Venusaur"),
         .cryId = CRY_VENUSAUR,
         .natDexNum = NATIONAL_DEX_VENUSAUR,
-        .categoryName = _("Seed"),
+        .categoryName = _("GRAINE"),
         .height = 240,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -393,7 +390,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Charmander"),
         .cryId = CRY_CHARMANDER,
         .natDexNum = NATIONAL_DEX_CHARMANDER,
-        .categoryName = _("Lizard"),
+        .categoryName = _("LEZARD"),
         .height = 6,
         .weight = 85,
         .description = COMPOUND_STRING(
@@ -439,7 +436,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sCharmanderEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_CHARMELEON}),
     },
-
     [SPECIES_CHARMELEON] =
     {
         .baseHP        = 58,
@@ -463,7 +459,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Charmeleon"),
         .cryId = CRY_CHARMELEON,
         .natDexNum = NATIONAL_DEX_CHARMELEON,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 11,
         .weight = 190,
         .description = COMPOUND_STRING(
@@ -508,7 +504,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCharmeleonTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_CHARIZARD}),
     },
-
 #define CHARIZARD_SP_ATK (P_UPDATED_STATS >= GEN_2 ? 109 : 85)
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -541,7 +536,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Charizard"),
         .cryId = CRY_CHARIZARD,
         .natDexNum = NATIONAL_DEX_CHARIZARD,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 17,
         .weight = 905,
         .description = COMPOUND_STRING(
@@ -586,7 +581,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sCharizardFormSpeciesIdTable,
         .formChangeTable = sCharizardFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_CHARIZARD_MEGA_X] =
     {
@@ -614,7 +608,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_CHARIZARD,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_CHARIZARD,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 17,
         .weight = 1105,
         .description = COMPOUND_STRING(
@@ -658,7 +652,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sCharizardFormSpeciesIdTable,
         .formChangeTable = sCharizardFormChangeTable,
     },
-
     [SPECIES_CHARIZARD_MEGA_Y] =
     {
         .baseHP        = 78,
@@ -685,7 +678,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_CHARIZARD,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_CHARIZARD,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 17,
         .weight = 1005,
         .description = COMPOUND_STRING(
@@ -755,7 +748,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Charizard"),
         .cryId = CRY_CHARIZARD,
         .natDexNum = NATIONAL_DEX_CHARIZARD,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 280,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -815,7 +808,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Squirtle"),
         .cryId = CRY_SQUIRTLE,
         .natDexNum = NATIONAL_DEX_SQUIRTLE,
-        .categoryName = _("Tiny Turtle"),
+        .categoryName = _("MINITORTUE"),
         .height = 5,
         .weight = 90,
         .description = COMPOUND_STRING(
@@ -862,7 +855,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sSquirtleEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_WARTORTLE}),
     },
-
     [SPECIES_WARTORTLE] =
     {
         .baseHP        = 59,
@@ -886,7 +878,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Wartortle"),
         .cryId = CRY_WARTORTLE,
         .natDexNum = NATIONAL_DEX_WARTORTLE,
-        .categoryName = _("Turtle"),
+        .categoryName = _("TORTUE"),
         .height = 10,
         .weight = 225,
         .description = COMPOUND_STRING(
@@ -931,7 +923,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sWartortleTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_BLASTOISE}),
     },
-
 #define BLASTOISE_SP_DEF (P_UPDATED_STATS >= GEN_2 ? 105 : 85)
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -964,7 +955,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Blastoise"),
         .cryId = CRY_BLASTOISE,
         .natDexNum = NATIONAL_DEX_BLASTOISE,
-        .categoryName = _("Shellfish"),
+        .categoryName = _("CARAPACE"),
         .height = 16,
         .weight = 855,
         .description = COMPOUND_STRING(
@@ -1012,7 +1003,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sBlastoiseFormSpeciesIdTable,
         .formChangeTable = sBlastoiseFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_BLASTOISE_MEGA] =
     {
@@ -1040,7 +1030,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_BLASTOISE,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_BLASTOISE,
-        .categoryName = _("Shellfish"),
+        .categoryName = _("CARAPACE"),
         .height = 16,
         .weight = 1011,
         .description = COMPOUND_STRING(
@@ -1110,7 +1100,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Blastoise"),
         .cryId = CRY_BLASTOISE,
         .natDexNum = NATIONAL_DEX_BLASTOISE,
-        .categoryName = _("Shellfish"),
+        .categoryName = _("CARAPACE"),
         .height = 250,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -1170,7 +1160,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Caterpie"),
         .cryId = CRY_CATERPIE,
         .natDexNum = NATIONAL_DEX_CATERPIE,
-        .categoryName = _("Worm"),
+        .categoryName = _("VER"),
         .height = 3,
         .weight = 29,
         .description = COMPOUND_STRING(
@@ -1221,7 +1211,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCaterpieTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 7, SPECIES_METAPOD}),
     },
-
     [SPECIES_METAPOD] =
     {
         .baseHP        = 50,
@@ -1244,7 +1233,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Metapod"),
         .cryId = CRY_METAPOD,
         .natDexNum = NATIONAL_DEX_METAPOD,
-        .categoryName = _("Cocoon"),
+        .categoryName = _("COCON"),
         .height = 7,
         .weight = 99,
         .description = COMPOUND_STRING(
@@ -1289,7 +1278,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMetapodTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 10, SPECIES_BUTTERFREE}),
     },
-
 #if P_UPDATED_EXP_YIELDS >= GEN_8
     #define BUTTERFREE_EXP_YIELD 198
 #elif P_UPDATED_EXP_YIELDS >= GEN_6
@@ -1324,7 +1312,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Butterfree"),
         .cryId = CRY_BUTTERFREE,
         .natDexNum = NATIONAL_DEX_BUTTERFREE,
-        .categoryName = _("Butterfly"),
+        .categoryName = _("PAPILLON"),
         .height = 11,
         .weight = 320,
         .description = COMPOUND_STRING(
@@ -1394,7 +1382,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sButterfreeFormSpeciesIdTable,
         .formChangeTable = sButterfreeFormChangeTable,
     },
-
 #if P_GIGANTAMAX_FORMS
     [SPECIES_BUTTERFREE_GMAX] =
     {
@@ -1420,7 +1407,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Butterfree"),
         .cryId = CRY_BUTTERFREE,
         .natDexNum = NATIONAL_DEX_BUTTERFREE,
-        .categoryName = _("Butterfly"),
+        .categoryName = _("PAPILLON"),
         .height = 170,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -1481,7 +1468,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Weedle"),
         .cryId = CRY_WEEDLE,
         .natDexNum = NATIONAL_DEX_WEEDLE,
-        .categoryName = _("Hairy Bug"),
+        .categoryName = _("INSECTOPIC"),
         .height = 3,
         .weight = 32,
         .description = COMPOUND_STRING(
@@ -1532,7 +1519,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sWeedleTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 7, SPECIES_KAKUNA}),
     },
-
     [SPECIES_KAKUNA] =
     {
         .baseHP        = 45,
@@ -1555,7 +1541,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kakuna"),
         .cryId = CRY_KAKUNA,
         .natDexNum = NATIONAL_DEX_KAKUNA,
-        .categoryName = _("Cocoon"),
+        .categoryName = _("COCON"),
         .height = 6,
         .weight = 100,
         .description = COMPOUND_STRING(
@@ -1610,7 +1596,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sKakunaTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 10, SPECIES_BEEDRILL}),
     },
-
     [SPECIES_BEEDRILL] =
     {
         .baseHP        = 65,
@@ -1643,7 +1628,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Beedrill"),
         .cryId = CRY_BEEDRILL,
         .natDexNum = NATIONAL_DEX_BEEDRILL,
-        .categoryName = _("Poison Bee"),
+        .categoryName = _("GUEPOISON"),
         .height = 10,
         .weight = 295,
         .description = COMPOUND_STRING(
@@ -1694,7 +1679,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sBeedrillFormSpeciesIdTable,
         .formChangeTable = sBeedrillFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_BEEDRILL_MEGA] =
     {
@@ -1724,7 +1708,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_BEEDRILL,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_BEEDRILL,
-        .categoryName = _("Poison Bee"),
+        .categoryName = _("GUEPOISON"),
         .height = 14,
         .weight = 405,
         .description = COMPOUND_STRING(
@@ -1800,7 +1784,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pidgey"),
         .cryId = CRY_PIDGEY,
         .natDexNum = NATIONAL_DEX_PIDGEY,
-        .categoryName = _("Tiny Bird"),
+        .categoryName = _("MINOISEAU"),
         .height = 3,
         .weight = 18,
         .description = COMPOUND_STRING(
@@ -1847,7 +1831,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sPidgeyEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_PIDGEOTTO}),
     },
-
     [SPECIES_PIDGEOTTO] =
     {
         .baseHP        = 63,
@@ -1874,7 +1857,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pidgeotto"),
         .cryId = CRY_PIDGEOTTO,
         .natDexNum = NATIONAL_DEX_PIDGEOTTO,
-        .categoryName = _("Bird"),
+        .categoryName = _("OISEAU"),
         .height = 11,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -1922,7 +1905,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPidgeottoTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_PIDGEOT}),
     },
-
     [SPECIES_PIDGEOT] =
     {
         .baseHP        = 83,
@@ -1957,7 +1939,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pidgeot"),
         .cryId = CRY_PIDGEOT,
         .natDexNum = NATIONAL_DEX_PIDGEOT,
-        .categoryName = _("Bird"),
+        .categoryName = _("OISEAU"),
         .height = 15,
         .weight = 395,
         .description = COMPOUND_STRING(
@@ -2003,7 +1985,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sPidgeotFormSpeciesIdTable,
         .formChangeTable = sPidgeotFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_PIDGEOT_MEGA] =
     {
@@ -2031,7 +2012,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_PIDGEOT,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_PIDGEOT,
-        .categoryName = _("Bird"),
+        .categoryName = _("OISEAU"),
         .height = 22,
         .weight = 505,
         .description = COMPOUND_STRING(
@@ -2102,7 +2083,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Rattata"),
         .cryId = CRY_RATTATA,
         .natDexNum = NATIONAL_DEX_RATTATA,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 3,
         .weight = 35,
         .description = COMPOUND_STRING(
@@ -2163,7 +2144,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sRattataFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE}),
     },
-
     [SPECIES_RATICATE] =
     {
         .baseHP        = 55,
@@ -2186,7 +2166,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Raticate"),
         .cryId = CRY_RATICATE,
         .natDexNum = NATIONAL_DEX_RATICATE,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 7,
         .weight = 185,
         .description = COMPOUND_STRING(
@@ -2253,7 +2233,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRaticateTeachableLearnset,
         .formSpeciesIdTable = sRaticateFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_RATTATA_ALOLA] =
     {
@@ -2278,7 +2257,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Rattata"),
         .cryId = CRY_RATTATA,
         .natDexNum = NATIONAL_DEX_RATTATA,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 3,
         .weight = 38,
         .description = COMPOUND_STRING(
@@ -2323,7 +2302,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE_ALOLA, CONDITIONS({IF_TIME, TIME_NIGHT})},
                                 {EVO_NONE, 0, SPECIES_RATICATE_ALOLA_TOTEM}),
     },
-
     [SPECIES_RATICATE_ALOLA] =
     {
         .baseHP        = 75,
@@ -2347,7 +2325,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Raticate"),
         .cryId = CRY_RATICATE,
         .natDexNum = NATIONAL_DEX_RATICATE,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 7,
         .weight = 255,
         .description = gRaticateAlolaPokedexText,
@@ -2385,7 +2363,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRaticateAlolaTeachableLearnset,
         .formSpeciesIdTable = sRaticateFormSpeciesIdTable,
     },
-
     [SPECIES_RATICATE_ALOLA_TOTEM] =
     {
         .baseHP        = 75,
@@ -2409,7 +2386,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Raticate"),
         .cryId = CRY_RATICATE,
         .natDexNum = NATIONAL_DEX_RATICATE,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 14,
         .weight = 1050,
         .description = gRaticateAlolaPokedexText,
@@ -2476,7 +2453,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Spearow"),
         .cryId = CRY_SPEAROW,
         .natDexNum = NATIONAL_DEX_SPEAROW,
-        .categoryName = _("Tiny Bird"),
+        .categoryName = _("MINOISEAU"),
         .height = 3,
         .weight = 20,
         .description = COMPOUND_STRING(
@@ -2524,7 +2501,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sSpearowEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_FEAROW}),
     },
-
     [SPECIES_FEAROW] =
     {
         .baseHP        = 65,
@@ -2548,7 +2524,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Fearow"),
         .cryId = CRY_FEAROW,
         .natDexNum = NATIONAL_DEX_FEAROW,
-        .categoryName = _("Beak"),
+        .categoryName = _("BEC-OISEAU"),
         .height = 12,
         .weight = 380,
         .description = COMPOUND_STRING(
@@ -2624,7 +2600,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ekans"),
         .cryId = CRY_EKANS,
         .natDexNum = NATIONAL_DEX_EKANS,
-        .categoryName = _("Snake"),
+        .categoryName = _("SERPENT"),
         .height = 20,
         .weight = 69,
         .description = COMPOUND_STRING(
@@ -2674,7 +2650,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sEkansEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_ARBOK}),
     },
-
     [SPECIES_ARBOK] =
     {
         .baseHP        = 60,
@@ -2703,7 +2678,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Arbok"),
         .cryId = CRY_ARBOK,
         .natDexNum = NATIONAL_DEX_ARBOK,
-        .categoryName = _("Cobra"),
+        .categoryName = _("COBRA"),
         .height = 35,
         .weight = 650,
         .description = COMPOUND_STRING(
@@ -2773,7 +2748,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pichu"),
         .cryId = CRY_PICHU,
         .natDexNum = NATIONAL_DEX_PICHU,
-        .categoryName = _("Tiny Mouse"),
+        .categoryName = _("MINISOURIS"),
         .height = 3,
         .weight = 20,
         .description = gPichuPokedexText,
@@ -2818,7 +2793,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sPichuFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_PIKACHU, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD})}),
     },
-
     [SPECIES_PICHU_SPIKY_EARED] =
     {
         .baseHP        = 20,
@@ -2842,7 +2816,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pichu"),
         .cryId = CRY_PICHU,
         .natDexNum = NATIONAL_DEX_PICHU,
-        .categoryName = _("Tiny Mouse"),
+        .categoryName = _("MINISOURIS"),
         .height = 3,
         .weight = 20,
         .description = gPichuPokedexText,
@@ -2924,7 +2898,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -2987,9 +2961,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU, CONDITIONS({IF_NOT_REGION, REGION_ALOLA})},
                                 {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU_ALOLA, CONDITIONS({IF_REGION, REGION_ALOLA})}),
     },
-
 #if P_COSPLAY_PIKACHU_FORMS
-    [SPECIES_PIKACHU_COSPLAY]   =
+    [SPECIES_PIKACHU_COSPLAY] =
     {
         .baseHP        = 35,
         .baseAttack    = 55,
@@ -3012,7 +2985,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3040,7 +3013,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_ROCK_STAR] =
     {
         .baseHP        = 35,
@@ -3064,7 +3036,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3092,7 +3064,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_BELLE] =
     {
         .baseHP        = 35,
@@ -3117,7 +3088,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3145,7 +3116,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_POP_STAR] =
     {
         .baseHP        = 35,
@@ -3170,7 +3140,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3198,7 +3168,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_PHD] =
     {
         .baseHP        = 35,
@@ -3222,7 +3191,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3250,7 +3219,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_LIBRE] =
     {
         .baseHP        = 35,
@@ -3274,7 +3242,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3302,7 +3270,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
 #endif //P_COSPLAY_PIKACHU_FORMS
 
 #if P_CAP_PIKACHU_FORMS
@@ -3330,7 +3297,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3362,7 +3329,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_HOENN] =
     {
         .baseHP        = 35,
@@ -3386,7 +3352,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3418,7 +3384,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_SINNOH] =
     {
         .baseHP        = 35,
@@ -3442,7 +3407,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3474,7 +3439,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_UNOVA] =
     {
         .baseHP        = 35,
@@ -3498,7 +3462,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3530,7 +3494,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_KALOS] =
     {
         .baseHP        = 35,
@@ -3554,7 +3517,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3586,7 +3549,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_ALOLA] =
     {
         .baseHP        = 35,
@@ -3610,7 +3572,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3642,7 +3604,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_PARTNER] =
     {
         .baseHP        = 35,
@@ -3667,7 +3628,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3699,7 +3660,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
     [SPECIES_PIKACHU_WORLD] =
     {
         .baseHP        = 35,
@@ -3723,7 +3683,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -3755,7 +3715,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
 #endif //P_CAP_PIKACHU_FORMS
 
 #if P_GIGANTAMAX_FORMS
@@ -3782,7 +3741,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 210,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -3841,7 +3800,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pikachu"),
         .cryId = CRY_PIKACHU,
         .natDexNum = NATIONAL_DEX_PIKACHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 4,
         .weight = 60,
         .description = gPikachuPokedexText,
@@ -3896,7 +3855,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
     },
-
 #if P_UPDATED_EXP_YIELDS >= GEN_8
     #define RAICHU_EXP_YIELD 243
 #elif P_UPDATED_EXP_YIELDS >= GEN_6
@@ -3929,7 +3887,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Raichu"),
         .cryId = CRY_RAICHU,
         .natDexNum = NATIONAL_DEX_RAICHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 8,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -3988,7 +3946,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sRaichuFormSpeciesIdTable,
         .formChangeTable = sRaichuFormChangeTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_RAICHU_ALOLA] =
     {
@@ -4012,7 +3969,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Raichu"),
         .cryId = CRY_RAICHU,
         .natDexNum = NATIONAL_DEX_RAICHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 7,
         .weight = 210,
         .description = COMPOUND_STRING(
@@ -4084,7 +4041,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_RAICHU,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_RAICHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 12,
         .weight = 380,
         .description = COMPOUND_STRING(
@@ -4144,7 +4101,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_RAICHU,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_RAICHU,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 10,
         .weight = 260,
         .description = COMPOUND_STRING(
@@ -4201,7 +4158,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Sandshrew"),
         .cryId = CRY_SANDSHREW,
         .natDexNum = NATIONAL_DEX_SANDSHREW,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 6,
         .weight = 120,
         .description = COMPOUND_STRING(
@@ -4250,7 +4207,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sSandshrewFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_SANDSLASH}),
     },
-
     [SPECIES_SANDSLASH] =
     {
         .baseHP        = 75,
@@ -4274,7 +4230,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Sandslash"),
         .cryId = CRY_SANDSLASH,
         .natDexNum = NATIONAL_DEX_SANDSLASH,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 10,
         .weight = 295,
         .description = COMPOUND_STRING(
@@ -4321,7 +4277,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sSandslashTeachableLearnset,
         .formSpeciesIdTable = sSandslashFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_SANDSHREW_ALOLA] =
     {
@@ -4346,7 +4301,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Sandshrew"),
         .cryId = CRY_SANDSHREW,
         .natDexNum = NATIONAL_DEX_SANDSHREW,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 7,
         .weight = 400,
         .description = COMPOUND_STRING(
@@ -4390,7 +4345,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sSandshrewFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_ICE_STONE, SPECIES_SANDSLASH_ALOLA}),
     },
-
     [SPECIES_SANDSLASH_ALOLA] =
     {
         .baseHP        = 75,
@@ -4414,7 +4368,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Sandslash"),
         .cryId = CRY_SANDSLASH,
         .natDexNum = NATIONAL_DEX_SANDSLASH,
-        .categoryName = _("Mouse"),
+        .categoryName = _("SOURIS"),
         .height = 12,
         .weight = 550,
         .description = COMPOUND_STRING(
@@ -4486,7 +4440,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Nidoran♀"),
         .cryId = CRY_NIDORAN_F,
         .natDexNum = NATIONAL_DEX_NIDORAN_F,
-        .categoryName = _("Poison Pin"),
+        .categoryName = _("VENEPIC"),
         .height = 4,
         .weight = 70,
         .description = COMPOUND_STRING(
@@ -4539,7 +4493,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sNidoranFEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_NIDORINA}),
     },
-
     [SPECIES_NIDORINA] =
     {
         .baseHP        = 70,
@@ -4566,7 +4519,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Nidorina"),
         .cryId = CRY_NIDORINA,
         .natDexNum = NATIONAL_DEX_NIDORINA,
-        .categoryName = _("Poison Pin"),
+        .categoryName = _("VENEPIC"),
         .height = 8,
         .weight = 200,
         .description = COMPOUND_STRING(
@@ -4610,7 +4563,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sNidorinaTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_MOON_STONE, SPECIES_NIDOQUEEN}),
     },
-
     [SPECIES_NIDOQUEEN] =
     {
         .baseHP        = 90,
@@ -4645,7 +4597,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Nidoqueen"),
         .cryId = CRY_NIDOQUEEN,
         .natDexNum = NATIONAL_DEX_NIDOQUEEN,
-        .categoryName = _("Drill"),
+        .categoryName = _("PERCEUR"),
         .height = 13,
         .weight = 600,
         .description = COMPOUND_STRING(
@@ -4688,7 +4640,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sNidoqueenLevelUpLearnset,
         .teachableLearnset = sNidoqueenTeachableLearnset,
     },
-
     [SPECIES_NIDORAN_M] =
     {
         .baseHP        = 46,
@@ -4715,7 +4666,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Nidoran♂"),
         .cryId = CRY_NIDORAN_M,
         .natDexNum = NATIONAL_DEX_NIDORAN_M,
-        .categoryName = _("Poison Pin"),
+        .categoryName = _("VENEPIC"),
         .height = 5,
         .weight = 90,
         .description = COMPOUND_STRING(
@@ -4761,7 +4712,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sNidoranMEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_NIDORINO}),
     },
-
     [SPECIES_NIDORINO] =
     {
         .baseHP        = 61,
@@ -4788,7 +4738,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Nidorino"),
         .cryId = CRY_NIDORINO,
         .natDexNum = NATIONAL_DEX_NIDORINO,
-        .categoryName = _("Poison Pin"),
+        .categoryName = _("VENEPIC"),
         .height = 9,
         .weight = 195,
         .description = COMPOUND_STRING(
@@ -4833,7 +4783,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sNidorinoTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_MOON_STONE, SPECIES_NIDOKING}),
     },
-
     [SPECIES_NIDOKING] =
     {
         .baseHP        = 81,
@@ -4868,7 +4817,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Nidoking"),
         .cryId = CRY_NIDOKING,
         .natDexNum = NATIONAL_DEX_NIDOKING,
-        .categoryName = _("Drill"),
+        .categoryName = _("PERCEUR"),
         .height = 14,
         .weight = 620,
         .description = COMPOUND_STRING(
@@ -4952,7 +4901,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Cleffa"),
         .cryId = CRY_CLEFFA,
         .natDexNum = NATIONAL_DEX_CLEFFA,
-        .categoryName = _("Star Shape"),
+        .categoryName = _("ETOILE"),
         .height = 3,
         .weight = 30,
         .description = COMPOUND_STRING(
@@ -5029,7 +4978,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Clefairy"),
         .cryId = CRY_CLEFAIRY,
         .natDexNum = NATIONAL_DEX_CLEFAIRY,
-        .categoryName = _("Fairy"),
+        .categoryName = _("FEE"),
         .height = 6,
         .weight = 75,
         .description = COMPOUND_STRING(
@@ -5074,7 +5023,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sClefairyTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_MOON_STONE, SPECIES_CLEFABLE}),
     },
-
     [SPECIES_CLEFABLE] =
     {
         .baseHP        = 95,
@@ -5111,7 +5059,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Clefable"),
         .cryId = CRY_CLEFABLE,
         .natDexNum = NATIONAL_DEX_CLEFABLE,
-        .categoryName = _("Fairy"),
+        .categoryName = _("FEE"),
         .height = 13,
         .weight = 400,
         .description = COMPOUND_STRING(
@@ -5157,7 +5105,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sClefableFormSpeciesIdTable,
         .formChangeTable = sClefableFormChangeTable,
     },
-
 #if P_GEN_9_MEGA_EVOLUTIONS
     [SPECIES_CLEFABLE_MEGA] =
     {
@@ -5186,7 +5133,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_CLEFABLE,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_CLEFABLE,
-        .categoryName = _("Fairy"),
+        .categoryName = _("FEE"),
         .height = 17,
         .weight = 423,
         .description = COMPOUND_STRING(
@@ -5242,7 +5189,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Vulpix"),
         .cryId = CRY_VULPIX,
         .natDexNum = NATIONAL_DEX_VULPIX,
-        .categoryName = _("Fox"),
+        .categoryName = _("RENARD"),
         .height = 6,
         .weight = 99,
         .description = COMPOUND_STRING(
@@ -5291,7 +5238,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sVulpixFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_NINETALES}),
     },
-
     [SPECIES_NINETALES] =
     {
         .baseHP        = 73,
@@ -5316,7 +5262,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ninetales"),
         .cryId = CRY_NINETALES,
         .natDexNum = NATIONAL_DEX_NINETALES,
-        .categoryName = _("Fox"),
+        .categoryName = _("RENARD"),
         .height = 11,
         .weight = 199,
         .description = COMPOUND_STRING(
@@ -5363,7 +5309,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sNinetalesTeachableLearnset,
         .formSpeciesIdTable = sNinetalesFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_VULPIX_ALOLA] =
     {
@@ -5388,7 +5333,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Vulpix"),
         .cryId = CRY_VULPIX,
         .natDexNum = NATIONAL_DEX_VULPIX,
-        .categoryName = _("Fox"),
+        .categoryName = _("RENARD"),
         .height = 6,
         .weight = 99,
         .description = COMPOUND_STRING(
@@ -5432,7 +5377,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sVulpixFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_ICE_STONE, SPECIES_NINETALES_ALOLA}),
     },
-
     [SPECIES_NINETALES_ALOLA] =
     {
         .baseHP        = 73,
@@ -5457,7 +5401,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ninetales"),
         .cryId = CRY_NINETALES,
         .natDexNum = NATIONAL_DEX_NINETALES,
-        .categoryName = _("Fox"),
+        .categoryName = _("RENARD"),
         .height = 11,
         .weight = 199,
         .description = COMPOUND_STRING(
@@ -5537,7 +5481,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Igglybuff"),
         .cryId = CRY_IGGLYBUFF,
         .natDexNum = NATIONAL_DEX_IGGLYBUFF,
-        .categoryName = _("Balloon"),
+        .categoryName = _("BOUBOULE"),
         .height = 3,
         .weight = 10,
         .description = COMPOUND_STRING(
@@ -5615,7 +5559,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Jigglypuff"),
         .cryId = CRY_JIGGLYPUFF,
         .natDexNum = NATIONAL_DEX_JIGGLYPUFF,
-        .categoryName = _("Balloon"),
+        .categoryName = _("BOUBOULE"),
         .height = 5,
         .weight = 55,
         .description = COMPOUND_STRING(
@@ -5662,7 +5606,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sJigglypuffTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_MOON_STONE, SPECIES_WIGGLYTUFF}),
     },
-
 #if P_UPDATED_STATS >= GEN_6
     #define WIGGLYTUFF_SP_ATK   85
 #elif P_UPDATED_STATS >= GEN_2
@@ -5707,7 +5650,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Wigglytuff"),
         .cryId = CRY_WIGGLYTUFF,
         .natDexNum = NATIONAL_DEX_WIGGLYTUFF,
-        .categoryName = _("Balloon"),
+        .categoryName = _("BOUBOULE"),
         .height = 10,
         .weight = 120,
         .description = COMPOUND_STRING(
@@ -5778,7 +5721,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Zubat"),
         .cryId = CRY_ZUBAT,
         .natDexNum = NATIONAL_DEX_ZUBAT,
-        .categoryName = _("Bat"),
+        .categoryName = _("CHOVSOURIS"),
         .height = 8,
         .weight = 75,
         .description = COMPOUND_STRING(
@@ -5848,7 +5791,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sZubatEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_GOLBAT}),
     },
-
     [SPECIES_GOLBAT] =
     {
         .baseHP        = 75,
@@ -5871,7 +5813,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Golbat"),
         .cryId = CRY_GOLBAT,
         .natDexNum = NATIONAL_DEX_GOLBAT,
-        .categoryName = _("Bat"),
+        .categoryName = _("CHOVSOURIS"),
         .height = 16,
         .weight = 550,
         .description = COMPOUND_STRING(
@@ -5948,7 +5890,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_CROBAT, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD})}),
     #endif
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_CROBAT] =
     {
@@ -5978,7 +5919,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Crobat"),
         .cryId = CRY_CROBAT,
         .natDexNum = NATIONAL_DEX_CROBAT,
-        .categoryName = _("Bat"),
+        .categoryName = _("CHOVSOURIS"),
         .height = 18,
         .weight = 750,
         .description = COMPOUND_STRING(
@@ -6064,7 +6005,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Oddish"),
         .cryId = CRY_ODDISH,
         .natDexNum = NATIONAL_DEX_ODDISH,
-        .categoryName = _("Weed"),
+        .categoryName = _("RACINE"),
         .height = 5,
         .weight = 54,
         .description = COMPOUND_STRING(
@@ -6114,7 +6055,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sOddishEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_GLOOM}),
     },
-
     [SPECIES_GLOOM] =
     {
         .baseHP        = 60,
@@ -6139,7 +6079,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Gloom"),
         .cryId = CRY_GLOOM,
         .natDexNum = NATIONAL_DEX_GLOOM,
-        .categoryName = _("Weed"),
+        .categoryName = _("RACINE"),
         .height = 8,
         .weight = 86,
         .description = COMPOUND_STRING(
@@ -6202,7 +6142,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                             #endif
                             ),
     },
-
     [SPECIES_VILEPLUME] =
     {
         .baseHP        = 75,
@@ -6234,7 +6173,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Vileplume"),
         .cryId = CRY_VILEPLUME,
         .natDexNum = NATIONAL_DEX_VILEPLUME,
-        .categoryName = _("Flower"),
+        .categoryName = _("FLEUR"),
         .height = 12,
         .weight = 186,
         .description = COMPOUND_STRING(
@@ -6290,7 +6229,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sVileplumeLevelUpLearnset,
         .teachableLearnset = sVileplumeTeachableLearnset,
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_BELLOSSOM] =
     {
@@ -6323,7 +6261,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Bellossom"),
         .cryId = CRY_BELLOSSOM,
         .natDexNum = NATIONAL_DEX_BELLOSSOM,
-        .categoryName = _("Flower"),
+        .categoryName = _("FLEUR"),
         .height = 4,
         .weight = 58,
         .description = COMPOUND_STRING(
@@ -6412,7 +6350,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Paras"),
         .cryId = CRY_PARAS,
         .natDexNum = NATIONAL_DEX_PARAS,
-        .categoryName = _("Mushroom"),
+        .categoryName = _("CHAMPIGNON"),
         .height = 3,
         .weight = 54,
         .description = COMPOUND_STRING(
@@ -6472,7 +6410,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sParasEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_PARASECT}),
     },
-
     [SPECIES_PARASECT] =
     {
         .baseHP        = 60,
@@ -6502,7 +6439,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Parasect"),
         .cryId = CRY_PARASECT,
         .natDexNum = NATIONAL_DEX_PARASECT,
-        .categoryName = _("Mushroom"),
+        .categoryName = _("CHAMPIGNON"),
         .height = 10,
         .weight = 295,
         .description = COMPOUND_STRING(
@@ -6579,7 +6516,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Venonat"),
         .cryId = CRY_VENONAT,
         .natDexNum = NATIONAL_DEX_VENONAT,
-        .categoryName = _("Insect"),
+        .categoryName = _("VERMINE"),
         .height = 10,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -6629,7 +6566,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sVenonatEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 31, SPECIES_VENOMOTH}),
     },
-
     [SPECIES_VENOMOTH] =
     {
         .baseHP        = 70,
@@ -6658,7 +6594,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Venomoth"),
         .cryId = CRY_VENOMOTH,
         .natDexNum = NATIONAL_DEX_VENOMOTH,
-        .categoryName = _("Poison Moth"),
+        .categoryName = _("PAPIPOISON"),
         .height = 15,
         .weight = 125,
         .description = COMPOUND_STRING(
@@ -6748,7 +6684,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Diglett"),
         .cryId = CRY_DIGLETT,
         .natDexNum = NATIONAL_DEX_DIGLETT,
-        .categoryName = _("Mole"),
+        .categoryName = _("TAUPE"),
         .height = 2,
         .weight = 8,
         .description = COMPOUND_STRING(
@@ -6796,7 +6732,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sDiglettFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 26, SPECIES_DUGTRIO}),
     },
-
     [SPECIES_DUGTRIO] =
     {
         .baseHP        = 35,
@@ -6826,7 +6761,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dugtrio"),
         .cryId = CRY_DUGTRIO,
         .natDexNum = NATIONAL_DEX_DUGTRIO,
-        .categoryName = _("Mole"),
+        .categoryName = _("TAUPE"),
         .height = 7,
         .weight = 333,
         .description = COMPOUND_STRING(
@@ -6879,7 +6814,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sDugtrioTeachableLearnset,
         .formSpeciesIdTable = sDugtrioFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_DIGLETT_ALOLA] =
     {
@@ -6904,7 +6838,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Diglett"),
         .cryId = CRY_DIGLETT,
         .natDexNum = NATIONAL_DEX_DIGLETT,
-        .categoryName = _("Mole"),
+        .categoryName = _("TAUPE"),
         .height = 2,
         .weight = 10,
         .description = COMPOUND_STRING(
@@ -6948,7 +6882,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sDiglettFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 26, SPECIES_DUGTRIO_ALOLA}),
     },
-
     [SPECIES_DUGTRIO_ALOLA] =
     {
         .baseHP        = 35,
@@ -6973,7 +6906,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dugtrio"),
         .cryId = CRY_DUGTRIO,
         .natDexNum = NATIONAL_DEX_DUGTRIO,
-        .categoryName = _("Mole"),
+        .categoryName = _("TAUPE"),
         .height = 7,
         .weight = 666,
         .description = COMPOUND_STRING(
@@ -7048,7 +6981,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Meowth"),
         .cryId = CRY_MEOWTH,
         .natDexNum = NATIONAL_DEX_MEOWTH,
-        .categoryName = _("Scratch Cat"),
+        .categoryName = _("CHADEGOUT"),
         .height = 4,
         .weight = 42,
         .description = COMPOUND_STRING(
@@ -7100,7 +7033,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formChangeTable = sMeowthFormChangeTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_PERSIAN}),
     },
-
     [SPECIES_PERSIAN] =
     {
         .baseHP        = 65,
@@ -7128,7 +7060,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Persian"),
         .cryId = CRY_PERSIAN,
         .natDexNum = NATIONAL_DEX_PERSIAN,
-        .categoryName = _("Classy Cat"),
+        .categoryName = _("CHADEVILLE"),
         .height = 10,
         .weight = 320,
         .description = COMPOUND_STRING(
@@ -7173,7 +7105,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPersianTeachableLearnset,
         .formSpeciesIdTable = sPersianFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_MEOWTH_ALOLA] =
     {
@@ -7198,7 +7129,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Meowth"),
         .cryId = CRY_MEOWTH,
         .natDexNum = NATIONAL_DEX_MEOWTH,
-        .categoryName = _("Scratch Cat"),
+        .categoryName = _("CHADEGOUT"),
         .height = 4,
         .weight = 42,
         .description = COMPOUND_STRING(
@@ -7242,7 +7173,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sMeowthFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_PERSIAN_ALOLA, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD})}),
     },
-
     [SPECIES_PERSIAN_ALOLA] =
     {
         .baseHP        = 65,
@@ -7266,7 +7196,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Persian"),
         .cryId = CRY_PERSIAN,
         .natDexNum = NATIONAL_DEX_PERSIAN,
-        .categoryName = _("Classy Cat"),
+        .categoryName = _("CHADEVILLE"),
         .height = 11,
         .weight = 330,
         .description = COMPOUND_STRING(
@@ -7333,7 +7263,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Meowth"),
         .cryId = CRY_MEOWTH,
         .natDexNum = NATIONAL_DEX_MEOWTH,
-        .categoryName = _("Scratch Cat"),
+        .categoryName = _("CHADEGOUT"),
         .height = 4,
         .weight = 75,
         .description = COMPOUND_STRING(
@@ -7377,7 +7307,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sMeowthFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_PERRSERKER}),
     },
-
     [SPECIES_PERRSERKER] =
     {
         .baseHP        = 70,
@@ -7465,7 +7394,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Meowth"),
         .cryId = CRY_MEOWTH,
         .natDexNum = NATIONAL_DEX_MEOWTH,
-        .categoryName = _("Scratch Cat"),
+        .categoryName = _("CHADEGOUT"),
         .height = 330,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -7526,7 +7455,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Psyduck"),
         .cryId = CRY_PSYDUCK,
         .natDexNum = NATIONAL_DEX_PSYDUCK,
-        .categoryName = _("Duck"),
+        .categoryName = _("CANARD"),
         .height = 8,
         .weight = 196,
         .description = COMPOUND_STRING(
@@ -7574,7 +7503,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sPsyduckEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_GOLDUCK}),
     },
-
     [SPECIES_GOLDUCK] =
     {
         .baseHP        = 80,
@@ -7597,7 +7525,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Golduck"),
         .cryId = CRY_GOLDUCK,
         .natDexNum = NATIONAL_DEX_GOLDUCK,
-        .categoryName = _("Duck"),
+        .categoryName = _("CANARD"),
         .height = 17,
         .weight = 766,
         .description = COMPOUND_STRING(
@@ -7672,7 +7600,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Mankey"),
         .cryId = CRY_MANKEY,
         .natDexNum = NATIONAL_DEX_MANKEY,
-        .categoryName = _("Pig Monkey"),
+        .categoryName = _("PORSINGE"),
         .height = 5,
         .weight = 280,
         .description = COMPOUND_STRING(
@@ -7722,7 +7650,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sMankeyEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_PRIMEAPE}),
     },
-
     [SPECIES_PRIMEAPE] =
     {
         .baseHP        = 65,
@@ -7750,7 +7677,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Primeape"),
         .cryId = CRY_PRIMEAPE,
         .natDexNum = NATIONAL_DEX_PRIMEAPE,
-        .categoryName = _("Pig Monkey"),
+        .categoryName = _("PORSINGE"),
         .height = 10,
         .weight = 320,
         .description = COMPOUND_STRING(
@@ -7801,7 +7728,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_ANNIHILAPE, CONDITIONS({IF_USED_MOVE_X_TIMES, MOVE_RAGE_FIST, 20})}),
     #endif
     },
-
 #if P_GEN_9_CROSS_EVOS
     [SPECIES_ANNIHILAPE] =
     {
@@ -7892,7 +7818,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Growlithe"),
         .cryId = CRY_GROWLITHE,
         .natDexNum = NATIONAL_DEX_GROWLITHE,
-        .categoryName = _("Puppy"),
+        .categoryName = _("CHIOT"),
         .height = 7,
         .weight = 190,
         .description = COMPOUND_STRING(
@@ -7943,7 +7869,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGrowlitheFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_ARCANINE}),
     },
-
     [SPECIES_ARCANINE] =
     {
         .baseHP        = 90,
@@ -7966,7 +7891,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Arcanine"),
         .cryId = CRY_ARCANINE,
         .natDexNum = NATIONAL_DEX_ARCANINE,
-        .categoryName = _("Legendary"),
+        .categoryName = _("LEGENDAIRE"),
         .height = 19,
         .weight = 1550,
         .description = COMPOUND_STRING(
@@ -8011,7 +7936,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sArcanineTeachableLearnset,
         .formSpeciesIdTable = sArcanineFormSpeciesIdTable,
     },
-
 #if P_HISUIAN_FORMS
     [SPECIES_GROWLITHE_HISUI] =
     {
@@ -8035,7 +7959,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Growlithe"),
         .cryId = CRY_GROWLITHE,
         .natDexNum = NATIONAL_DEX_GROWLITHE,
-        .categoryName = _("Scout"),
+        .categoryName = _("CHIOT"),
         .height = 8,
         .weight = 227,
         .description = COMPOUND_STRING(
@@ -8079,7 +8003,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGrowlitheFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_ARCANINE_HISUI}),
     },
-
     [SPECIES_ARCANINE_HISUI] =
     {
         .baseHP        = 95,
@@ -8102,7 +8025,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Arcanine"),
         .cryId = CRY_ARCANINE,
         .natDexNum = NATIONAL_DEX_ARCANINE,
-        .categoryName = _("Legendary"),
+        .categoryName = _("LEGENDAIRE"),
         .height = 20,
         .weight = 1680,
         .description = COMPOUND_STRING(
@@ -8171,7 +8094,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Poliwag"),
         .cryId = CRY_POLIWAG,
         .natDexNum = NATIONAL_DEX_POLIWAG,
-        .categoryName = _("Tadpole"),
+        .categoryName = _("TETARD"),
         .height = 6,
         .weight = 124,
         .description = COMPOUND_STRING(
@@ -8217,7 +8140,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sPoliwagEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_POLIWHIRL}),
     },
-
     [SPECIES_POLIWHIRL] =
     {
         .baseHP        = 65,
@@ -8242,7 +8164,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Poliwhirl"),
         .cryId = CRY_POLIWHIRL,
         .natDexNum = NATIONAL_DEX_POLIWHIRL,
-        .categoryName = _("Tadpole"),
+        .categoryName = _("TETARD"),
         .height = 10,
         .weight = 200,
         .description = COMPOUND_STRING(
@@ -8295,7 +8217,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                             #endif
                             ),
     },
-
     [SPECIES_POLIWRATH] =
     {
         .baseHP        = 90,
@@ -8328,7 +8249,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Poliwrath"),
         .cryId = CRY_POLIWRATH,
         .natDexNum = NATIONAL_DEX_POLIWRATH,
-        .categoryName = _("Tadpole"),
+        .categoryName = _("TETARD"),
         .height = 13,
         .weight = 540,
         .description = COMPOUND_STRING(
@@ -8371,7 +8292,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPoliwrathLevelUpLearnset,
         .teachableLearnset = sPoliwrathTeachableLearnset,
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_POLITOED] =
     {
@@ -8403,7 +8323,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Politoed"),
         .cryId = CRY_POLITOED,
         .natDexNum = NATIONAL_DEX_POLITOED,
-        .categoryName = _("Frog"),
+        .categoryName = _("GRENOUILLE"),
         .height = 11,
         .weight = 339,
         .description = COMPOUND_STRING(
@@ -8497,7 +8417,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Abra"),
         .cryId = CRY_ABRA,
         .natDexNum = NATIONAL_DEX_ABRA,
-        .categoryName = _("Psi"),
+        .categoryName = _("PSY"),
         .height = 9,
         .weight = 195,
         .description = COMPOUND_STRING(
@@ -8545,7 +8465,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sAbraEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_KADABRA}),
     },
-
     [SPECIES_KADABRA] =
     {
         .baseHP        = 40,
@@ -8570,7 +8489,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kadabra"),
         .cryId = CRY_KADABRA,
         .natDexNum = NATIONAL_DEX_KADABRA,
-        .categoryName = _("Psi"),
+        .categoryName = _("PSY"),
         .height = 13,
         .weight = 565,
         .description = COMPOUND_STRING(
@@ -8629,7 +8548,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_ALAKAZAM},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_ALAKAZAM}),
     },
-
 #if P_UPDATED_STATS >= GEN_6
     #define ALAKAZAM_SP_DEF 95
 #elif P_UPDATED_STATS >= GEN_2
@@ -8669,7 +8587,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Alakazam"),
         .cryId = CRY_ALAKAZAM,
         .natDexNum = NATIONAL_DEX_ALAKAZAM,
-        .categoryName = _("Psi"),
+        .categoryName = _("PSY"),
         .height = 15,
         .weight = 480,
         .description = COMPOUND_STRING(
@@ -8728,7 +8646,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sAlakazamFormSpeciesIdTable,
         .formChangeTable = sAlakazamFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_ALAKAZAM_MEGA] =
     {
@@ -8763,7 +8680,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_ALAKAZAM,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_ALAKAZAM,
-        .categoryName = _("Psi"),
+        .categoryName = _("PSY"),
         .height = 12,
         .weight = 480,
         .description = COMPOUND_STRING(
@@ -8845,7 +8762,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Machop"),
         .cryId = CRY_MACHOP,
         .natDexNum = NATIONAL_DEX_MACHOP,
-        .categoryName = _("Superpower"),
+        .categoryName = _("COLOSSE"),
         .height = 8,
         .weight = 195,
         .description = COMPOUND_STRING(
@@ -8893,7 +8810,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sMachopEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_MACHOKE}),
     },
-
     [SPECIES_MACHOKE] =
     {
         .baseHP        = 80,
@@ -8922,7 +8838,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Machoke"),
         .cryId = CRY_MACHOKE,
         .natDexNum = NATIONAL_DEX_MACHOKE,
-        .categoryName = _("Superpower"),
+        .categoryName = _("COLOSSE"),
         .height = 15,
         .weight = 705,
         .description = COMPOUND_STRING(
@@ -8968,7 +8884,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_MACHAMP},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MACHAMP}),
     },
-
 #if P_UPDATED_EXP_YIELDS >= GEN_8
     #define MACHAMP_EXP_YIELD 253
 #elif P_UPDATED_EXP_YIELDS >= GEN_5
@@ -9004,7 +8919,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Machamp"),
         .cryId = CRY_MACHAMP,
         .natDexNum = NATIONAL_DEX_MACHAMP,
-        .categoryName = _("Superpower"),
+        .categoryName = _("COLOSSE"),
         .height = 16,
         .weight = 1300,
         .description = COMPOUND_STRING(
@@ -9054,7 +8969,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sMachampFormSpeciesIdTable,
         .formChangeTable = sMachampFormChangeTable,
     },
-
 #if P_GIGANTAMAX_FORMS
     [SPECIES_MACHAMP_GMAX] =
     {
@@ -9083,7 +8997,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Machamp"),
         .cryId = CRY_MACHAMP,
         .natDexNum = NATIONAL_DEX_MACHAMP,
-        .categoryName = _("Superpower"),
+        .categoryName = _("COLOSSE"),
         .height = 250,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -9143,7 +9057,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Bellsprout"),
         .cryId = CRY_BELLSPROUT,
         .natDexNum = NATIONAL_DEX_BELLSPROUT,
-        .categoryName = _("Flower"),
+        .categoryName = _("FLEUR"),
         .height = 7,
         .weight = 40,
         .description = COMPOUND_STRING(
@@ -9189,7 +9103,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sBellsproutEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_WEEPINBELL}),
     },
-
     [SPECIES_WEEPINBELL] =
     {
         .baseHP        = 65,
@@ -9213,7 +9126,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Weepinbell"),
         .cryId = CRY_WEEPINBELL,
         .natDexNum = NATIONAL_DEX_WEEPINBELL,
-        .categoryName = _("Flycatcher"),
+        .categoryName = _("CARNIVORE"),
         .height = 10,
         .weight = 64,
         .description = COMPOUND_STRING(
@@ -9263,7 +9176,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sWeepinbellTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_VICTREEBEL}),
     },
-
 #if P_UPDATED_STATS >= GEN_6
     #define VICTREEBEL_SP_DEF 70
 #elif P_UPDATED_STATS >= GEN_2
@@ -9303,7 +9215,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Victreebel"),
         .cryId = CRY_VICTREEBEL,
         .natDexNum = NATIONAL_DEX_VICTREEBEL,
-        .categoryName = _("Flycatcher"),
+        .categoryName = _("CARNIVORE"),
         .height = 17,
         .weight = 155,
         .description = COMPOUND_STRING(
@@ -9353,7 +9265,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sVictreebelFormSpeciesIdTable,
         .formChangeTable = sVictreebelFormChangeTable,
     },
-
 #if P_GEN_9_MEGA_EVOLUTIONS
     [SPECIES_VICTREEBEL_MEGA] =
     {
@@ -9382,7 +9293,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_VICTREEBEL,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_VICTREEBEL,
-        .categoryName = _("Flycatcher"),
+        .categoryName = _("CARNIVORE"),
         .height = 45,
         .weight = 1255,
         .description = COMPOUND_STRING(
@@ -9439,7 +9350,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tentacool"),
         .cryId = CRY_TENTACOOL,
         .natDexNum = NATIONAL_DEX_TENTACOOL,
-        .categoryName = _("Jellyfish"),
+        .categoryName = _("MOLLUSQUE"),
         .height = 9,
         .weight = 455,
         .description = COMPOUND_STRING(
@@ -9487,7 +9398,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sTentacoolEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_TENTACRUEL}),
     },
-
     [SPECIES_TENTACRUEL] =
     {
         .baseHP        = 80,
@@ -9511,7 +9421,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tentacruel"),
         .cryId = CRY_TENTACRUEL,
         .natDexNum = NATIONAL_DEX_TENTACRUEL,
-        .categoryName = _("Jellyfish"),
+        .categoryName = _("MOLLUSQUE"),
         .height = 16,
         .weight = 550,
         .description = COMPOUND_STRING(
@@ -9589,7 +9499,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Geodude"),
         .cryId = CRY_GEODUDE,
         .natDexNum = NATIONAL_DEX_GEODUDE,
-        .categoryName = _("Rock"),
+        .categoryName = _("ROCHE"),
         .height = 4,
         .weight = 200,
         .description = COMPOUND_STRING(
@@ -9637,7 +9547,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGeodudeFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_GRAVELER}),
     },
-
     [SPECIES_GRAVELER] =
     {
         .baseHP        = 55,
@@ -9661,7 +9570,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Graveler"),
         .cryId = CRY_GRAVELER,
         .natDexNum = NATIONAL_DEX_GRAVELER,
-        .categoryName = _("Rock"),
+        .categoryName = _("ROCHE"),
         .height = 10,
         .weight = 1050,
         .description = COMPOUND_STRING(
@@ -9710,7 +9619,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOLEM},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM}),
     },
-
     [SPECIES_GOLEM] =
     {
         .baseHP        = 80,
@@ -9742,7 +9650,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Golem"),
         .cryId = CRY_GOLEM,
         .natDexNum = NATIONAL_DEX_GOLEM,
-        .categoryName = _("Megaton"),
+        .categoryName = _("TITANESQUE"),
         .height = 14,
         .weight = 3000,
         .description = COMPOUND_STRING(
@@ -9789,7 +9697,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGolemTeachableLearnset,
         .formSpeciesIdTable = sGolemFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_GEODUDE_ALOLA] =
     {
@@ -9814,7 +9721,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Geodude"),
         .cryId = CRY_GEODUDE,
         .natDexNum = NATIONAL_DEX_GEODUDE,
-        .categoryName = _("Rock"),
+        .categoryName = _("ROCHE"),
         .height = 4,
         .weight = 203,
         .description = COMPOUND_STRING(
@@ -9859,7 +9766,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGeodudeFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_GRAVELER_ALOLA}),
     },
-
     [SPECIES_GRAVELER_ALOLA] =
     {
         .baseHP        = 55,
@@ -9883,7 +9789,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Graveler"),
         .cryId = CRY_GRAVELER,
         .natDexNum = NATIONAL_DEX_GRAVELER,
-        .categoryName = _("Rock"),
+        .categoryName = _("ROCHE"),
         .height = 10,
         .weight = 1100,
         .description = COMPOUND_STRING(
@@ -9927,7 +9833,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOLEM_ALOLA},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM_ALOLA}),
     },
-
     [SPECIES_GOLEM_ALOLA] =
     {
         .baseHP        = 80,
@@ -9951,7 +9856,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Golem"),
         .cryId = CRY_GOLEM,
         .natDexNum = NATIONAL_DEX_GOLEM,
-        .categoryName = _("Megaton"),
+        .categoryName = _("TITANESQUE"),
         .height = 17,
         .weight = 3160,
         .description = COMPOUND_STRING(
@@ -10019,7 +9924,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ponyta"),
         .cryId = CRY_PONYTA,
         .natDexNum = NATIONAL_DEX_PONYTA,
-        .categoryName = _("Fire Horse"),
+        .categoryName = _("CHEVAL FEU"),
         .height = 10,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -10066,7 +9971,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sPonytaFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_RAPIDASH}),
     },
-
     [SPECIES_RAPIDASH] =
     {
         .baseHP        = 65,
@@ -10089,7 +9993,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Rapidash"),
         .cryId = CRY_RAPIDASH,
         .natDexNum = NATIONAL_DEX_RAPIDASH,
-        .categoryName = _("Fire Horse"),
+        .categoryName = _("CHEVAL FEU"),
         .height = 17,
         .weight = 950,
         .description = COMPOUND_STRING(
@@ -10134,7 +10038,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRapidashTeachableLearnset,
         .formSpeciesIdTable = sRapidashFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_PONYTA_GALAR] =
     {
@@ -10158,7 +10061,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ponyta"),
         .cryId = CRY_PONYTA,
         .natDexNum = NATIONAL_DEX_PONYTA,
-        .categoryName = _("Unique Horn"),
+        .categoryName = _("CHEVAL FEU"),
         .height = 8,
         .weight = 240,
         .description = COMPOUND_STRING(
@@ -10202,7 +10105,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sPonytaFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_RAPIDASH_GALAR}),
     },
-
     [SPECIES_RAPIDASH_GALAR] =
     {
         .baseHP        = 65,
@@ -10225,7 +10127,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Rapidash"),
         .cryId = CRY_RAPIDASH,
         .natDexNum = NATIONAL_DEX_RAPIDASH,
-        .categoryName = _("Unique Horn"),
+        .categoryName = _("CHEVAL FEU"),
         .height = 17,
         .weight = 800,
         .description = COMPOUND_STRING(
@@ -10294,7 +10196,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowpoke"),
         .cryId = CRY_SLOWPOKE,
         .natDexNum = NATIONAL_DEX_SLOWPOKE,
-        .categoryName = _("Dopey"),
+        .categoryName = _("CRETIN"),
         .height = 12,
         .weight = 360,
         .description = COMPOUND_STRING(
@@ -10346,7 +10248,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                             #endif
                             ),
     },
-
     [SPECIES_SLOWBRO] =
     {
         .baseHP        = 95,
@@ -10370,7 +10271,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowbro"),
         .cryId = CRY_SLOWBRO,
         .natDexNum = NATIONAL_DEX_SLOWBRO,
-        .categoryName = _("Hermit Crab"),
+        .categoryName = _("SYMBIOSE"),
         .height = 16,
         .weight = 785,
         .description = COMPOUND_STRING(
@@ -10415,7 +10316,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sSlowbroFormSpeciesIdTable,
         .formChangeTable = sSlowbroFormChangeTable,
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_SLOWKING] =
     {
@@ -10440,7 +10340,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowking"),
         .cryId = CRY_SLOWKING,
         .natDexNum = NATIONAL_DEX_SLOWKING,
-        .categoryName = _("Royal"),
+        .categoryName = _("ROYAL"),
         .height = 20,
         .weight = 795,
         .description = COMPOUND_STRING(
@@ -10511,7 +10411,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowbro"),
         .cryId = CRY_SLOWBRO,
         .natDexNum = NATIONAL_DEX_SLOWBRO,
-        .categoryName = _("Hermit Crab"),
+        .categoryName = _("SYMBIOSE"),
         .height = 20,
         .weight = 1200,
         .description = COMPOUND_STRING(
@@ -10581,7 +10481,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowpoke"),
         .cryId = CRY_SLOWPOKE_GALAR,
         .natDexNum = NATIONAL_DEX_SLOWPOKE,
-        .categoryName = _("Dopey"),
+        .categoryName = _("CRETIN"),
         .height = 12,
         .weight = 360,
         .description = COMPOUND_STRING(
@@ -10629,7 +10529,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                             #endif
                             ),
     },
-
     [SPECIES_SLOWBRO_GALAR] =
     {
         .baseHP        = 95,
@@ -10654,7 +10553,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowbro"),
         .cryId = CRY_SLOWBRO,
         .natDexNum = NATIONAL_DEX_SLOWBRO,
-        .categoryName = _("Hermit Crab"),
+        .categoryName = _("SYMBIOSE"),
         .height = 16,
         .weight = 705,
         .description = COMPOUND_STRING(
@@ -10696,7 +10595,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sSlowbroGalarTeachableLearnset,
         .formSpeciesIdTable = sSlowbroFormSpeciesIdTable,
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_SLOWKING_GALAR] =
     {
@@ -10720,7 +10618,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Slowking"),
         .cryId = CRY_SLOWKING,
         .natDexNum = NATIONAL_DEX_SLOWKING,
-        .categoryName = _("Hexpert"),
+        .categoryName = _("ROYAL"),
         .height = 18,
         .weight = 795,
         .description = COMPOUND_STRING(
@@ -10792,7 +10690,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Magnemite"),
         .cryId = CRY_MAGNEMITE,
         .natDexNum = NATIONAL_DEX_MAGNEMITE,
-        .categoryName = _("Magnet"),
+        .categoryName = _("MAGNETIQUE"),
         .height = 3,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -10840,7 +10738,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMagnemiteTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_MAGNETON}),
     },
-
     [SPECIES_MAGNETON] =
     {
         .baseHP        = 50,
@@ -10864,7 +10761,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Magneton"),
         .cryId = CRY_MAGNETON,
         .natDexNum = NATIONAL_DEX_MAGNETON,
-        .categoryName = _("Magnet"),
+        .categoryName = _("MAGNETIQUE"),
         .height = 10,
         .weight = 600,
         .description = COMPOUND_STRING(
@@ -10917,7 +10814,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_MAGNEZONE}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_MAGNEZONE] =
     {
@@ -11029,7 +10925,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Farfetch'd"),
         .cryId = CRY_FARFETCHD,
         .natDexNum = NATIONAL_DEX_FARFETCHD,
-        .categoryName = _("Wild Duck"),
+        .categoryName = _("CANARD FOU"),
         .height = 8,
         .weight = 150,
         .description = COMPOUND_STRING(
@@ -11085,7 +10981,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sFarfetchdEggMoveLearnset,
         .formSpeciesIdTable = sFarfetchdFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_FARFETCHD_GALAR] =
     {
@@ -11111,7 +11006,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Farfetch'd"),
         .cryId = CRY_FARFETCHD,
         .natDexNum = NATIONAL_DEX_FARFETCHD,
-        .categoryName = _("Wild Duck"),
+        .categoryName = _("CANARD FOU"),
         .height = 8,
         .weight = 420,
         .description = COMPOUND_STRING(
@@ -11155,7 +11050,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sFarfetchdFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_BATTLE_END, 0, SPECIES_SIRFETCHD, CONDITIONS({IF_CRITICAL_HITS_GE, 3})}),
     },
-
     [SPECIES_SIRFETCHD] =
     {
         .baseHP        = 62,
@@ -11247,7 +11141,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Doduo"),
         .cryId = CRY_DODUO,
         .natDexNum = NATIONAL_DEX_DODUO,
-        .categoryName = _("Twin Bird"),
+        .categoryName = _("DUOISEAU"),
         .height = 14,
         .weight = 392,
         .description = COMPOUND_STRING(
@@ -11309,7 +11203,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sDoduoEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 31, SPECIES_DODRIO}),
     },
-
     [SPECIES_DODRIO] =
     {
         .baseHP        = 60,
@@ -11340,7 +11233,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dodrio"),
         .cryId = CRY_DODRIO,
         .natDexNum = NATIONAL_DEX_DODRIO,
-        .categoryName = _("Triple Bird"),
+        .categoryName = _("TRIOISEAU"),
         .height = 18,
         .weight = 852,
         .description = COMPOUND_STRING(
@@ -11431,7 +11324,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Seel"),
         .cryId = CRY_SEEL,
         .natDexNum = NATIONAL_DEX_SEEL,
-        .categoryName = _("Sea Lion"),
+        .categoryName = _("OTARIE"),
         .height = 11,
         .weight = 900,
         .description = COMPOUND_STRING(
@@ -11478,7 +11371,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sSeelEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_DEWGONG}),
     },
-
     [SPECIES_DEWGONG] =
     {
         .baseHP        = 90,
@@ -11505,7 +11397,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dewgong"),
         .cryId = CRY_DEWGONG,
         .natDexNum = NATIONAL_DEX_DEWGONG,
-        .categoryName = _("Sea Lion"),
+        .categoryName = _("OTARIE"),
         .height = 17,
         .weight = 1200,
         .description = COMPOUND_STRING(
@@ -11575,7 +11467,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Grimer"),
         .cryId = CRY_GRIMER,
         .natDexNum = NATIONAL_DEX_GRIMER,
-        .categoryName = _("Sludge"),
+        .categoryName = _("DEGUEU"),
         .height = 9,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -11624,7 +11516,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGrimerFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_MUK}),
     },
-
     [SPECIES_MUK] =
     {
         .baseHP        = 105,
@@ -11649,7 +11540,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Muk"),
         .cryId = CRY_MUK,
         .natDexNum = NATIONAL_DEX_MUK,
-        .categoryName = _("Sludge"),
+        .categoryName = _("DEGUEU"),
         .height = 12,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -11697,7 +11588,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMukTeachableLearnset,
         .formSpeciesIdTable = sMukFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_GRIMER_ALOLA] =
     {
@@ -11722,7 +11612,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Grimer"),
         .cryId = CRY_GRIMER,
         .natDexNum = NATIONAL_DEX_GRIMER,
-        .categoryName = _("Sludge"),
+        .categoryName = _("DEGUEU"),
         .height = 7,
         .weight = 420,
         .description = COMPOUND_STRING(
@@ -11766,7 +11656,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGrimerFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_MUK_ALOLA}),
     },
-
     [SPECIES_MUK_ALOLA] =
     {
         .baseHP        = 105,
@@ -11792,7 +11681,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Muk"),
         .cryId = CRY_MUK,
         .natDexNum = NATIONAL_DEX_MUK,
-        .categoryName = _("Sludge"),
+        .categoryName = _("DEGUEU"),
         .height = 10,
         .weight = 520,
         .description = COMPOUND_STRING(
@@ -11866,7 +11755,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Shellder"),
         .cryId = CRY_SHELLDER,
         .natDexNum = NATIONAL_DEX_SHELLDER,
-        .categoryName = _("Bivalve"),
+        .categoryName = _("BIVALVE"),
         .height = 3,
         .weight = 40,
         .description = COMPOUND_STRING(
@@ -11914,7 +11803,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sShellderEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_CLOYSTER}),
     },
-
     [SPECIES_CLOYSTER] =
     {
         .baseHP        = 50,
@@ -11943,7 +11831,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Cloyster"),
         .cryId = CRY_CLOYSTER,
         .natDexNum = NATIONAL_DEX_CLOYSTER,
-        .categoryName = _("Bivalve"),
+        .categoryName = _("BIVALVE"),
         .height = 15,
         .weight = 1325,
         .description = COMPOUND_STRING(
@@ -12013,7 +11901,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Gastly"),
         .cryId = CRY_GASTLY,
         .natDexNum = NATIONAL_DEX_GASTLY,
-        .categoryName = _("Gas"),
+        .categoryName = _("GAZ"),
         .height = 13,
         .weight = 1,
         .description = COMPOUND_STRING(
@@ -12064,7 +11952,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sGastlyEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_HAUNTER}),
     },
-
     [SPECIES_HAUNTER] =
     {
         .baseHP        = 45,
@@ -12087,7 +11974,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Haunter"),
         .cryId = CRY_HAUNTER,
         .natDexNum = NATIONAL_DEX_HAUNTER,
-        .categoryName = _("Gas"),
+        .categoryName = _("GAZ"),
         .height = 16,
         .weight = 1,
         .description = COMPOUND_STRING(
@@ -12137,7 +12024,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GENGAR},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GENGAR}),
     },
-
 #define GENGAR_SP_DEF (P_UPDATED_STATS >= GEN_2 ? 75 : 130)
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -12176,7 +12062,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Gengar"),
         .cryId = CRY_GENGAR,
         .natDexNum = NATIONAL_DEX_GENGAR,
-        .categoryName = _("Shadow"),
+        .categoryName = _("OMBRE"),
         .height = 15,
         .weight = 405,
         .description = COMPOUND_STRING(
@@ -12222,7 +12108,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGengarFormSpeciesIdTable,
         .formChangeTable = sGengarFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_GENGAR_MEGA] =
     {
@@ -12250,7 +12135,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_GENGAR,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_GENGAR,
-        .categoryName = _("Shadow"),
+        .categoryName = _("OMBRE"),
         .height = 14,
         .weight = 405,
         .description = COMPOUND_STRING(
@@ -12320,7 +12205,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Gengar"),
         .cryId = CRY_GENGAR,
         .natDexNum = NATIONAL_DEX_GENGAR,
-        .categoryName = _("Shadow"),
+        .categoryName = _("OMBRE"),
         .height = 200,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -12380,7 +12265,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Onix"),
         .cryId = CRY_ONIX,
         .natDexNum = NATIONAL_DEX_ONIX,
-        .categoryName = _("Rock Snake"),
+        .categoryName = _("SERPENROC"),
         .height = 88,
         .weight = 2100,
         .description = COMPOUND_STRING(
@@ -12428,7 +12313,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_METAL_COAT, SPECIES_STEELIX}),
     #endif
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_STEELIX] =
     {
@@ -12453,7 +12337,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Steelix"),
         .cryId = CRY_STEELIX,
         .natDexNum = NATIONAL_DEX_STEELIX,
-        .categoryName = _("Iron Snake"),
+        .categoryName = _("SERPENFER"),
         .height = 92,
         .weight = 4000,
         .description = COMPOUND_STRING(
@@ -12515,7 +12399,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sSteelixFormSpeciesIdTable,
         .formChangeTable = sSteelixFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_STEELIX_MEGA] =
     {
@@ -12544,7 +12427,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_STEELIX,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_STEELIX,
-        .categoryName = _("Iron Snake"),
+        .categoryName = _("SERPENFER"),
         .height = 105,
         .weight = 7400,
         .description = COMPOUND_STRING(
@@ -12620,7 +12503,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Drowzee"),
         .cryId = CRY_DROWZEE,
         .natDexNum = NATIONAL_DEX_DROWZEE,
-        .categoryName = _("Hypnosis"),
+        .categoryName = _("HYPNOSE"),
         .height = 10,
         .weight = 324,
         .description = COMPOUND_STRING(
@@ -12670,7 +12553,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sDrowzeeEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 26, SPECIES_HYPNO}),
     },
-
     [SPECIES_HYPNO] =
     {
         .baseHP        = 85,
@@ -12697,7 +12579,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Hypno"),
         .cryId = CRY_HYPNO,
         .natDexNum = NATIONAL_DEX_HYPNO,
-        .categoryName = _("Hypnosis"),
+        .categoryName = _("HYPNOSE"),
         .height = 16,
         .weight = 756,
         .description = COMPOUND_STRING(
@@ -12784,7 +12666,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Krabby"),
         .cryId = CRY_KRABBY,
         .natDexNum = NATIONAL_DEX_KRABBY,
-        .categoryName = _("River Crab"),
+        .categoryName = _("DOUX CRABE"),
         .height = 4,
         .weight = 65,
         .description = COMPOUND_STRING(
@@ -12833,7 +12715,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sKrabbyEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_KINGLER}),
     },
-
     [SPECIES_KINGLER] =
     {
         .baseHP        = 55,
@@ -12857,7 +12738,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kingler"),
         .cryId = CRY_KINGLER,
         .natDexNum = NATIONAL_DEX_KINGLER,
-        .categoryName = _("Pincer"),
+        .categoryName = _("PINCE"),
         .height = 13,
         .weight = 600,
         .description = COMPOUND_STRING(
@@ -12903,7 +12784,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sKinglerFormSpeciesIdTable,
         .formChangeTable = sKinglerFormChangeTable,
     },
-
 #if P_GIGANTAMAX_FORMS
     [SPECIES_KINGLER_GMAX] =
     {
@@ -12928,7 +12808,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kingler"),
         .cryId = CRY_KINGLER,
         .natDexNum = NATIONAL_DEX_KINGLER,
-        .categoryName = _("Pincer"),
+        .categoryName = _("PINCE"),
         .height = 190,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -12988,7 +12868,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
         .natDexNum = NATIONAL_DEX_VOLTORB,
-        .categoryName = _("Ball"),
+        .categoryName = _("BALLE"),
         .height = 5,
         .weight = 104,
         .description = COMPOUND_STRING(
@@ -13037,7 +12917,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sVoltorbFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ELECTRODE}),
     },
-
     [SPECIES_ELECTRODE] =
     {
         .baseHP        = 60,
@@ -13066,7 +12945,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,
         .natDexNum = NATIONAL_DEX_ELECTRODE,
-        .categoryName = _("Ball"),
+        .categoryName = _("BALLE"),
         .height = 12,
         .weight = 666,
         .description = COMPOUND_STRING(
@@ -13113,7 +12992,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sElectrodeTeachableLearnset,
         .formSpeciesIdTable = sElectrodeFormSpeciesIdTable,
     },
-
 #if P_HISUIAN_FORMS
     [SPECIES_VOLTORB_HISUI] =
     {
@@ -13137,7 +13015,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
         .natDexNum = NATIONAL_DEX_VOLTORB,
-        .categoryName = _("Sphere"),
+        .categoryName = _("BALLE"),
         .height = 5,
         .weight = 130,
         .description = COMPOUND_STRING(
@@ -13180,7 +13058,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sVoltorbFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_ELECTRODE_HISUI}),
     },
-
     [SPECIES_ELECTRODE_HISUI] =
     {
         .baseHP        = 60,
@@ -13203,7 +13080,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,
         .natDexNum = NATIONAL_DEX_ELECTRODE,
-        .categoryName = _("Sphere"),
+        .categoryName = _("BALLE"),
         .height = 12,
         .weight = 710,
         .description = COMPOUND_STRING(
@@ -13273,7 +13150,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Exeggcute"),
         .cryId = CRY_EXEGGCUTE,
         .natDexNum = NATIONAL_DEX_EXEGGCUTE,
-        .categoryName = _("Egg"),
+        .categoryName = _("OEUF"),
         .height = 4,
         .weight = 25,
         .description = COMPOUND_STRING(
@@ -13326,7 +13203,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR, CONDITIONS({IF_NOT_REGION, REGION_ALOLA})},
                                 {EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR_ALOLA, CONDITIONS({IF_REGION, REGION_ALOLA})}),
     },
-
     [SPECIES_EXEGGUTOR] =
     {
         .baseHP        = 95,
@@ -13362,7 +13238,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Exeggutor"),
         .cryId = CRY_EXEGGUTOR,
         .natDexNum = NATIONAL_DEX_EXEGGUTOR,
-        .categoryName = _("Coconut"),
+        .categoryName = _("FRUITPALME"),
         .height = 20,
         .weight = 1200,
         .description = COMPOUND_STRING(
@@ -13406,7 +13282,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sExeggutorTeachableLearnset,
         .formSpeciesIdTable = sExeggutorFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_EXEGGUTOR_ALOLA] =
     {
@@ -13431,7 +13306,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Exeggutor"),
         .cryId = CRY_EXEGGUTOR,
         .natDexNum = NATIONAL_DEX_EXEGGUTOR,
-        .categoryName = _("Coconut"),
+        .categoryName = _("FRUITPALME"),
         .height = 109,
         .weight = 4156,
         .description = COMPOUND_STRING(
@@ -13501,7 +13376,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Cubone"),
         .cryId = CRY_CUBONE,
         .natDexNum = NATIONAL_DEX_CUBONE,
-        .categoryName = _("Lonely"),
+        .categoryName = _("SOLITAIRE"),
         .height = 4,
         .weight = 65,
         .description = COMPOUND_STRING(
@@ -13553,7 +13428,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_LEVEL, 28, SPECIES_MAROWAK_ALOLA, CONDITIONS({IF_REGION, REGION_ALOLA}, {IF_TIME, TIME_NIGHT})},
                                 {EVO_NONE, 0, SPECIES_MAROWAK_ALOLA_TOTEM}),
     },
-
     [SPECIES_MAROWAK] =
     {
         .baseHP        = 60,
@@ -13578,7 +13452,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Marowak"),
         .cryId = CRY_MAROWAK,
         .natDexNum = NATIONAL_DEX_MAROWAK,
-        .categoryName = _("Bone Keeper"),
+        .categoryName = _("OS"),
         .height = 10,
         .weight = 450,
         .description = COMPOUND_STRING(
@@ -13626,7 +13500,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMarowakTeachableLearnset,
         .formSpeciesIdTable = sMarowakFormSpeciesIdTable,
     },
-
 #if P_ALOLAN_FORMS
     [SPECIES_MAROWAK_ALOLA] =
     {
@@ -13652,7 +13525,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Marowak"),
         .cryId = CRY_MAROWAK,
         .natDexNum = NATIONAL_DEX_MAROWAK,
-        .categoryName = _("Bone Keeper"),
+        .categoryName = _("OS"),
         .height = 10,
         .weight = 340,
         .description = gMarowakAlolaPokedexText,
@@ -13690,7 +13563,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMarowakAlolaTeachableLearnset,
         .formSpeciesIdTable = sMarowakFormSpeciesIdTable,
     },
-
     [SPECIES_MAROWAK_ALOLA_TOTEM] =
     {
         .baseHP        = 60,
@@ -13714,7 +13586,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Marowak"),
         .cryId = CRY_MAROWAK,
         .natDexNum = NATIONAL_DEX_MAROWAK,
-        .categoryName = _("Bone Keeper"),
+        .categoryName = _("OS"),
         .height = 17,
         .weight = 980,
         .description = gMarowakAlolaPokedexText,
@@ -13785,7 +13657,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tyrogue"),
         .cryId = CRY_TYROGUE,
         .natDexNum = NATIONAL_DEX_TYROGUE,
-        .categoryName = _("Scuffle"),
+        .categoryName = _("BAGARREUR"),
         .height = 7,
         .weight = 210,
         .description = COMPOUND_STRING(
@@ -13860,7 +13732,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Hitmonlee"),
         .cryId = CRY_HITMONLEE,
         .natDexNum = NATIONAL_DEX_HITMONLEE,
-        .categoryName = _("Kicking"),
+        .categoryName = _("LATTEUR"),
         .height = 15,
         .weight = 498,
         .description = COMPOUND_STRING(
@@ -13904,7 +13776,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sHitmonleeLevelUpLearnset,
         .teachableLearnset = sHitmonleeTeachableLearnset,
     },
-
     [SPECIES_HITMONCHAN] =
     {
         .baseHP        = 50,
@@ -13931,7 +13802,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Hitmonchan"),
         .cryId = CRY_HITMONCHAN,
         .natDexNum = NATIONAL_DEX_HITMONCHAN,
-        .categoryName = _("Punching"),
+        .categoryName = _("PUNCHEUR"),
         .height = 14,
         .weight = 502,
         .description = COMPOUND_STRING(
@@ -13983,7 +13854,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sHitmonchanLevelUpLearnset,
         .teachableLearnset = sHitmonchanTeachableLearnset,
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_HITMONTOP] =
     {
@@ -14011,7 +13881,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Hitmontop"),
         .cryId = CRY_HITMONTOP,
         .natDexNum = NATIONAL_DEX_HITMONTOP,
-        .categoryName = _("Handstand"),
+        .categoryName = _("POIRIER"),
         .height = 14,
         .weight = 480,
         .description = COMPOUND_STRING(
@@ -14084,7 +13954,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Lickitung"),
         .cryId = CRY_LICKITUNG,
         .natDexNum = NATIONAL_DEX_LICKITUNG,
-        .categoryName = _("Licking"),
+        .categoryName = _("LECHEUR"),
         .height = 12,
         .weight = 655,
         .description = COMPOUND_STRING(
@@ -14131,7 +14001,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_LICKILICKY, CONDITIONS({IF_KNOWS_MOVE, MOVE_ROLLOUT})}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_LICKILICKY] =
     {
@@ -14237,7 +14106,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Koffing"),
         .cryId = CRY_KOFFING,
         .natDexNum = NATIONAL_DEX_KOFFING,
-        .categoryName = _("Poison Gas"),
+        .categoryName = _("GAZ MORTEL"),
         .height = 6,
         .weight = 10,
         .description = COMPOUND_STRING(
@@ -14287,7 +14156,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_WEEZING, CONDITIONS({IF_NOT_REGION, REGION_GALAR})},
                                 {EVO_LEVEL, 35, SPECIES_WEEZING_GALAR, CONDITIONS({IF_REGION, REGION_GALAR})}),
     },
-
     [SPECIES_WEEZING] =
     {
         .baseHP        = 65,
@@ -14316,7 +14184,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Weezing"),
         .cryId = CRY_WEEZING,
         .natDexNum = NATIONAL_DEX_WEEZING,
-        .categoryName = _("Poison Gas"),
+        .categoryName = _("GAZ MORTEL"),
         .height = 12,
         .weight = 95,
         .description = COMPOUND_STRING(
@@ -14364,7 +14232,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sWeezingTeachableLearnset,
         .formSpeciesIdTable = sWeezingFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_WEEZING_GALAR] =
     {
@@ -14390,7 +14257,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Weezing"),
         .cryId = CRY_WEEZING,
         .natDexNum = NATIONAL_DEX_WEEZING,
-        .categoryName = _("Poison Gas"),
+        .categoryName = _("GAZ MORTEL"),
         .height = 30,
         .weight = 160,
         .description = COMPOUND_STRING(
@@ -14459,7 +14326,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Rhyhorn"),
         .cryId = CRY_RHYHORN,
         .natDexNum = NATIONAL_DEX_RHYHORN,
-        .categoryName = _("Spikes"),
+        .categoryName = _("PIQUANT"),
         .height = 10,
         .weight = 1150,
         .description = COMPOUND_STRING(
@@ -14520,7 +14387,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sRhyhornEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_RHYDON}),
     },
-
     [SPECIES_RHYDON] =
     {
         .baseHP        = 105,
@@ -14543,7 +14409,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Rhydon"),
         .cryId = CRY_RHYDON,
         .natDexNum = NATIONAL_DEX_RHYDON,
-        .categoryName = _("Drill"),
+        .categoryName = _("PERCEUR"),
         .height = 19,
         .weight = 1200,
         .description = COMPOUND_STRING(
@@ -14603,7 +14469,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_PROTECTOR, SPECIES_RHYPERIOR}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_RHYPERIOR] =
     {
@@ -14792,7 +14657,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Chansey"),
         .cryId = CRY_CHANSEY,
         .natDexNum = NATIONAL_DEX_CHANSEY,
-        .categoryName = _("Egg"),
+        .categoryName = _("OEUF"),
         .height = 11,
         .weight = 346,
         .description = COMPOUND_STRING(
@@ -14840,7 +14705,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_BLISSEY, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD})}),
     #endif
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_BLISSEY] =
     {
@@ -14871,7 +14735,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Blissey"),
         .cryId = CRY_BLISSEY,
         .natDexNum = NATIONAL_DEX_BLISSEY,
-        .categoryName = _("Happiness"),
+        .categoryName = _("BONHEUR"),
         .height = 15,
         .weight = 468,
         .description = COMPOUND_STRING(
@@ -14945,7 +14809,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tangela"),
         .cryId = CRY_TANGELA,
         .natDexNum = NATIONAL_DEX_TANGELA,
-        .categoryName = _("Vine"),
+        .categoryName = _("VIGNE"),
         .height = 10,
         .weight = 350,
         .description = COMPOUND_STRING(
@@ -14993,7 +14857,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_TANGROWTH, CONDITIONS({IF_KNOWS_MOVE, MOVE_ANCIENT_POWER})}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_TANGROWTH] =
     {
@@ -15102,7 +14965,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kangaskhan"),
         .cryId = CRY_KANGASKHAN,
         .natDexNum = NATIONAL_DEX_KANGASKHAN,
-        .categoryName = _("Parent"),
+        .categoryName = _("MATERNEL"),
         .height = 22,
         .weight = 800,
         .description = COMPOUND_STRING(
@@ -15150,7 +15013,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sKangaskhanFormSpeciesIdTable,
         .formChangeTable = sKangaskhanFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_KANGASKHAN_MEGA] =
     {
@@ -15178,7 +15040,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_KANGASKHAN,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_KANGASKHAN,
-        .categoryName = _("Parent"),
+        .categoryName = _("MATERNEL"),
         .height = 22,
         .weight = 1000,
         .description = COMPOUND_STRING(
@@ -15255,7 +15117,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Horsea"),
         .cryId = CRY_HORSEA,
         .natDexNum = NATIONAL_DEX_HORSEA,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 4,
         .weight = 80,
         .description = COMPOUND_STRING(
@@ -15303,7 +15165,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sHorseaEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_SEADRA}),
     },
-
     [SPECIES_SEADRA] =
     {
         .baseHP        = 55,
@@ -15332,7 +15193,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Seadra"),
         .cryId = CRY_SEADRA,
         .natDexNum = NATIONAL_DEX_SEADRA,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 12,
         .weight = 250,
         .description = COMPOUND_STRING(
@@ -15382,7 +15243,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA}),
     #endif
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_KINGDRA] =
     {
@@ -15419,7 +15279,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kingdra"),
         .cryId = CRY_KINGDRA,
         .natDexNum = NATIONAL_DEX_KINGDRA,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 18,
         .weight = 1520,
         .description = COMPOUND_STRING(
@@ -15492,7 +15352,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Goldeen"),
         .cryId = CRY_GOLDEEN,
         .natDexNum = NATIONAL_DEX_GOLDEEN,
-        .categoryName = _("Goldfish"),
+        .categoryName = _("POISSON"),
         .height = 6,
         .weight = 150,
         .description = COMPOUND_STRING(
@@ -15557,7 +15417,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sGoldeenEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_SEAKING}),
     },
-
     [SPECIES_SEAKING] =
     {
         .baseHP        = 80,
@@ -15581,7 +15440,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Seaking"),
         .cryId = CRY_SEAKING,
         .natDexNum = NATIONAL_DEX_SEAKING,
-        .categoryName = _("Goldfish"),
+        .categoryName = _("POISSON"),
         .height = 13,
         .weight = 390,
         .description = COMPOUND_STRING(
@@ -15668,7 +15527,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Staryu"),
         .cryId = CRY_STARYU,
         .natDexNum = NATIONAL_DEX_STARYU,
-        .categoryName = _("Star Shape"),
+        .categoryName = _("ETOILE"),
         .height = 8,
         .weight = 345,
         .description = COMPOUND_STRING(
@@ -15715,7 +15574,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sStaryuTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_STARMIE}),
     },
-
     [SPECIES_STARMIE] =
     {
         .baseHP        = 60,
@@ -15740,7 +15598,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Starmie"),
         .cryId = CRY_STARMIE,
         .natDexNum = NATIONAL_DEX_STARMIE,
-        .categoryName = _("Mysterious"),
+        .categoryName = _("MYSTERIEUX"),
         .height = 11,
         .weight = 800,
         .description = COMPOUND_STRING(
@@ -15788,7 +15646,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sStarmieFormSpeciesIdTable,
         .formChangeTable = sStarmieFormChangeTable,
     },
-
 #if P_GEN_9_MEGA_EVOLUTIONS
     [SPECIES_STARMIE_MEGA] =
     {
@@ -15818,7 +15675,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_STARMIE,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_STARMIE,
-        .categoryName = _("Mysterious"),
+        .categoryName = _("MYSTERIEUX"),
         .height = 23,
         .weight = 800,
         .description = COMPOUND_STRING(
@@ -15961,7 +15818,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Mr. Mime"),
         .cryId = CRY_MR_MIME,
         .natDexNum = NATIONAL_DEX_MR_MIME,
-        .categoryName = _("Barrier"),
+        .categoryName = _("BLOQUEUR"),
         .height = 13,
         .weight = 545,
         .description = COMPOUND_STRING(
@@ -16010,7 +15867,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sMrMimeEggMoveLearnset,
         .formSpeciesIdTable = sMrMimeFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_MR_MIME_GALAR] =
     {
@@ -16034,7 +15890,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Mr. Mime"),
         .cryId = CRY_MR_MIME,
         .natDexNum = NATIONAL_DEX_MR_MIME,
-        .categoryName = _("Dancing"),
+        .categoryName = _("BLOQUEUR"),
         .height = 14,
         .weight = 568,
         .description = COMPOUND_STRING(
@@ -16078,7 +15934,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sMrMimeFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_MR_RIME}),
     },
-
     [SPECIES_MR_RIME] =
     {
         .baseHP        = 80,
@@ -16171,7 +16026,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Scyther"),
         .cryId = CRY_SCYTHER,
         .natDexNum = NATIONAL_DEX_SCYTHER,
-        .categoryName = _("Mantis"),
+        .categoryName = _("MANTE"),
         .height = 15,
         .weight = 560,
         .description = COMPOUND_STRING(
@@ -16247,7 +16102,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                             ),
     #endif
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_SCIZOR] =
     {
@@ -16275,7 +16129,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Scizor"),
         .cryId = CRY_SCIZOR,
         .natDexNum = NATIONAL_DEX_SCIZOR,
-        .categoryName = _("Pincer"),
+        .categoryName = _("PINCE"),
         .height = 18,
         .weight = 1180,
         .description = COMPOUND_STRING(
@@ -16332,7 +16186,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sScizorFormSpeciesIdTable,
         .formChangeTable = sScizorFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_SCIZOR_MEGA] =
     {
@@ -16360,7 +16213,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_SCIZOR,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_SCIZOR,
-        .categoryName = _("Pincer"),
+        .categoryName = _("PINCE"),
         .height = 20,
         .weight = 1250,
         .description = COMPOUND_STRING(
@@ -16502,7 +16355,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Smoochum"),
         .cryId = CRY_SMOOCHUM,
         .natDexNum = NATIONAL_DEX_SMOOCHUM,
-        .categoryName = _("Kiss"),
+        .categoryName = _("BISOU"),
         .height = 4,
         .weight = 60,
         .description = COMPOUND_STRING(
@@ -16576,7 +16429,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Jynx"),
         .cryId = CRY_JYNX,
         .natDexNum = NATIONAL_DEX_JYNX,
-        .categoryName = _("Human Shape"),
+        .categoryName = _("HUMANOIDE"),
         .height = 14,
         .weight = 406,
         .description = COMPOUND_STRING(
@@ -16650,7 +16503,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Elekid"),
         .cryId = CRY_ELEKID,
         .natDexNum = NATIONAL_DEX_ELEKID,
-        .categoryName = _("Electric"),
+        .categoryName = _("ELECTRIQUE"),
         .height = 6,
         .weight = 235,
         .description = COMPOUND_STRING(
@@ -16722,7 +16575,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Electabuzz"),
         .cryId = CRY_ELECTABUZZ,
         .natDexNum = NATIONAL_DEX_ELECTABUZZ,
-        .categoryName = _("Electric"),
+        .categoryName = _("ELECTRIQUE"),
         .height = 11,
         .weight = 300,
         .description = COMPOUND_STRING(
@@ -16772,7 +16625,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_ELECTIVIRE}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_ELECTIVIRE] =
     {
@@ -16876,7 +16728,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Magby"),
         .cryId = CRY_MAGBY,
         .natDexNum = NATIONAL_DEX_MAGBY,
-        .categoryName = _("Live Coal"),
+        .categoryName = _("CHARBON"),
         .height = 7,
         .weight = 214,
         .description = COMPOUND_STRING(
@@ -16948,7 +16800,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Magmar"),
         .cryId = CRY_MAGMAR,
         .natDexNum = NATIONAL_DEX_MAGMAR,
-        .categoryName = _("Spitfire"),
+        .categoryName = _("CRACHE-FEU"),
         .height = 13,
         .weight = 445,
         .description = COMPOUND_STRING(
@@ -16995,7 +16847,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_MAGMARIZER, SPECIES_MAGMORTAR}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_MAGMORTAR] =
     {
@@ -17100,7 +16951,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Pinsir"),
         .cryId = CRY_PINSIR,
         .natDexNum = NATIONAL_DEX_PINSIR,
-        .categoryName = _("Stag Beetle"),
+        .categoryName = _("SCARABEE"),
         .height = 15,
         .weight = 550,
         .description = COMPOUND_STRING(
@@ -17149,7 +17000,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sPinsirFormSpeciesIdTable,
         .formChangeTable = sPinsirFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_PINSIR_MEGA] =
     {
@@ -17177,7 +17027,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_PINSIR,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_PINSIR,
-        .categoryName = _("Stag Beetle"),
+        .categoryName = _("SCARABEE"),
         .height = 17,
         .weight = 590,
         .description = COMPOUND_STRING(
@@ -17255,7 +17105,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tauros"),
         .cryId = CRY_TAUROS,
         .natDexNum = NATIONAL_DEX_TAUROS,
-        .categoryName = _("Wild Bull"),
+        .categoryName = _("BUFFLE"),
         .height = 14,
         .weight = 884,
         .description = COMPOUND_STRING(
@@ -17302,7 +17152,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sTaurosTeachableLearnset,
         .formSpeciesIdTable = sTaurosFormSpeciesIdTable,
     },
-
 #if P_PALDEAN_FORMS
     [SPECIES_TAUROS_PALDEA_COMBAT] =
     {
@@ -17326,7 +17175,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tauros"),
         .cryId = CRY_TAUROS,
         .natDexNum = NATIONAL_DEX_TAUROS,
-        .categoryName = _("Wild Bull"),
+        .categoryName = _("BUFFLE"),
         .height = 14,
         .weight = 1150,
         .description = COMPOUND_STRING(
@@ -17369,7 +17218,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sTaurosPaldeaCombatEggMoveLearnset,
         .formSpeciesIdTable = sTaurosFormSpeciesIdTable,
     },
-
     [SPECIES_TAUROS_PALDEA_BLAZE] =
     {
         .baseHP        = 75,
@@ -17392,7 +17240,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tauros"),
         .cryId = CRY_TAUROS,
         .natDexNum = NATIONAL_DEX_TAUROS,
-        .categoryName = _("Wild Bull"),
+        .categoryName = _("BUFFLE"),
         .height = 14,
         .weight = 850,
         .description = COMPOUND_STRING(
@@ -17435,7 +17283,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sTaurosPaldeaBlazeEggMoveLearnset,
         .formSpeciesIdTable = sTaurosFormSpeciesIdTable,
     },
-
     [SPECIES_TAUROS_PALDEA_AQUA] =
     {
         .baseHP        = 75,
@@ -17458,7 +17305,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Tauros"),
         .cryId = CRY_TAUROS,
         .natDexNum = NATIONAL_DEX_TAUROS,
-        .categoryName = _("Wild Bull"),
+        .categoryName = _("BUFFLE"),
         .height = 14,
         .weight = 1100,
         .description = COMPOUND_STRING(
@@ -17527,7 +17374,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Magikarp"),
         .cryId = CRY_MAGIKARP,
         .natDexNum = NATIONAL_DEX_MAGIKARP,
-        .categoryName = _("Fish"),
+        .categoryName = _("POISSON"),
         .height = 9,
         .weight = 100,
         .description = COMPOUND_STRING(
@@ -17592,7 +17439,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMagikarpTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_GYARADOS}),
     },
-
     [SPECIES_GYARADOS] =
     {
         .baseHP        = 95,
@@ -17615,7 +17461,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Gyarados"),
         .cryId = CRY_GYARADOS,
         .natDexNum = NATIONAL_DEX_GYARADOS,
-        .categoryName = _("Atrocious"),
+        .categoryName = _("TERRIFIANT"),
         .height = 65,
         .weight = 2350,
         .description = COMPOUND_STRING(
@@ -17674,7 +17520,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sGyaradosFormSpeciesIdTable,
         .formChangeTable = sGyaradosFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_GYARADOS_MEGA] =
     {
@@ -17702,7 +17547,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_GYARADOS,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_GYARADOS,
-        .categoryName = _("Atrocious"),
+        .categoryName = _("TERRIFIANT"),
         .height = 65,
         .weight = 3050,
         .description = COMPOUND_STRING(
@@ -17776,7 +17621,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Lapras"),
         .cryId = CRY_LAPRAS,
         .natDexNum = NATIONAL_DEX_LAPRAS,
-        .categoryName = _("Transport"),
+        .categoryName = _("TRANSPORT"),
         .height = 25,
         .weight = 2200,
         .description = COMPOUND_STRING(
@@ -17822,7 +17667,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sLaprasFormSpeciesIdTable,
         .formChangeTable = sLaprasFormChangeTable,
     },
-
 #if P_GIGANTAMAX_FORMS
     [SPECIES_LAPRAS_GMAX] =
     {
@@ -17848,7 +17692,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Lapras"),
         .cryId = CRY_LAPRAS,
         .natDexNum = NATIONAL_DEX_LAPRAS,
-        .categoryName = _("Transport"),
+        .categoryName = _("TRANSPORT"),
         .height = 240,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -17911,7 +17755,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Ditto"),
         .cryId = CRY_DITTO,
         .natDexNum = NATIONAL_DEX_DITTO,
-        .categoryName = _("Transform"),
+        .categoryName = _("MORPHING"),
         .height = 3,
         .weight = 40,
         .description = COMPOUND_STRING(
@@ -17990,7 +17834,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Eevee"),
         .cryId = CRY_EEVEE,
         .natDexNum = NATIONAL_DEX_EEVEE,
-        .categoryName = _("Evolution"),
+        .categoryName = _("EVOLUTIF"),
         .height = 3,
         .weight = 65,
         .description = gEeveePokedexText,
@@ -18062,7 +17906,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                             #endif
                             ),
     },
-
 #if P_GIGANTAMAX_FORMS
     [SPECIES_EEVEE_GMAX] =
     {
@@ -18086,7 +17929,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Eevee"),
         .cryId = CRY_EEVEE,
         .natDexNum = NATIONAL_DEX_EEVEE,
-        .categoryName = _("Evolution"),
+        .categoryName = _("EVOLUTIF"),
         .height = 180,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -18145,7 +17988,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Eevee"),
         .cryId = CRY_EEVEE,
         .natDexNum = NATIONAL_DEX_EEVEE,
-        .categoryName = _("Evolution"),
+        .categoryName = _("EVOLUTIF"),
         .height = 3,
         .weight = 65,
         .description = gEeveePokedexText,
@@ -18198,7 +18041,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sEeveeEggMoveLearnset,
         .formSpeciesIdTable = sEeveeFormSpeciesIdTable,
     },
-
     [SPECIES_VAPOREON] =
     {
         .baseHP        = 130,
@@ -18221,7 +18063,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Vaporeon"),
         .cryId = CRY_VAPOREON,
         .natDexNum = NATIONAL_DEX_VAPOREON,
-        .categoryName = _("Bubble Jet"),
+        .categoryName = _("BULLEUR"),
         .height = 10,
         .weight = 290,
         .description = COMPOUND_STRING(
@@ -18264,7 +18106,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sVaporeonLevelUpLearnset,
         .teachableLearnset = sVaporeonTeachableLearnset,
     },
-
     [SPECIES_JOLTEON] =
     {
         .baseHP        = 65,
@@ -18287,7 +18128,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Jolteon"),
         .cryId = CRY_JOLTEON,
         .natDexNum = NATIONAL_DEX_JOLTEON,
-        .categoryName = _("Lightning"),
+        .categoryName = _("ORAGE"),
         .height = 8,
         .weight = 245,
         .description = COMPOUND_STRING(
@@ -18330,7 +18171,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sJolteonLevelUpLearnset,
         .teachableLearnset = sJolteonTeachableLearnset,
     },
-
     [SPECIES_FLAREON] =
     {
         .baseHP        = 65,
@@ -18353,7 +18193,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Flareon"),
         .cryId = CRY_FLAREON,
         .natDexNum = NATIONAL_DEX_FLAREON,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 9,
         .weight = 250,
         .description = COMPOUND_STRING(
@@ -18396,7 +18236,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sFlareonLevelUpLearnset,
         .teachableLearnset = sFlareonTeachableLearnset,
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_ESPEON] =
     {
@@ -18420,7 +18259,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Espeon"),
         .cryId = CRY_ESPEON,
         .natDexNum = NATIONAL_DEX_ESPEON,
-        .categoryName = _("Sun"),
+        .categoryName = _("SOLEIL"),
         .height = 9,
         .weight = 265,
         .description = COMPOUND_STRING(
@@ -18464,7 +18303,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sEspeonLevelUpLearnset,
         .teachableLearnset = sEspeonTeachableLearnset,
     },
-
     [SPECIES_UMBREON] =
     {
         .baseHP        = 95,
@@ -18487,7 +18325,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Umbreon"),
         .cryId = CRY_UMBREON,
         .natDexNum = NATIONAL_DEX_UMBREON,
-        .categoryName = _("Moonlight"),
+        .categoryName = _("LUNE"),
         .height = 10,
         .weight = 270,
         .description = COMPOUND_STRING(
@@ -18766,7 +18604,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Porygon"),
         .cryId = CRY_PORYGON,
         .natDexNum = NATIONAL_DEX_PORYGON,
-        .categoryName = _("Virtual"),
+        .categoryName = _("VIRTUEL"),
         .height = 8,
         .weight = 365,
         .description = COMPOUND_STRING(
@@ -18815,7 +18653,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_UPGRADE, SPECIES_PORYGON2}),
     #endif
     },
-
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_PORYGON2] =
     {
@@ -18843,7 +18680,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Porygon2"),
         .cryId = CRY_PORYGON2,
         .natDexNum = NATIONAL_DEX_PORYGON2,
-        .categoryName = _("Virtual"),
+        .categoryName = _("VIRTUEL"),
         .height = 6,
         .weight = 325,
         .description = COMPOUND_STRING(
@@ -18894,7 +18731,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
                                 {EVO_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z}),
     #endif
     },
-
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_PORYGON_Z] =
     {
@@ -19003,7 +18839,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Omanyte"),
         .cryId = CRY_OMANYTE,
         .natDexNum = NATIONAL_DEX_OMANYTE,
-        .categoryName = _("Spiral"),
+        .categoryName = _("SPIRALE"),
         .height = 4,
         .weight = 75,
         .description = COMPOUND_STRING(
@@ -19054,7 +18890,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sOmanyteEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_OMASTAR}),
     },
-
     [SPECIES_OMASTAR] =
     {
         .baseHP        = 70,
@@ -19077,7 +18912,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Omastar"),
         .cryId = CRY_OMASTAR,
         .natDexNum = NATIONAL_DEX_OMASTAR,
-        .categoryName = _("Spiral"),
+        .categoryName = _("SPIRALE"),
         .height = 10,
         .weight = 350,
         .description = COMPOUND_STRING(
@@ -19153,7 +18988,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kabuto"),
         .cryId = CRY_KABUTO,
         .natDexNum = NATIONAL_DEX_KABUTO,
-        .categoryName = _("Shellfish"),
+        .categoryName = _("CARAPACE"),
         .height = 5,
         .weight = 115,
         .description = COMPOUND_STRING(
@@ -19204,7 +19039,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sKabutoEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_KABUTOPS}),
     },
-
     [SPECIES_KABUTOPS] =
     {
         .baseHP        = 60,
@@ -19233,7 +19067,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Kabutops"),
         .cryId = CRY_KABUTOPS,
         .natDexNum = NATIONAL_DEX_KABUTOPS,
-        .categoryName = _("Shellfish"),
+        .categoryName = _("CARAPACE"),
         .height = 13,
         .weight = 405,
         .description = COMPOUND_STRING(
@@ -19303,7 +19137,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Aerodactyl"),
         .cryId = CRY_AERODACTYL,
         .natDexNum = NATIONAL_DEX_AERODACTYL,
-        .categoryName = _("Fossil"),
+        .categoryName = _("FOSSILE"),
         .height = 18,
         .weight = 590,
         .description = COMPOUND_STRING(
@@ -19352,7 +19186,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sAerodactylFormSpeciesIdTable,
         .formChangeTable = sAerodactylFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_AERODACTYL_MEGA] =
     {
@@ -19380,7 +19213,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_AERODACTYL,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_AERODACTYL,
-        .categoryName = _("Fossil"),
+        .categoryName = _("FOSSILE"),
         .height = 21,
         .weight = 790,
         .description = COMPOUND_STRING(
@@ -19527,7 +19360,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Snorlax"),
         .cryId = CRY_SNORLAX,
         .natDexNum = NATIONAL_DEX_SNORLAX,
-        .categoryName = _("Sleeping"),
+        .categoryName = _("PIONCEUR"),
         .height = 21,
         .weight = 4600,
         .description = COMPOUND_STRING(
@@ -19574,7 +19407,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sSnorlaxFormSpeciesIdTable,
         .formChangeTable = sSnorlaxFormChangeTable,
     },
-
 #if P_GIGANTAMAX_FORMS
     [SPECIES_SNORLAX_GMAX] =
     {
@@ -19600,7 +19432,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Snorlax"),
         .cryId = CRY_SNORLAX,
         .natDexNum = NATIONAL_DEX_SNORLAX,
-        .categoryName = _("Sleeping"),
+        .categoryName = _("PIONCEUR"),
         .height = 350,
         .weight = 0,
         .description = COMPOUND_STRING(
@@ -19667,7 +19499,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Articuno"),
         .cryId = CRY_ARTICUNO,
         .natDexNum = NATIONAL_DEX_ARTICUNO,
-        .categoryName = _("Freeze"),
+        .categoryName = _("GLACIAIRE"),
         .height = 17,
         .weight = 554,
         .description = COMPOUND_STRING(
@@ -19716,7 +19548,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sArticunoTeachableLearnset,
         .formSpeciesIdTable = sArticunoFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_ARTICUNO_GALAR] =
     {
@@ -19740,7 +19571,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Articuno"),
         .cryId = CRY_ARTICUNO,
         .natDexNum = NATIONAL_DEX_ARTICUNO,
-        .categoryName = _("Cruel"),
+        .categoryName = _("GLACIAIRE"),
         .height = 17,
         .weight = 509,
         .description = COMPOUND_STRING(
@@ -19821,7 +19652,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Zapdos"),
         .cryId = CRY_ZAPDOS,
         .natDexNum = NATIONAL_DEX_ZAPDOS,
-        .categoryName = _("Electric"),
+        .categoryName = _("ELECTRIQUE"),
         .height = 16,
         .weight = 526,
         .description = COMPOUND_STRING(
@@ -19870,7 +19701,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sZapdosTeachableLearnset,
         .formSpeciesIdTable = sZapdosFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_ZAPDOS_GALAR] =
     {
@@ -19894,7 +19724,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Zapdos"),
         .cryId = CRY_ZAPDOS,
         .natDexNum = NATIONAL_DEX_ZAPDOS,
-        .categoryName = _("Strong Legs"),
+        .categoryName = _("ELECTRIQUE"),
         .height = 16,
         .weight = 582,
         .description = COMPOUND_STRING(
@@ -19970,7 +19800,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Moltres"),
         .cryId = CRY_MOLTRES,
         .natDexNum = NATIONAL_DEX_MOLTRES,
-        .categoryName = _("Flame"),
+        .categoryName = _("FLAMME"),
         .height = 20,
         .weight = 600,
         .description = COMPOUND_STRING(
@@ -20047,7 +19877,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMoltresTeachableLearnset,
         .formSpeciesIdTable = sMoltresFormSpeciesIdTable,
     },
-
 #if P_GALARIAN_FORMS
     [SPECIES_MOLTRES_GALAR] =
     {
@@ -20071,7 +19900,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Moltres"),
         .cryId = CRY_MOLTRES,
         .natDexNum = NATIONAL_DEX_MOLTRES,
-        .categoryName = _("Malevolent"),
+        .categoryName = _("FLAMME"),
         .height = 20,
         .weight = 660,
         .description = COMPOUND_STRING(
@@ -20142,7 +19971,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dratini"),
         .cryId = CRY_DRATINI,
         .natDexNum = NATIONAL_DEX_DRATINI,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 18,
         .weight = 33,
         .description = COMPOUND_STRING(
@@ -20188,7 +20017,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sDratiniEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_DRAGONAIR}),
     },
-
     [SPECIES_DRAGONAIR] =
     {
         .baseHP        = 61,
@@ -20212,7 +20040,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dragonair"),
         .cryId = CRY_DRAGONAIR,
         .natDexNum = NATIONAL_DEX_DRAGONAIR,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 40,
         .weight = 165,
         .description = COMPOUND_STRING(
@@ -20258,7 +20086,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sDragonairTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_DRAGONITE}),
     },
-
     [SPECIES_DRAGONITE] =
     {
         .baseHP        = 91,
@@ -20288,7 +20115,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Dragonite"),
         .cryId = CRY_DRAGONITE,
         .natDexNum = NATIONAL_DEX_DRAGONITE,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 22,
         .weight = 2100,
         .description = COMPOUND_STRING(
@@ -20335,7 +20162,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sDragoniteFormSpeciesIdTable,
         .formChangeTable = sDragoniteFormChangeTable,
     },
-
 #if P_GEN_9_MEGA_EVOLUTIONS
     [SPECIES_DRAGONITE_MEGA] =
     {
@@ -20364,7 +20190,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_DRAGONITE,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_DRAGONITE,
-        .categoryName = _("Dragon"),
+        .categoryName = _("DRAGON"),
         .height = 22,
         .weight = 2900,
         .description = COMPOUND_STRING(
@@ -20426,7 +20252,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Mewtwo"),
         .cryId = CRY_MEWTWO,
         .natDexNum = NATIONAL_DEX_MEWTWO,
-        .categoryName = _("Genetic"),
+        .categoryName = _("GENETIQUE"),
         .height = 20,
         .weight = 1220,
         .description = COMPOUND_STRING(
@@ -20474,7 +20300,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sMewtwoFormSpeciesIdTable,
         .formChangeTable = sMewtwoFormChangeTable,
     },
-
 #if P_MEGA_EVOLUTIONS
     [SPECIES_MEWTWO_MEGA_X] =
     {
@@ -20502,7 +20327,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_MEWTWO,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_MEWTWO,
-        .categoryName = _("Genetic"),
+        .categoryName = _("GENETIQUE"),
         .height = 23,
         .weight = 1270,
         .description = COMPOUND_STRING(
@@ -20550,7 +20375,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .formSpeciesIdTable = sMewtwoFormSpeciesIdTable,
         .formChangeTable = sMewtwoFormChangeTable,
     },
-
     [SPECIES_MEWTWO_MEGA_Y] =
     {
         .baseHP        = 106,
@@ -20577,7 +20401,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .cryId = CRY_MEWTWO,
     #endif // P_MODIFIED_MEGA_CRIES
         .natDexNum = NATIONAL_DEX_MEWTWO,
-        .categoryName = _("Genetic"),
+        .categoryName = _("GENETIQUE"),
         .height = 15,
         .weight = 330,
         .description = COMPOUND_STRING(
@@ -20660,7 +20484,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .speciesName = _("Mew"),
         .cryId = CRY_MEW,
         .natDexNum = NATIONAL_DEX_MEW,
-        .categoryName = _("New Species"),
+        .categoryName = _("NOUVEAU"),
         .height = 4,
         .weight = 40,
         .description = COMPOUND_STRING(

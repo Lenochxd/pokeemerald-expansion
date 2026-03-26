@@ -944,52 +944,53 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "MOM: {PLAYER}, we're here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let's go inside.$"
+	.string "MAMAN: {PLAYER}, nous y sommes chaton !\p"
+	.string "C'était long et périlleux, mais\n"
+	.string "c'est enfin fini.\p"
+	.string "Eh beh, on est enfin à GIBOUNET.\p"
+	.string "T'aimes bien ?\n"
+	.string "C'est ici qu'on va habiter !\p"
+	.string "C'est sûr que ça change d'ILLUMIS,\n"
+	.string "mais je pense qu'on va s'y habituer !\p"
+	.string "T'as même ta propre chambre maintenant !\n"
+	.string "Allez, rentrons.$"
 
 LittlerootTown_Text_WaitPlayer:
-	.string "MOM: Wait, {PLAYER}!$"
+	.string "MAMAN: Attend, {PLAYER}!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They'll put a zip in your step!$"
+	.string "MAMAN: {PLAYER}! {PLAYER}! Tu t'es\n"
+	.string "introduit au PROF. POMMIER ?\p"
+	.string "Oh ! Il est choupi ce POKéMON !\n"
+	.string "C'est le PROF. POMMIER qui t'la filé ?\p"
+	.string "Il est bon, il est bon.\n"
+	.string "Vous faites la paire toi et ton POKé !\p"
+	.string "Si tu veux partir à l'aventure,\n"
+	.string "prend ces CHAUSSURES DE COURSE.\p"
+	.string "Tu vas tout déchirer !$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "RUNNING SHOES.$"
+	.string "{PLAYER} a enfilé les\n"
+	.string "CHAUSSURES DE COURSE.$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "MOM: {PLAYER}, those shoes came with\n"
-	.string "instructions.\p"
-	.string "“Press the B Button while wearing these\n"
-	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
-	.string "in the great outdoors!”$"
+	.string "MAMAN: {PLAYER}, ces shoes ont\n"
+	.string "des instructions.\p"
+	.string "“Appuyez sur le bouton B pour\n"
+	.string "accélerer avec les CHAUSSURES DE COURSE!\p"
+	.string "“Les CHAUSSURES DE COURSE\n"
+	.string "vous mettront à bout de souffle !”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "To think that you have your very own\n"
-	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+	.string "Le fait que t'aies ton propre\n"
+	.string "POKéMON maintenant…\l"
+	.string "Tu vas être parmi les meilleurs dresseurs !\p"
+	.string "…Mais attention, ok ?\n"
+	.string "Si quelque chose se passe, tu peux\p"
+	.string "revenir quand tu veux !\n"
+	.string "Allez, va attraper ces bestioles !$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "Si tu utilises un PC, tu peux stocker des\n"
@@ -1006,11 +1007,11 @@ LittlerootTown_Text_BirchSpendsDaysInLab:
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
 	.string "Si tu vas dans l'herbe,\n"
-	.string "des POKéMON sauvages vont t'agresser !$"
+	.string "des POKéMONS sauvages vont t'agresser !$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "C'est très dangereux si tu n'as pas\n"
-	.string "tes propres POKéMON.$"
+	.string "tes propres POKéMONS.$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Euh, salut !\p"

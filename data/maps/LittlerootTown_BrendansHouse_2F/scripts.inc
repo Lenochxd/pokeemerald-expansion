@@ -271,29 +271,32 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "L'horloge est arrêtée…\p"
+	.string "Il vaudrait mieux la mettre à l'heure!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "MOM: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "MAMAN: {PLAYER}, ta nouvelle chambre\n"
+	.string "te plaît?\p"
+	.string "Excellent! Tout est bien rangé!\p"
+	.string "Ils ont aussi fini de tout mettre en\n"
+	.string "place en bas.\p"
+	.string "Ces déménageurs POKéMON sont\n"
+	.string "vraiment très pratiques!\p"
+	.string "Oh, assure-toi que tes affaires se\n"
+	.string "trouvent bien sur ton bureau.$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} ouvre le carnet.\p"
-	.string "RÈGLE D'AVENTURE NO. 1\n"
-	.string "Ouvre le MENU avec START.\p"
-	.string "RÈGLE D'AVENTURE NO. 2\n"
-	.string "Enregistre ta progression avec SAVE.\p"
-	.string "Les pages restantes sont vierges…$"
+	.string "{PLAYER} ouvre le cahier.\p"
+	.string "REGLE Nº 1\n"
+	.string "Ouvrez le MENU en appuyant sur START.\p"
+	.string "REGLE Nº 2\n"
+	.string "Sauvegardez en choisissant SAUVER.\p"
+	.string "Les pages suivantes sont vierges…$"
+
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} regarde la carte de {REGION}$"
+	.string "{PLAYER} regarde attentivement la\n"
+	.string "carte de la région de {REGION}.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
 	.string "C'est une Nintendo GameCube.\p"

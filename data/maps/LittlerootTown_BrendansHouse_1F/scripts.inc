@@ -353,32 +353,33 @@ PlayersHouse_1F_Text_IsThatAPokenav:
 	.string "… … …$"
 
 PlayersHouse_1F_Text_RegisteredMom:
-	.string "Registered MOM\n"
-	.string "in the POKéNAV.$"
+	.string "Vous avez enregistré MAMAN\n"
+	.string "dans le POKéNAV.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
-	.string "Fugiiiiih!$"
+	.string "Gorooooh…$"
 
 PlayersHouse_1F_Text_Vigoroth2:
-	.string "Huggoh, uggo uggo…$"
+	.string "Vigooooh…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "JOURNALISTE: … Ce reportage vous a été\n"
+	.string "présenté devant l'ARENE de CLEMENTI.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-	.string "There is a movie on TV.\p"
-	.string "Two men are dancing on a big piano\n"
-	.string "keyboard.\p"
-	.string "Better get going!$"
+	.string "Il y a un film à la télé.\p"
+	.string "Deux hommes dansent sur un\n"
+	.string "grand piano.\p"
+	.string "Bon, il faut y aller!$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-	.string "It's the instruction booklet for the\n"
-	.string "RUNNING SHOES.\p"
-	.string "“Press the B Button to run while\n"
-	.string "wearing your RUNNING SHOES.\p"
-	.string "“Lace up your RUNNING SHOES and hit\n"
-	.string "the road running!”$"
+	.string "C'est le manuel d'instructions des\n"
+	.string "CHAUSSURES DE SPORT.\p"
+	.string "“Lorsque vous portez vos CHAUSSURES\n"
+	.string "DE SPORT, appuyez sur le bouton B\l"
+	.string "pour courir.“\p"
+	.string "“Enfilez vos CHAUSSURES DE SPORT\n"
+	.string "et foncez droit devant!“$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "DAD: Hm?\p"
@@ -408,24 +409,24 @@ PlayersHouse_1F_Text_DadShouldStayLonger:
 	.string "He should relax and stay a little longer.$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
-	.string "MOM: Is that a breaking news story?$"
+	.string "MAMAN: C'est un scoop?$"
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
-	.string "We bring you this emergency\n"
-	.string "news flash!\p"
-	.string "In various HOENN locales, there have\n"
-	.string "been reports of a BZZT…colored\l"
-	.string "POKéMON in flight.\p"
-	.string "The identity of this POKéMON is\n"
-	.string "currently unknown.\p"
-	.string "We now return you to the regular\n"
-	.string "movie program.$"
+	.string "Et voici un bulletin spécial\n"
+	.string "d'informations.\p"
+	.string "Selon des témoignages, un POKéMON\n"
+	.string "VOLANT de couleur BZZT… a été\l"
+	.string "aperçu à plusieurs endroits dans HOENN.\p"
+	.string "L'identité de ce POKéMON n'a pas encore\n"
+	.string "été déterminée.\p"
+	.string "Et maintenant, voici votre film du soir\n"
+	.string "en exclusivité.$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
-	.string "MOM: {PLAYER}, did you catch that?\p"
-	.string "What color did the announcer say\n"
-	.string "that POKéMON was?$"
+	.string "MAMAN: {PLAYER}, tu as compris?\p"
+	.string "Qu'est-ce qu'ils ont dit à propos de la\n"
+	.string "couleur de ce POKéMON?$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
-	.string "MOM: Well, isn't that something!\n"
-	.string "There are still unknown POKéMON.$"
+	.string "MAMAN: Dire qu'il reste encore des\n"
+	.string "POKéMON inconnus à notre époque!$"

@@ -1,9 +1,9 @@
 // fallback
 const u8 gFallbackPokedexText[] = _(
-    "This is a newly discovered Pokémon.\n"
-    "It is currently under investigation.\n"
-    "No detailed information is available\n"
-    "at this time.");
+    "Il s'agit d'un POKéMON découvert \n"
+    "récemment. Des études le concernant\n"
+    "sont en cours. Aucune information\n"
+    "détaillée n'est disponible.");
 
 // Gen 1 families
 const u8 gRaticateAlolaPokedexText[] = _(
@@ -13,16 +13,16 @@ const u8 gRaticateAlolaPokedexText[] = _(
     "over food happen often.");
 
 const u8 gPichuPokedexText[] = _(
-    "It is still inept at retaining electricity.\n"
-    "When it is startled, it discharges power\n"
-    "accidentally. It gets better at holding\n"
-    "power as it grows older.");
+    "Il est incapable de retenir l'électricité en\n"
+    "lui et en relâche accidentellement quand\n"
+    "il s'agite. Il progresse dans ce domaine en\n"
+    "grandissant.$\n");
 
 const u8 gPikachuPokedexText[] = _(
-    "It stores electricity in the electric sacs\n"
-    "on its cheeks. When it releases pent-up\n"
-    "energy in a burst, the electric power is\n"
-    "equal to a lightning bolt.");
+    "Il stocke de l'électricité dans les poches\n"
+    "de ses joues. Quand il relâche d'un coup\n"
+    "toute l'énergie accumulée, la puissance\n"
+    "électrique équivaut à celle d'un éclair.$\n");
 
 const u8 gMarowakAlolaPokedexText[] = _(
     "The cursed flames that light up the bone\n"
@@ -31,17 +31,17 @@ const u8 gMarowakAlolaPokedexText[] = _(
     "pain that will never fade.");
 
 const u8 gEeveePokedexText[] = _(
-    "An Eevee has an unstable genetic makeup\n"
-    "that suddenly mutates due to its\n"
-    "environment. Radiation from various\n"
-    "Stones causes this Pokémon to evolve.");
+    "EVOLI a une structure génétique instable\n"
+    "qui se transforme en fonction de son\n"
+    "environnement. Il évolue grâce aux\n"
+    "radiations de diverses PIERRES.$\n");
 
 // Gen 2 families
 const u8 gUnownPokedexText[] = _(
-    "This Pokémon is shaped like ancient text\n"
-    "characters. Although research is ongoing,\n"
-    "it is a mystery as to which came first,\n"
-    "the ancient writings or the various Unown.");
+    "Il a la forme d'un caractère d'écriture\n"
+    "antique. On ne sait pas si ces écritures\n"
+    "antiques sont apparues avant les ZARBI ou\n"
+    "le contraire. Des études sont en cours.$\n");
 
 // Gen 4 families
 const u8 gMothimPokedexText[] = _(

@@ -121,42 +121,28 @@ ProfileMan_Text_EasyChatExplanation:
 	.string "and you'll have your very own profile.$"
 
 ProfileMan_Text_LetsSeeItThen:
-	.string "Yes! Thank you!\n"
-	.string "So, let's see it, then.$"
+	.string "Oui! Merci!\nAlors, voyons ton profil!$"
 
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
-	.string "Oh, no, really?\p"
-	.string "I imagine someone like you would have\n"
-	.string "a wonderful profile…$"
+	.string "Oh non, vraiment?\pJ'imagine que quelqu'un comme toi\ndoit avoir un merveilleux profil…$"
 
 ProfileMan_Text_NotIntoItRightNow:
-	.string "Oh? You're not into it right now?\p"
-	.string "Well, anytime is good by me!$"
+	.string "Oh? Tu ne veux pas le faire maintenant?\pComme tu veux!$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "Hello there, TRAINER!\n"
-	.string "You've got a wonderful smile.$"
+	.string "Salut, DRESSEUR!\nQuel magnifique sourire tu as!$"
 
 ProfileMan_Text_MayISeeYourNewProfile:
-	.string "May I see your new profile?$"
+	.string "Puis-je voir ton nouveau profil?$"
 
 ProfileMan_Text_EvenBetterThanLastProfile:
-	.string "Yes! Thank you!\p"
-	.string "I hope it's even better than the profile\n"
-	.string "you showed me before.$"
+	.string "Oui! Merci!\pJ'espère que ce sera encore mieux que\nle profil que tu m'as déjà montré.$"
 
 ProfileMan_Text_LikeProfileWayItIs:
-	.string "Oh, you like your profile the way it is.\p"
-	.string "I don't blame you--it's a wonderful\n"
-	.string "profile the way it is now.$"
+	.string "Oh, tu aimes ton profil tel qu'il est.\pJe ne t'en blâme pas. C'est devenu un\ntrès bon profil.$"
 
 ProfileMan_Text_FantasticProfile:
-	.string "F-fantastic!\p"
-	.string "Your profile, it's wonderful!\n"
-	.string "It really says what you're about.\p"
-	.string "Why, anyone hearing this profile would\n"
-	.string "be captivated by you!\p"
-	.string "Thank you!$"
+	.string "F… Fantastique!\pTon profil est génial!\nIl révèle vraiment qui tu es.\pTu sais, en voyant ce profil, on est\nforcément captivé par toi!\pMerci!$"
 
 @ Unused
 ProfileMan_Text_YouKnowSecretSaying:

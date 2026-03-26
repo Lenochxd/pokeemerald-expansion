@@ -1,39 +1,21 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
-	.string "This move can be learned only\n"
-	.string "once. Is that okay?$"
+	.string "Cette capacité ne peut être\napprise qu'une fois, OK?$"
 
 MoveTutor_Text_SwaggerTeach:
-	.string "Heh! My POKéMON totally rules!\n"
-	.string "It's cooler than any POKéMON!\p"
-	.string "I was lipping off with a swagger in\n"
-	.string "my step like that when the CHAIRMAN\l"
-	.string "chewed me out.\p"
-	.string "That took the swagger out of my step.\p"
-	.string "If you'd like, I'll teach the move\n"
-	.string "SWAGGER to a POKéMON of yours.$"
+	.string "Hé! Mon POKéMON, c'est de la balle!\nC'est le plus cool de tous les POKéMON!\pL'autre jour, j'ai dit ça devant le\nPRESIDENT et je me suis fait\lremonter les bretelles.\pDu coup, j'essaie de me vanter un peu\nmoins.\pMais si tu veux, je peux apprendre\nVANTARDISE à un de tes POKéMON.$"
+
 
 MoveTutor_Text_SwaggerDeclined:
-	.string "What, no? Can't you get into\n"
-	.string "the spirit of things?$"
+	.string "Non? Alors toi, tu ne comprends\ncarrément rien aux POKéMON!$"
 
 MoveTutor_Text_SwaggerWhichMon:
-	.string "All right, which POKéMON wants to\n"
-	.string "learn how to SWAGGER?$"
+	.string "Cool. A quel POKéMON tu veux que\nj'enseigne VANTARDISE?$"
 
 MoveTutor_Text_SwaggerTaught:
-	.string "I'll just praise my POKéMON from now\n"
-	.string "on without the swagger.$"
+	.string "Dorénavant, je complimenterai mes\nPOKéMON et j'arrêterai de me vanter.$"
 
 MoveTutor_Text_RolloutTeach:
-	.string "Did you know that you can go from\n"
-	.string "here a long way in that direction\l"
-	.string "without changing direction?\p"
-	.string "I might even be able to roll\n"
-	.string "that way.\p"
-	.string "Do you think your POKéMON will\n"
-	.string "want to roll, too?\p"
-	.string "I can teach one the move ROLLOUT\n"
-	.string "if you'd like.$"
+	.string "Tu sais que si tu vas dans cette\ndirection, tu peux avancer longtemps\lsans avoir à tourner?\pJe suis sûr qu'on peut même y aller\nen roulant.\pTiens, tu crois que tes POKéMON\naimeraient rouler, eux aussi?\pJe pourrais enseigner ROULADE à\nl'un d'entre eux, si tu veux.$"
 
 MoveTutor_Text_RolloutDeclined:
 	.string "You don't need to be shy about it.\n"
