@@ -1935,9 +1935,9 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 # 994 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_Text_CanUsePCToStoreItems:
 # 995 "data/maps/LittlerootTown/scripts.pory"
-	.string "Si tu utilises un PC, tu peux stocker des objets\n"
+	.string "Si tu utilises un PC, tu peux stocker des\n"
 # 996 "data/maps/LittlerootTown/scripts.pory"
-	.string "et des POKéMON.\p"
+	.string "objets et des POKéMON.\p"
 # 997 "data/maps/LittlerootTown/scripts.pory"
 	.string "Le pouvoir de la science est stupéfiant !$"
 # 998 "data/maps/LittlerootTown/scripts.pory"
