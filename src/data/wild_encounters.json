@@ -37165,6 +37165,105 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_CAVE_NIGLOLAND",
+          "base_label": "gCaveNigloland",
+          "rock_smash_mons": {
+            "encounter_rate": 40,
+            "mons": [
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_SHUCKLE"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_SHUCKLE"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_SHUCKLE"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_SHUCKLE"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_SHUCKLE"
+              }
+            ]
+          },
+          "land_mons": {
+            "encounter_rate": 9,
+            "mons": [
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_MISDREAVUS"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_MISDREAVUS"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_MISDREAVUS"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_MISDREAVUS"
+              },
+              {
+                "min_level": 26,
+                "max_level": 28,
+                "species": "SPECIES_DUNSPARCE"
+              }
+            ]
+          }
         }
       ]
     },
