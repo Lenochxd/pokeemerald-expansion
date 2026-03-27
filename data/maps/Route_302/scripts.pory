@@ -1,0 +1,30 @@
+mapscripts Route_302_MapScripts {}
+
+
+script Route302_EventScript_Boy {
+	lockall
+	msgbox(format("Mon POKéMON est épuisé…\nJ'aurais du acheter une POTION…$"))
+	releaseall
+}
+
+
+script Route302_EventScript_Andrew {
+	trainerbattle_single(TRAINER_ANDREW, Route302_Text_AndrewIntro, Route302_Text_AndrewDefeated)
+	msgbox(Route302_Text_AndrewPostBattle, MSGBOX_AUTOCLOSE)
+	end
+}
+
+text Route302_Text_AndrewPostBattle {
+	"Argh, Tu m'as énervé…\n"
+	"Grrrrr…"
+}
+
+text Route302_Text_AndrewIntro {
+	"ARghh! Ma ligne de pêche s'est emmêlée !\n"
+	"Je deviens frustré et très méchant !\l"
+	"Et m*rde ! Jvais te tuer !"
+}
+
+text Route302_Text_AndrewDefeated {
+	"Va crever."
+}
