@@ -482,7 +482,8 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "CaveNigloland"
+    "CaveNigloland",
+    "CaveNigloland_2"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

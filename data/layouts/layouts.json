@@ -9448,12 +9448,23 @@
     {
       "id": "LAYOUT_CAVE_NIGLOLAND",
       "name": "CaveNigloland_Layout",
-      "width": 80,
-      "height": 37,
+      "width": 22,
+      "height": 45,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveNigloland/border.bin",
       "blockdata_filepath": "data/layouts/CaveNigloland/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_CAVE_NIGLOLAND_2",
+      "name": "CaveNigloland_2_Layout",
+      "width": 68,
+      "height": 45,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/CaveNigloland_2/border.bin",
+      "blockdata_filepath": "data/layouts/CaveNigloland_2/map.bin",
       "layout_version": "emerald"
     }
   ]
