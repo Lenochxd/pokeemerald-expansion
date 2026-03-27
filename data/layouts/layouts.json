@@ -9444,6 +9444,17 @@
       "border_filepath": "data/layouts/Route_304/border.bin",
       "blockdata_filepath": "data/layouts/Route_304/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_CAVE_NIGLOLAND",
+      "name": "CaveNigloland_Layout",
+      "width": 80,
+      "height": 37,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/CaveNigloland/border.bin",
+      "blockdata_filepath": "data/layouts/CaveNigloland/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

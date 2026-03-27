@@ -1757,3 +1757,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Route_304/scripts.inc"
 
 	.include "data/maps/PortDocil/scripts.inc"
+
+	.include "data/maps/CaveNigloland/scripts.inc"

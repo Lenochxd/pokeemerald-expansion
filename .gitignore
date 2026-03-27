@@ -1,3 +1,4 @@
+tools/*.jar
 *.exe
 *.o
 *.i
