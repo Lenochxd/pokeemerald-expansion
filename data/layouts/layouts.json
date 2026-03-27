@@ -9371,8 +9371,8 @@
     {
       "id": "LAYOUT_MATECIVILLE",
       "name": "Mateciville_Layout",
-      "width": 50,
-      "height": 46,
+      "width": 87,
+      "height": 45,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Mateciville/border.bin",

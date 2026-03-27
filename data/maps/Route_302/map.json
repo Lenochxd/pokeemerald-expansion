@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_MATECIVILLE",
-      "offset": 0,
+      "offset": -39,
       "direction": "down"
     }
   ],
