@@ -34,15 +34,7 @@
       "flag": "FLAG_ITEM_VICTORY_ROAD_1F_PP_UP"
     }
   ],
-  "warp_events": [
-    {
-      "x": 75,
-      "y": 39,
-      "elevation": 0,
-      "dest_map": "MAP_ROUTE_302",
-      "dest_warp_id": "0"
-    }
-  ],
+  "warp_events": [],
   "coord_events": [],
   "bg_events": []
 }
