@@ -9466,6 +9466,17 @@
       "border_filepath": "data/layouts/CaveNigloland_2/border.bin",
       "blockdata_filepath": "data/layouts/CaveNigloland_2/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_VILLE_GLACIER",
+      "name": "Ville_Glacier_Layout",
+      "width": 77,
+      "height": 41,
+      "primary_tileset": "gTileset_Gibounet",
+      "secondary_tileset": "gTileset_SeafoamIslands",
+      "border_filepath": "data/layouts/Ville_Glacier/border.bin",
+      "blockdata_filepath": "data/layouts/Ville_Glacier/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

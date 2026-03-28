@@ -1670,6 +1670,10 @@
     {
       "id": "MAPSEC_PORT_DOCIL",
       "name": "PORT-DOCIL"
+    },
+    {
+      "id": "MAPSEC_VILLE_GLACIER",
+      "name": "VILLE GLACIER"
     }
   ]
 }
