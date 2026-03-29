@@ -9329,7 +9329,7 @@
       "name": "Route305_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_Gibounet",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route305/border.bin",
       "blockdata_filepath": "data/layouts/Route305/map.bin",
