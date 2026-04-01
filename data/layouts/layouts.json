@@ -9393,10 +9393,10 @@
     {
       "id": "LAYOUT_ROUTE_303",
       "name": "Route_303_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 80,
+      "height": 37,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route_303/border.bin",
       "blockdata_filepath": "data/layouts/Route_303/map.bin",
       "layout_version": "emerald"
