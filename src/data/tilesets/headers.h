@@ -95,6 +95,16 @@ const struct Tileset gTileset_Mauville =
     .metatileAttributes = gMetatileAttributes_Mauville,
     .callback = InitTilesetAnim_Mauville,
 };
+const struct Tileset gTileset_PortDocil =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PortDocil,
+    .palettes = gTilesetPalettes_PortDocil,
+    .metatiles = gMetatiles_PortDocil,
+    .metatileAttributes = gMetatileAttributes_PortDocil,
+    .callback = InitTilesetAnim_Mauville,
+};
 
 const struct Tileset gTileset_Lavaridge =
 {

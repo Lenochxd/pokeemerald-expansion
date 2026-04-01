@@ -24,6 +24,9 @@ const u16 gMetatileAttributes_Slateport[] = INCBIN_U16("data/tilesets/secondary/
 const u16 gMetatiles_Mauville[] = INCBIN_U16("data/tilesets/secondary/mauville/metatiles.bin");
 const u16 gMetatileAttributes_Mauville[] = INCBIN_U16("data/tilesets/secondary/mauville/metatile_attributes.bin");
 
+const u16 gMetatiles_PortDocil[] = INCBIN_U16("data/tilesets/secondary/portdocil/metatiles.bin");
+const u16 gMetatileAttributes_PortDocil[] = INCBIN_U16("data/tilesets/secondary/portdocil/metatile_attributes.bin");
+
 const u16 gMetatiles_Lavaridge[] = INCBIN_U16("data/tilesets/secondary/lavaridge/metatiles.bin");
 const u16 gMetatileAttributes_Lavaridge[] = INCBIN_U16("data/tilesets/secondary/lavaridge/metatile_attributes.bin");
 

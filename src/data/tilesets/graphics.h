@@ -108,6 +108,28 @@ const u16 gTilesetPalettes_Mauville[][16] =
     INCBIN_U16("data/tilesets/secondary/mauville/palettes/15.gbapal"),
 };
 
+const u32 gTilesetTiles_PortDocil[] = INCBIN_U32("data/tilesets/secondary/portdocil/tiles.4bpp.fastSmol");
+
+const u16 gTilesetPalettes_PortDocil[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/portdocil/palettes/15.gbapal"),
+};
+
 const u32 gTilesetTiles_Lavaridge[] = INCBIN_U32("data/tilesets/secondary/lavaridge/tiles.4bpp.fastSmol");
 
 const u16 gTilesetPalettes_Lavaridge[][16] =

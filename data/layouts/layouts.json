@@ -9426,10 +9426,10 @@
     {
       "id": "LAYOUT_PORT_DOCIL",
       "name": "PortDocil_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 71,
+      "height": 44,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_PortDocil",
       "border_filepath": "data/layouts/PortDocil/border.bin",
       "blockdata_filepath": "data/layouts/PortDocil/map.bin",
       "layout_version": "emerald"
