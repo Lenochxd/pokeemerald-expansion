@@ -17,6 +17,11 @@
       "map": "MAP_MATECIVILLE",
       "offset": -39,
       "direction": "down"
+    },
+    {
+      "map": "MAP_MONTCOURANT",
+      "offset": -6,
+      "direction": "right"
     }
   ],
   "object_events": [
