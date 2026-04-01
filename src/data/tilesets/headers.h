@@ -833,6 +833,17 @@ const struct Tileset gTileset_UnionRoom =
     .callback = NULL,
 };
 
+const struct Tileset gTileset_SeafoamIslands =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_SeafoamIslands,
+    .palettes = gTilesetPalettes_SeafoamIslands,
+    .metatiles = gMetatiles_SeafoamIslands,
+    .metatileAttributes = gMetatileAttributes_SeafoamIslands,
+    .callback = NULL,
+};
+
 #else
 
 // FRLG tilesets
@@ -1229,17 +1240,6 @@ const struct Tileset gTileset_DiglettsCave =
     .palettes = gTilesetPalettes_DiglettsCave,
     .metatiles = gMetatiles_DiglettsCave,
     .metatileAttributes = gMetatileAttributes_DiglettsCave,
-    .callback = NULL,
-};
-
-const struct Tileset gTileset_SeafoamIslands =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_SeafoamIslands,
-    .palettes = gTilesetPalettes_SeafoamIslands,
-    .metatiles = gMetatiles_SeafoamIslands,
-    .metatileAttributes = gMetatileAttributes_SeafoamIslands,
     .callback = NULL,
 };
 
