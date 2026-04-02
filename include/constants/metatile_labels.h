@@ -602,12 +602,6 @@
 #define METATILE_SeaCottage_Teleporter_Light_Red         0x2B6
 #define METATILE_SeaCottage_Teleporter_Light_Yellow      0x2B5
 
-// gTileset_SeafoamIslands
-#define METATILE_SeafoamIslands_CrackedIce    0x35A
-#define METATILE_SeafoamIslands_IceHole       0x35B
-#define METATILE_SeafoamIslands_SlidingIce    0x34B
-#define METATILE_SeafoamIslands_UncrackedIce  0x359
-
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313
 #define METATILE_SecretBase_AttractMat_BottomMid        0x314
@@ -1078,5 +1072,9 @@
 #define METATILE_RSMossdeepGym_RedArrow_Up           0x20D
 #define METATILE_RSMossdeepGym_Switch_Down           0x239
 #define METATILE_RSMossdeepGym_Switch_Up             0x238
+#define METATILE_SeafoamIslands_CrackedIce           0x35A
+#define METATILE_SeafoamIslands_IceHole              0x35B
+#define METATILE_SeafoamIslands_SlidingIce           0x34B
+#define METATILE_SeafoamIslands_UncrackedIce         0x359
 
 #endif // GUARD_METATILE_LABELS_H
