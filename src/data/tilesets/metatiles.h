@@ -213,8 +213,8 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
 
-const u16 gMetatiles_SeafoamIslands[] = INCBIN_U16("data/tilesets/secondary/seafoam_islands/metatiles.bin");
-const u16 gMetatileAttributes_SeafoamIslands[] = INCBIN_U16("data/tilesets/secondary/seafoam_islands/metatile_attributes.bin");
+const u16 gMetatiles_HaieFroide[] = INCBIN_U16("data/tilesets/secondary/haie_froide/metatiles.bin");
+const u16 gMetatileAttributes_HaieFroide[] = INCBIN_U16("data/tilesets/secondary/haie_froide/metatile_attributes.bin");
 
 #else
 
@@ -412,5 +412,5 @@ const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary
 
 #endif // IS_FRLG
 
-const u16 gMetatiles_Gibounet[] = INCBIN_U16("data/tilesets/primary/gibounet/metatiles.bin");
-const u16 gMetatileAttributes_Gibounet[] = INCBIN_U16("data/tilesets/primary/gibounet/metatile_attributes.bin");
+const u16 gMetatiles_Snow[] = INCBIN_U16("data/tilesets/primary/snow/metatiles.bin");
+const u16 gMetatileAttributes_Snow[] = INCBIN_U16("data/tilesets/primary/snow/metatile_attributes.bin");

@@ -1,9 +1,9 @@
 {
-  "id": "MAP_VILLE_GLACIER",
-  "name": "Ville_Glacier",
-  "layout": "LAYOUT_VILLE_GLACIER",
+  "id": "MAP_HAIE_FROIDE",
+  "name": "Haie_Froide",
+  "layout": "LAYOUT_HAIE_FROIDE",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_VILLE_GLACIER",
+  "region_map_section": "MAPSEC_HAIE_FROIDE",
   "requires_flash": false,
   "weather": "WEATHER_SNOW",
   "map_type": "MAP_TYPE_CITY",
