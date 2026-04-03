@@ -9437,10 +9437,10 @@
     {
       "id": "LAYOUT_ROUTE_304",
       "name": "Route_304_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 62,
+      "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_PortDocil",
       "border_filepath": "data/layouts/Route_304/border.bin",
       "blockdata_filepath": "data/layouts/Route_304/map.bin",
       "layout_version": "emerald"
