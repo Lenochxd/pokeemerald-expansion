@@ -37101,66 +37101,66 @@
           "map": "MAP_ROUTE_304",
           "base_label": "gRoute_304",
           "land_mons": {
-            "encounter_rate": 7,
+            "encounter_rate": 20,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 14,
+                "max_level": 16,
+                "species": "SPECIES_WINGULL"
+              },
+              {
+                "min_level": 14,
+                "max_level": 16,
+                "species": "SPECIES_WINGULL"
+              },
+              {
+                "min_level": 14,
+                "max_level": 17,
                 "species": "SPECIES_EEVEE"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 14,
+                "max_level": 17,
                 "species": "SPECIES_EEVEE"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_EEVEE"
+                "min_level": 14,
+                "max_level": 16,
+                "species": "SPECIES_SLAKOTH"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 14,
+                "max_level": 16,
+                "species": "SPECIES_SLAKOTH"
+              },
+              {
+                "min_level": 14,
+                "max_level": 15,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 14,
+                "max_level": 15,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 14,
+                "max_level": 15,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
                 "species": "SPECIES_PIKACHU"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PIKACHU"
+                "species": "SPECIES_HERACROSS"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 14,
+                "max_level": 15,
                 "species": "SPECIES_PIKACHU"
               }
             ]
