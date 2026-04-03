@@ -6289,13 +6289,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_HAIL] =
     {
         .name = COMPOUND_STRING("GRELE"),
-        #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
-            .description = COMPOUND_STRING("Tempête de grêle qui\nfrappe à chaque tour."),
-        #else
-            .description = COMPOUND_STRING(
-                "Summons a hailstorm that\n"
-                "strikes every turn."),
-        #endif
+        // #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
+        .description = COMPOUND_STRING("Tempête de grêle qui\nfrappe à chaque tour."),
+        // #else
+        //     .description = COMPOUND_STRING(
+        //         "Summons a hailstorm that\n"
+        //         "strikes every turn."),
+        // #endif
         .effect = EFFECT_WEATHER,
         .power = 0,
         .type = TYPE_ICE,
