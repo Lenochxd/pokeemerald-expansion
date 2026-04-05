@@ -1,0 +1,28 @@
+{
+  "id": "MAP_HAIE_FROIDE",
+  "name": "Haie_Froide",
+  "layout": "LAYOUT_HAIE_FROIDE",
+  "music": "MUS_ROUTE104",
+  "region_map_section": "MAPSEC_HAIE_FROIDE",
+  "requires_flash": false,
+  "weather": "WEATHER_SNOW",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 54,
+      "y": 59,
+      "elevation": 0,
+      "dest_map": "MAP_MONTCOURANT",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
