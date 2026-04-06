@@ -15,20 +15,34 @@
   "connections": [
     {
       "map": "MAP_ROUTE_302",
-      "offset": 6,
+      "offset": 12,
       "direction": "left"
     },
     {
       "map": "MAP_ROUTE_303",
-      "offset": 3,
+      "offset": 9,
       "direction": "right"
     }
   ],
-  "object_events": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_13"
+    }
+  ],
   "warp_events": [
     {
-      "x": 11,
-      "y": 19,
+      "x": 13,
+      "y": 25,
       "elevation": 0,
       "dest_map": "MAP_HAIE_FROIDE",
       "dest_warp_id": "0"
