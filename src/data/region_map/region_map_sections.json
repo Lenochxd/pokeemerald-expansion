@@ -1678,6 +1678,10 @@
     {
       "id": "MAPSEC_ROUTE_313",
       "name": "ROUTE 313"
+    },
+    {
+      "id": "MAPSEC_GROTTE_ROCHELLE",
+      "name": "GROTTE ROCHELLE"
     }
   ]
 }

@@ -9488,6 +9488,17 @@
       "border_filepath": "data/layouts/Route_313/border.bin",
       "blockdata_filepath": "data/layouts/Route_313/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_GROTTE_ROCHELLE",
+      "name": "GrotteRochelle_Layout",
+      "width": 36,
+      "height": 39,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/GrotteRochelle/border.bin",
+      "blockdata_filepath": "data/layouts/GrotteRochelle/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
