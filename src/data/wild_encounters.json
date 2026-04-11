@@ -37154,8 +37154,8 @@
                 "species": "SPECIES_PIKACHU"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 14,
+                "max_level": 15,
                 "species": "SPECIES_HERACROSS"
               },
               {
@@ -37360,6 +37360,75 @@
                 "min_level": 15,
                 "max_level": 20,
                 "species": "SPECIES_SHUCKLE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE_313",
+          "base_label": "gRoute_313",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_ZIGZAGOON"
+              },
+              {
+                "min_level": 18,
+                "max_level": 20,
+                "species": "SPECIES_ZIGZAGOON"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_TEDDIURSA"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_TEDDIURSA"
+              },
+              {
+                "min_level": 16,
+                "max_level": 19,
+                "species": "SPECIES_PINECO"
+              },
+              {
+                "min_level": 16,
+                "max_level": 19,
+                "species": "SPECIES_PINECO"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_CROAGUNK"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_CROAGUNK"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_CROAGUNK"
+              },
+              {
+                "min_level": 16,
+                "max_level": 18,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 16,
+                "max_level": 20,
+                "species": "SPECIES_CROAGUNK"
+              },
+              {
+                "min_level": 16,
+                "max_level": 18,
+                "species": "SPECIES_GLIGAR"
               }
             ]
           }
