@@ -9477,6 +9477,17 @@
       "border_filepath": "data/layouts/Haie_Froide/border.bin",
       "blockdata_filepath": "data/layouts/Haie_Froide/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_ROUTE_313",
+      "name": "Route_313_Layout",
+      "width": 85,
+      "height": 23,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route_313/border.bin",
+      "blockdata_filepath": "data/layouts/Route_313/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

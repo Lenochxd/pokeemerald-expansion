@@ -1674,6 +1674,10 @@
     {
       "id": "MAPSEC_HAIE_FROIDE",
       "name": "HAIE FROIDE"
+    },
+    {
+      "id": "MAPSEC_ROUTE_313",
+      "name": "ROUTE 313"
     }
   ]
 }
