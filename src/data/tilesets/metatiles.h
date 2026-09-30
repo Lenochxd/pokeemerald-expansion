@@ -414,3 +414,9 @@ const u16 gMetatileAttributes_HallOfFame[] = INCBIN_U16("data/tilesets/secondary
 
 const u16 gMetatiles_Snow[] = INCBIN_U16("data/tilesets/primary/snow/metatiles.bin");
 const u16 gMetatileAttributes_Snow[] = INCBIN_U16("data/tilesets/primary/snow/metatile_attributes.bin");
+
+const u16 gMetatiles_Omaiville[] = INCBIN_U16("data/tilesets/secondary/omaiville/metatiles.bin");
+const u16 gMetatileAttributes_Omaiville[] = INCBIN_U16("data/tilesets/secondary/omaiville/metatile_attributes.bin");
+
+const u16 gMetatiles_PorytilesManaged_Snow[] = INCBIN_U16("data/tilesets/primary/snow/porytiles_bin/metatiles.bin");
+const u16 gMetatileAttributes_PorytilesManaged_Snow[] = INCBIN_U16("data/tilesets/primary/snow/porytiles_bin/metatile_attributes.bin");

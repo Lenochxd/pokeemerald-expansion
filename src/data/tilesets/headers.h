@@ -1556,9 +1556,20 @@ const struct Tileset gTileset_Snow =
 {
     .isCompressed = TRUE,
     .isSecondary = FALSE,
-    .tiles = gTilesetTiles_Snow,
-    .palettes = gTilesetPalettes_Snow,
-    .metatiles = gMetatiles_Snow,
-    .metatileAttributes = gMetatileAttributes_Snow,
+    .tiles = gTilesetTiles_PorytilesManaged_Snow,
+    .palettes = gTilesetPalettes_PorytilesManaged_Snow,
+    .metatiles = gMetatiles_PorytilesManaged_Snow,
+    .metatileAttributes = gMetatileAttributes_PorytilesManaged_Snow,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Omaiville =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Omaiville,
+    .palettes = gTilesetPalettes_Omaiville,
+    .metatiles = gMetatiles_Omaiville,
+    .metatileAttributes = gMetatileAttributes_Omaiville,
     .callback = NULL,
 };

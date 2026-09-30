@@ -1,0 +1,9 @@
+{
+  ".callback": "InitTilesetAnim_Mauville",
+  ".metatileAttributes": "gMetatileAttributes_Mauville",
+  ".metatiles": "gMetatiles_Mauville",
+  ".palettes": "gTilesetPalettes_Mauville",
+  ".tiles": "gTilesetTiles_Mauville",
+  "imported": true,
+  "version": 1
+}

@@ -1,0 +1,9 @@
+{
+  ".callback": "NULL",
+  ".metatileAttributes": "gMetatileAttributes_Snow",
+  ".metatiles": "gMetatiles_Snow",
+  ".palettes": "gTilesetPalettes_Snow",
+  ".tiles": "gTilesetTiles_Snow",
+  "imported": true,
+  "version": 1
+}
