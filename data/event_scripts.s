@@ -1767,3 +1767,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Route_313/scripts.inc"
 
 	.include "data/maps/GrotteRochelle/scripts.inc"
+
+	.include "data/maps/PlaineVerte/scripts.inc"

@@ -361,6 +361,12 @@
       "map": "MAP_ROUTE101",
       "x": 10,
       "y": 11
+    },
+    {
+      "id": "HEAL_LOCATION_ROUTE_TEMPLATE",
+      "map": "MAP_ROUTE_TEMPLATE",
+      "x": 10,
+      "y": 10
     }
   ]
 }

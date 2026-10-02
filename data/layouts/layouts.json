@@ -9499,6 +9499,17 @@
       "border_filepath": "data/layouts/GrotteRochelle/border.bin",
       "blockdata_filepath": "data/layouts/GrotteRochelle/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_PLAINE_VERTE",
+      "name": "PlaineVerte_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PlaineVerte/border.bin",
+      "blockdata_filepath": "data/layouts/PlaineVerte/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
