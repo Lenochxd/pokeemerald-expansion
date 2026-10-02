@@ -1682,6 +1682,10 @@
     {
       "id": "MAPSEC_GROTTE_ROCHELLE",
       "name": "GROTTE ROCHELLE"
+    },
+    {
+      "id": "MAPSEC_PLAINE_VERTE",
+      "name": "PLAINE VERTE"
     }
   ]
 }

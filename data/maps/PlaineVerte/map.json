@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROUTE_304",
-  "name": "Route_304",
-  "layout": "LAYOUT_ROUTE_304",
+  "id": "MAP_PLAINE_VERTE",
+  "name": "PlaineVerte",
+  "layout": "LAYOUT_PLAINE_VERTE",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_304",
+  "region_map_section": "MAPSEC_PLAINE_VERTE",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_TOWN",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_PORT_DOCIL",
-      "offset": -4,
-      "direction": "up"
+      "map": "MAP_DESERT_DE_PARTICULES",
+      "offset": -12,
+      "direction": "down"
     },
     {
-      "map": "MAP_PLAINE_VERTE",
-      "offset": 8,
-      "direction": "right"
+      "map": "MAP_ROUTE_304",
+      "offset": -8,
+      "direction": "left"
     }
   ],
   "object_events": [],
