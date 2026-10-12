@@ -1,5 +1,7 @@
 # Creating a New Tileset with Porytiles V2
 
+> **Automated:** `data/tilesets/new_tileset.sh` (or `new_tileset.bat` on Windows) runs the whole process below for you: it creates the tileset with porytiles, registers it, adds the compile/decompile scripts, and generates `porytiles/tileset.aseprite`. Run it from the repository root, e.g. `data/tilesets/new_tileset.sh Omaiville secondary gTileset_General`. The manual steps below are kept for reference and for troubleshooting.
+
 This documents the full workflow for adding a new primary or secondary tileset to this project using **porytiles 2.x** (`/usr/local/bin/porytiles`). All commands are run from the **repository root**.
 
 > **Legacy tool:** `/usr/local/bin/porytiles-legacy` is V1 — do not use it for new tilesets.

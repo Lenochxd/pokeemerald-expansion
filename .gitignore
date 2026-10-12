@@ -25,7 +25,6 @@ sound/**/*.bin
 sound/songs/midi/*.s
 tools/agbcc
 *.map
-*.bat
 *.dump
 *.sa*
 Thumbs.db
