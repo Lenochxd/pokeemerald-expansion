@@ -9510,6 +9510,17 @@
       "border_filepath": "data/layouts/PlaineVerte/border.bin",
       "blockdata_filepath": "data/layouts/PlaineVerte/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_OMAIVILLE",
+      "name": "Omaiville_Layout",
+      "width": 40,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Omaiville",
+      "border_filepath": "data/layouts/Omaiville/border.bin",
+      "blockdata_filepath": "data/layouts/Omaiville/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

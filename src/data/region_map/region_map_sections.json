@@ -1686,6 +1686,10 @@
     {
       "id": "MAPSEC_PLAINE_VERTE",
       "name": "PLAINE VERTE"
+    },
+    {
+      "id": "MAPSEC_OMAIVILLE",
+      "name": "OMAÏVILLE"
     }
   ]
 }

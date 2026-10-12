@@ -3092,22 +3092,25 @@ const u32 gTilesetTiles_Snow[] = INCBIN_U32("data/tilesets/primary/snow/tiles.4b
 
 const u16 gTilesetPalettes_Omaiville[][16] =
 {
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/secondary/omaiville/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/13.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/14.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/rustboro/palettes/15.gbapal"),
 };
 
-const u32 gTilesetTiles_Omaiville[] = INCBIN_U32("data/tilesets/secondary/omaiville/tiles.4bpp.lz");
+const u32 gTilesetTiles_Omaiville[] = INCBIN_U32("data/tilesets/secondary/rustboro/tiles.4bpp.fastSmol");
 
 const u32 gTilesetTiles_PorytilesManaged_Snow[] = INCBIN_U32("data/tilesets/primary/snow/porytiles_bin/tiles.4bpp.lz");
 

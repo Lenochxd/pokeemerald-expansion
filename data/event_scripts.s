@@ -1769,3 +1769,4 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/GrotteRochelle/scripts.inc"
 
 	.include "data/maps/PlaineVerte/scripts.inc"
+	.include "data/maps/Omaiville/scripts.inc"
