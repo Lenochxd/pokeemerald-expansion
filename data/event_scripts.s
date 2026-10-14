@@ -1770,3 +1770,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/PlaineVerte/scripts.inc"
 	.include "data/maps/Omaiville/scripts.inc"
+
+	.include "data/maps/Mensongeville/scripts.inc"

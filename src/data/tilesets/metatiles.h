@@ -420,3 +420,9 @@ const u16 gMetatileAttributes_Omaiville[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_PorytilesManaged_Snow[] = INCBIN_U16("data/tilesets/primary/snow/porytiles_bin/metatiles.bin");
 const u16 gMetatileAttributes_PorytilesManaged_Snow[] = INCBIN_U16("data/tilesets/primary/snow/porytiles_bin/metatile_attributes.bin");
+
+const u16 gMetatiles_PorytilesManaged_Mensongeville[] = INCBIN_U16("data/tilesets/primary/mensongeville/porytiles_bin/metatiles.bin");
+const u16 gMetatileAttributes_PorytilesManaged_Mensongeville[] = INCBIN_U16("data/tilesets/primary/mensongeville/porytiles_bin/metatile_attributes.bin");
+
+const u16 gMetatiles_PorytilesManaged_MensongevilleSecondary[] = INCBIN_U16("data/tilesets/secondary/mensongeville_secondary/porytiles_bin/metatiles.bin");
+const u16 gMetatileAttributes_PorytilesManaged_MensongevilleSecondary[] = INCBIN_U16("data/tilesets/secondary/mensongeville_secondary/porytiles_bin/metatile_attributes.bin");

@@ -9521,6 +9521,17 @@
       "border_filepath": "data/layouts/Omaiville/border.bin",
       "blockdata_filepath": "data/layouts/Omaiville/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_MENSONGEVILLE",
+      "name": "Mensongeville_Layout",
+      "width": 36,
+      "height": 30,
+      "primary_tileset": "gTileset_Mensongeville",
+      "secondary_tileset": "gTileset_MensongevilleSecondary",
+      "border_filepath": "data/layouts/Mensongeville/border.bin",
+      "blockdata_filepath": "data/layouts/Mensongeville/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

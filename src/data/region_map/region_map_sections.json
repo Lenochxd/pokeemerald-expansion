@@ -1690,6 +1690,10 @@
     {
       "id": "MAPSEC_OMAIVILLE",
       "name": "OMAÏVILLE"
+    },
+    {
+      "id": "MAPSEC_MENSONGEVILLE",
+      "name": "MENSONGEVILLE"
     }
   ]
 }

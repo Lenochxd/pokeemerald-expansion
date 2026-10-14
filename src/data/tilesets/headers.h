@@ -1573,3 +1573,25 @@ const struct Tileset gTileset_Omaiville =
     .metatileAttributes = gMetatileAttributes_Omaiville,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Mensongeville =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PorytilesManaged_Mensongeville,
+    .palettes = gTilesetPalettes_PorytilesManaged_Mensongeville,
+    .metatiles = gMetatiles_PorytilesManaged_Mensongeville,
+    .metatileAttributes = gMetatileAttributes_PorytilesManaged_Mensongeville,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_MensongevilleSecondary =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PorytilesManaged_MensongevilleSecondary,
+    .palettes = gTilesetPalettes_PorytilesManaged_MensongevilleSecondary,
+    .metatiles = gMetatiles_PorytilesManaged_MensongevilleSecondary,
+    .metatileAttributes = gMetatileAttributes_PorytilesManaged_MensongevilleSecondary,
+    .callback = NULL,
+};

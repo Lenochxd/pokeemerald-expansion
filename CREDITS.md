@@ -138,3 +138,10 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - [Data Files](https://www.pokecommunity.com/showthread.php?t=417909)
 - [Complete FireRed Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade)
 - [pokeemerald](https://github.com/pret/pokeemerald/)
+
+## pokeportions credits
+- *note: i lost the other credits somehow? maybe they're on the repo, or on my old pc I sold, i can't remember really.. i'll find them again later.*
+- Ekat99, Vurtax (FRLG Rips) ,Heartlessdragoon (RSE Rips), Zein (Trees & mushrooms) https://www.deviantart.com/ekat99/art/Haunted-Woods-887547633 (mensongeville)
+- Ekat, Heartlessdragoon (RSE Pallets) https://www.deviantart.com/ekat99/art/Haunted-Mansion-Exterior-876931092 (mensongeville)
+- Jadux (mansion roof) (mensongeville)
+- Ekat, Vurtax (trees), Heartlessdragoon (RSE pallets) https://www.deviantart.com/ekat99/art/Gen-3-Snowpoint-Temple-and-Snow-Tiles-878878345 (Haie-Froide)
