@@ -1,12 +1,12 @@
 {
   "data/tilesets/primary/mensongeville/porytiles_bin/metatile_attributes.bin": "2ce99fb26b3f0bc609474e2a0561bb65",
-  "data/tilesets/primary/mensongeville/porytiles_bin/metatiles.bin": "ae2d3ba7c5ef65a52a39fa027ebaabf8",
-  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/00.pal": "96ee140285b8349d1d54a1521892d8cd",
-  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/01.pal": "790b97fd531dfd0b214ec7b678e205a5",
-  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/02.pal": "a051c5cee40dda47a1ffa05117937488",
-  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/03.pal": "25a969ae1a9b6a0be53b58883cf9ebdb",
-  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/04.pal": "d43a17f95f1ef98821937b2c9a41997e",
-  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/05.pal": "c8181e2bd7eb2485a8c64fdad42b7c40",
+  "data/tilesets/primary/mensongeville/porytiles_bin/metatiles.bin": "7aaf9e38aa9bb5248f8777a11449ae3c",
+  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/00.pal": "7de1a42f6ff19ed9077add8243ee9846",
+  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/01.pal": "5f088d6cf594c328ec56580271bde4b4",
+  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/02.pal": "78ab70e1bc5d5d008bb16ee4c71f95ca",
+  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/03.pal": "f6f9f3520af8ed95ddf1432fb8a209bf",
+  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/04.pal": "b3b39e85723a68315e5e4a450d6aeb3e",
+  "data/tilesets/primary/mensongeville/porytiles_bin/palettes/05.pal": "b324c3e89be895ac24935a8503a0154e",
   "data/tilesets/primary/mensongeville/porytiles_bin/palettes/06.pal": "59f83737350efeb148a299bdbf87e97f",
   "data/tilesets/primary/mensongeville/porytiles_bin/palettes/07.pal": "59f83737350efeb148a299bdbf87e97f",
   "data/tilesets/primary/mensongeville/porytiles_bin/palettes/08.pal": "59f83737350efeb148a299bdbf87e97f",
@@ -17,9 +17,9 @@
   "data/tilesets/primary/mensongeville/porytiles_bin/palettes/13.pal": "59f83737350efeb148a299bdbf87e97f",
   "data/tilesets/primary/mensongeville/porytiles_bin/palettes/14.pal": "59f83737350efeb148a299bdbf87e97f",
   "data/tilesets/primary/mensongeville/porytiles_bin/palettes/15.pal": "59f83737350efeb148a299bdbf87e97f",
-  "data/tilesets/primary/mensongeville/porytiles_bin/tiles.png": "75a494b57322b273a34735b0e2fb6ae1",
+  "data/tilesets/primary/mensongeville/porytiles_bin/tiles.png": "098173ded824cf05d279413d1be4fc68",
   "data/tilesets/primary/mensongeville/porytiles_src/attributes.csv": "78b9a5b0e7d33f4a27489680afb268f8",
-  "data/tilesets/primary/mensongeville/porytiles_src/bottom.png": "573ac0f37670f9c47380c7dd98a0cc78",
-  "data/tilesets/primary/mensongeville/porytiles_src/middle.png": "bb8b5b31d1a13b1be11bac79550350f5",
-  "data/tilesets/primary/mensongeville/porytiles_src/top.png": "c7335dc27a500dd8cf7f2504dda5847d"
+  "data/tilesets/primary/mensongeville/porytiles_src/bottom.png": "1f37dfafa46f59a056d63ea0bc5e7645",
+  "data/tilesets/primary/mensongeville/porytiles_src/middle.png": "deddac0be525525d7574452903f987b8",
+  "data/tilesets/primary/mensongeville/porytiles_src/top.png": "c60fa5fb1587793644cd26319bc6d11e"
 }
