@@ -18,7 +18,6 @@ const u8 gText_ExpandedPlaceholder_Kyogre[] = _("KYOGRE");
 const u8 gText_ExpandedPlaceholder_Groudon[] = _("GROUDON");
 const u8 gText_ExpandedPlaceholder_Brendan[] = _("BRICE");
 const u8 gText_ExpandedPlaceholder_May[] = _("FLORA");
-const u8 gText_ExpandedPlaceholder_Antoine[] = _("ANTOINE");
 const u8 gText_ExpandedPlaceholder_Red[] = _("RED");
 const u8 gText_ExpandedPlaceholder_Green[] = _("GREEN");
 const u8 gText_EggNickname[POKEMON_NAME_LENGTH + 1] = _("EGG");
@@ -46,70 +45,8 @@ const u8 gText_Boy[] = _("BOY");
 const u8 gText_Girl[] = _("GIRL");
 const u8 gText_ThisIsAPokemon[] = _("Voici ce qu'on appelle un “POKéMON“.{PAUSE 96}\p");
 const u8 gText_5MarksPokemon[] = _("????? POKéMON");
-const u8 gText_UnkHeight[] = _("{CLEAR_TO 0x0C}???,? m");
-const u8 gText_UnkHeightMetric[] = _("???.? m");
-const u8 gText_UnkWeight[] = _("???,? kg");
-const u8 gText_UnkWeightMetric[] = _("???.? kg.");
-const u8 gText_EmptyPkmnCategory[] = _("                       POKéMON"); // Unused
-const u8 gText_EmptyHeight[] = _("{CLEAR_TO 0x0C}    '    “"); // Unused
-const u8 gText_EmptyWeight[] = _("        .   lbs."); // Unused
-const u8 gText_EmptyPokedexInfo1[] = _(""); // Unused
 const u8 gText_CryOf[] = _("CRI DE");
-const u8 gText_EmptyPokedexInfo2[] = _(""); // Unused
 const u8 gText_SizeComparedTo[] = _("TAILLE COMPAREE A ");
-const u8 gText_PokedexRegistration[] = _("Enregistrement du POKéDEX terminé.");
-const u8 gText_HTHeight[] = _("HAUT.");
-const u8 gText_WTWeight[] = _("POIDS");
-const u8 gText_SearchingPleaseWait[] = _("Recherche en cours…\nVeuillez patienter.");
-const u8 gText_SearchCompleted[] = _("Recherche terminée.");
-const u8 gText_NoMatchingPkmnWereFound[] = _("Aucun POKéMON correspondant trouvé.");
-const u8 gText_SearchForPkmnBasedOnParameters[] = _("Recherche de POKéMON selon certains\ncritères.");
-const u8 gText_SwitchPokedexListings[] = _("Changer le classement du POKéDEX.");
-const u8 gText_ReturnToPokedex[] = _("Revenir au POKéDEX.");
-const u8 gText_SelectPokedexMode[] = _("Choisir le mode du POKéDEX.");
-const u8 gText_SelectPokedexListingMode[] = _("Choisir le mode de classement du POKéDEX.");
-const u8 gText_ListByFirstLetter[] = _("Recherche par la première lettre du nom:\nPOKéMON vus.");
-const u8 gText_ListByBodyColor[] = _("Recherche par la couleur:\nPOKéMON vus.");
-const u8 gText_ListByType[] = _("Recherche par le type:\nPOKéMON pris uniquement.");
-const u8 gText_ExecuteSearchSwitch[] = _("Exécuter recherche/changement.");
-const u8 gText_DexHoennTitle[] = _("DEX HOENN");
-const u8 gText_DexNatTitle[] = _("DEX NATIONAL");
-const u8 gText_DexSortNumericalTitle[] = _("MODE NUMERIQUE");
-const u8 gText_DexSortAtoZTitle[] = _("MODE A à Z");
-const u8 gText_DexSortHeaviestTitle[] = _("MODE + - LOURD");
-const u8 gText_DexSortLightestTitle[] = _("MODE + - LEGER");
-const u8 gText_DexSortTallestTitle[] = _("MODE + - GRAND");
-const u8 gText_DexSortSmallestTitle[] = _("MODE + - PETIT");
-const u8 gText_DexSearchAlphaABC[] = _("ABC");
-const u8 gText_DexSearchAlphaDEF[] = _("DEF");
-const u8 gText_DexSearchAlphaGHI[] = _("GHI");
-const u8 gText_DexSearchAlphaJKL[] = _("JKL");
-const u8 gText_DexSearchAlphaMNO[] = _("MNO");
-const u8 gText_DexSearchAlphaPQR[] = _("PQR");
-const u8 gText_DexSearchAlphaSTU[] = _("STU");
-const u8 gText_DexSearchAlphaVWX[] = _("VWX");
-const u8 gText_DexSearchAlphaYZ[] = _("YZ");
-const u8 gText_DexSearchColorRed[] = _("ROUGE");
-const u8 gText_DexSearchColorBlue[] = _("BLEU");
-const u8 gText_DexSearchColorYellow[] = _("JAUNE");
-const u8 gText_DexSearchColorGreen[] = _("VERT");
-const u8 gText_DexSearchColorBlack[] = _("NOIR");
-const u8 gText_DexSearchColorBrown[] = _("MARRON");
-const u8 gText_DexSearchColorPurple[] = _("VIOLET");
-const u8 gText_DexSearchColorGray[] = _("GRIS");
-const u8 gText_DexSearchColorWhite[] = _("BLANC");
-const u8 gText_DexSearchColorPink[] = _("ROSE");
-const u8 gText_DexHoennDescription[] = _("POKéDEX de la région HOENN");
-const u8 gText_DexNatDescription[] = _("POKéDEX édition nationale");
-const u8 gText_DexSortNumericalDescription[] = _("POKéMON classés selon leur numéro.");
-const u8 gText_DexSortAtoZDescription[] = _("POKéMON vus et pris, classés par ordre\nalphabétique.");
-const u8 gText_DexSortHeaviestDescription[] = _("POKéMON pris, classés du plus lourd au\nplus léger.");
-const u8 gText_DexSortLightestDescription[] = _("POKéMON pris, classés du plus léger au\nplus lourd.");
-const u8 gText_DexSortTallestDescription[] = _("POKéMON pris, classés du plus grand au\nplus petit.");
-const u8 gText_DexSortSmallestDescription[] = _("POKéMON pris, classés du plus petit au\nplus grand.");
-const u8 gText_DexEmptyString[] = _("");
-const u8 gText_DexSearchDontSpecify[] = _("INDIFFERENT");
-const u8 gText_DexSearchTypeNone[] = _("AUCUN");
 const u8 gText_SelectorArrow[] = _("▶");
 const u8 gText_EmptySpace[] = _(" "); // Unused
 const u8 gText_WelcomeToHOF[] = _("Bienvenue au PANTHEON!");
@@ -127,11 +64,11 @@ const u8 gText_BirchInTrouble[] = _("Le PROF. SEKO a des ennuis!\nChoisis un POK
 const u8 gText_ConfirmStarterChoice[] = _("Prendre ce POKéMON?");
 const u8 gText_Pokemon4[] = _("POKéMON"); // Unused
 const u8 gText_FlyToWhere[] = _("VOLER où?");
-const u8 gMenuText_Use[] = _("UTILIS.");
-const u8 gMenuText_Toss[] = _("JETER");
-const u8 gMenuText_Register[] = _("ENREG.");
-const u8 gMenuText_Give[] = _("DONNER");
-const u8 gMenuText_Confirm[] = _("CONFIRMER");
+const u8 gMenuText_Use[] = _("USE");
+const u8 gMenuText_Toss[] = _("TOSS");
+const u8 gMenuText_Register[] = _("REGISTER");
+const u8 gMenuText_Give[] = _("GIVE");
+const u8 gMenuText_Confirm[] = _("CONFIRM");
 const u8 gText_Cancel[] = _("SORTIR");
 const u8 gText_Cancel2[] = _("RETOUR");
 const u8 gText_EmptyString2[] = _("");
@@ -144,14 +81,14 @@ const u8 gText_ThreeDashes[] = _("---");
 const u8 gText_MaleSymbol[] = _("♂");
 const u8 gText_FemaleSymbol[] = _("♀");
 const u8 gText_LevelSymbol[] = _("N.");
-const u8 gText_NumberClear01[] = _("{NO}{CLEAR 0x01}");
+const u8 gText_NumberClear01[] = _("{NO}{CLEAR 1}");
 const u8 gText_RightArrow[] = _("{RIGHT_ARROW}"); // Unused
 const u8 gText_IDNumber2[] = _("{NO}{ID}");
 const u8 gText_Space[] = _(" ");
 const u8 gText_SelectorArrow2[] = _("▶");
 const u8 gText_GoBackPrevMenu[] = _("Retourner au menu\nprécédent.");
 const u8 gText_WhatWouldYouLike[] = _("Que voulez-vous faire?");
-const u8 gMenuText_Give2[] = _("DONNER");
+const u8 gMenuText_Give2[] = _("GIVE");
 const u8 gText_xVar1[] = _("×{STR_VAR_1}");
 const u8 gText_Berry2[] = _(" BERRY"); // Unused
 const u8 gText_Coins[] = _("{STR_VAR_1} JETONS");
@@ -204,15 +141,15 @@ const u8 gText_ReturnToVar1[] = _("Retourner\n{STR_VAR_1}.");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
-    [POCKET_ITEMS] =        COMPOUND_STRING("ITEMS"),
-    [POCKET_POKE_BALLS] =   COMPOUND_STRING("POKé BALLS"),
-    [POCKET_TM_HM]  =       COMPOUND_STRING("TMs & HMs"),
-    [POCKET_BERRIES] =      COMPOUND_STRING("BERRIES"),
-    [POCKET_KEY_ITEMS] =    COMPOUND_STRING("KEY ITEMS")
+    [POCKET_ITEMS]      = COMPOUND_STRING("ITEMS"),
+    [POCKET_POKE_BALLS] = COMPOUND_STRING("POKé BALLS"),
+    [POCKET_TM_HM]      = COMPOUND_STRING("TMs & HMs"),
+    [POCKET_BERRIES]    = COMPOUND_STRING("BERRIES"),
+    [POCKET_KEY_ITEMS]  = COMPOUND_STRING("KEY ITEMS")
 };
 
 const u8 gText_NumberItem_TMBerry[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
-const u8 gText_NumberItem_HM[] = _("{CLEAR_TO 0x11}{STR_VAR_1}{CLEAR 0x05}{STR_VAR_2}");
+const u8 gText_NumberItem_HM[] = _("{CLEAR_TO 17}{STR_VAR_1}{CLEAR 5}{STR_VAR_2}");
 
 const u8 gText_ShopBuy[] = _("ACHETER");
 const u8 gText_ShopSell[] = _("VENDRE");
@@ -313,7 +250,7 @@ const u8 gText_CantSurfHere[] = _("On ne peut pas SURFER ici.");
 const u8 gText_AlreadySurfing[] = _("Vous SURFEZ déjà.");
 const u8 gText_CantUseHere[] = _("Impossible ici.");
 const u8 gText_RestoreWhichMove[] = _("Laquelle restaurer ?");
-const u8 gText_BoostPp[] = _("Augmenter quels PP ?");
+const u8 gText_BoostPP[] = _("Boost PP of which move?");
 const u8 gText_DoWhatWithItem[] = _("Que faire avec un objet ?");
 const u8 gText_NoPokemonForBattle[] = _("Aucun POKéMON utilisable !");
 const u8 gText_ChoosePokemon2[] = _("Choisir un POKéMON.");
@@ -457,24 +394,16 @@ const u8 gText_BagIsFull[] = _("Le SAC est plein.{PAUSE_UNTIL_PRESS}");
 const u8 gText_MailToBagMessageErased[] = _("La LETTRE a été remise dans le SAC\net son message a été effacé.{PAUSE_UNTIL_PRESS}");
 const u8 gText_Dad[] = _("PAPA");
 const u8 gText_Mom[] = _("MAMAN");
-const u8 gText_Info2[] = _("INFO");
 const u8 gText_CoolnessContest[] = _("SANG-FROID");
 const u8 gText_BeautyContest[] = _("BEAUTE");
 const u8 gText_CutenessContest[] = _("GRACE");
 const u8 gText_SmartnessContest[] = _("INTELLIGENCE");
 const u8 gText_ToughnessContest[] = _("ROBUSTESSE");
-const u8 gText_Decoration2[] = _("DECORATION");
-const u8 gText_PackUp[] = _("PLIER BAGAGE");
-const u8 gText_Registry[] = _("REGISTRE");
 const u8 gText_Information[] = _("INFORMATION");
 const u8 gText_Yes[] = _("OUI");
 const u8 gText_No[] = _("NON");
 const u8 gText_Lv50[] = _("NIVEAU 50");
 const u8 gText_OpenLevel[] = _("NIVEAU LIBRE");
-const u8 gText_RedShard[] = _("TESSON ROUGE");
-const u8 gText_YellowShard[] = _("TESSON JAUNE");
-const u8 gText_BlueShard[] = _("TESSON BLEU");
-const u8 gText_GreenShard[] = _("TESSON VERT");
 const u8 gText_BattleFrontier[] = _("ZONE DE COMBAT");
 const u8 gText_Cool[] = _("SG-FD");
 const u8 gText_Beauty[] = _("BEAUTE");
@@ -485,25 +414,12 @@ const u8 gText_Normal[] = _("NORMAL");
 const u8 gText_Super[] = _("SUPER");
 const u8 gText_Hyper[] = _("HYPER");
 const u8 gText_Master[] = _("MASTER");
-const u8 gText_Cool2[] = _("SG-FD");
-const u8 gText_Beauty2[] = _("BEAUTE");
-const u8 gText_Cute2[] = _("GRACE");
-const u8 gText_Smart2[] = _("INTEL.");
-const u8 gText_Tough2[] = _("ROBUS.");
-const u8 gText_Items[] = _("OBJETS");
-const u8 gText_Key_Items[] = _("OBJ. RARES");
-const u8 gText_Poke_Balls[] = _("BALLS");
-const u8 gText_TMs_Hms[] = _("CT & CS");
-const u8 gText_Berries2[] = _("BAIES");
 const u8 gText_SomeonesPC[] = _("PC de ???");
 const u8 gText_LanettesPC[] = _("PC d'ANNETTE");
 const u8 gText_BillsPc[] = _("BILL'S PC");
 const u8 gText_PlayersPC[] = _("PC de {PLAYER}");
 const u8 gText_HallOfFame[] = _("PANTHEON");
 const u8 gText_LogOff[] = _("DECONNEXION");
-const u8 gText_Opponent[] = _("ADVERSAIRE");
-const u8 gText_Tourney_Tree[] = _("TOURNEY TREE");
-const u8 gText_ReadyToStart[] = _("READY TO START");
 const u8 gText_Single2[] = _("SOLO");
 const u8 gText_Double2[] = _("DUO");
 const u8 gText_Multi[] = _("MULTI");
@@ -512,7 +428,6 @@ const u8 gText_MenuOptionPokedex[] = _("POKéDEX");
 const u8 gText_MenuOptionPokemon[] = _("POKéMON");
 const u8 gText_MenuOptionBag[] = _("SAC");
 const u8 gText_MenuOptionPokenav[] = _("POKéNAV");
-const u8 gText_Blank[] = _("");
 const u8 gText_MenuOptionSave[] = _("SAUVER");
 const u8 gText_MenuOptionOption[] = _("OPTIONS");
 const u8 gText_MenuOptionExit[] = _("RETOUR");
@@ -524,18 +439,6 @@ const u8 gText_NormalTagMatch[] = _("MATCH NORMAL");
 const u8 gText_VarietyTagMatch[] = _("MATCH VARIE");
 const u8 gText_UniqueTagMatch[] = _("MATCH UNIQUE");
 const u8 gText_ExpertTagMatch[] = _("MATCH EXPERT");
-const u8 gText_TradeCenter[] = _("CENTRE TROC");
-const u8 gText_Colosseum[] = _("COLISEE");
-const u8 gText_RecordCorner[] = _("CENTRE DE DONNEES");
-const u8 gText_BerryCrush3[] = _("BROYEUR DE BAIES");
-const u8 gText_BattleRules[] = _("REGLES");
-const u8 gText_JudgeMind[] = _("JUGE: MENTAL");
-const u8 gText_JudgeSkill[] = _("JUGE: TECHNIQUE");
-const u8 gText_JudgeBody[] = _("JUGE: PHYSIQUE");
-const u8 gText_BasicRules[] = _("REGLES DE BASE");
-const u8 gText_SwapPartners[] = _("ECHANGE: POKéMON");
-const u8 gText_SwapNumber[] = _("ECHANGE: NOMBRE");
-const u8 gText_SwapNotes[] = _("ECHANGE: NOTES");
 const u8 gText_BattleBasics[] = _("REGLES DE BASE");
 const u8 gText_PokemonNature[] = _("NATURE");
 const u8 gText_PokemonMoves[] = _("CAPACITES");
@@ -543,10 +446,6 @@ const u8 gText_Underpowered[] = _("POTENTIEL");
 const u8 gText_WhenInDanger[] = _("EN DANGER");
 const u8 gText_BattlePokemon[] = _("POKéMON");
 const u8 gText_BattleTrainers[] = _("DRESSEURS");
-const u8 gText_GoOn[] = _("CONTINUER");
-const u8 gText_Record2[] = _("ENREGISTRER");
-const u8 gText_Rest[] = _("REPOS");
-const u8 gText_Retire[] = _("PARTIR");
 const u8 gText_1F[] = _("RC");
 const u8 gText_2F[] = _("1{SUPER_ER}");
 const u8 gText_3F[] = _("2{SUPER_E}");
@@ -567,7 +466,6 @@ const u8 gText_ElevatorNowOn[] = _("Etage:");
 const u8 gText_BP[] = _("Pco");
 const u8 gText_RankingHall[] = _("CLASSEMENT");
 const u8 gText_ExchangeService[] = _("ECHANGE");
-const u8 gText_LilycoveCity[] = _("NENUCRIQUE");
 const u8 gText_SlateportCity[] = _("POIVRESSEL");
 const u8 gText_Exit[] = _("ANNULER");
 const u8 gText_YourPartysFull[] = _("L'équipe est pleine!");
@@ -860,7 +758,7 @@ const u8 gText_BerriesPicked[] = _("Baies attrapées:");
 const u8 gText_BestScore[] = _("Meilleur score:");
 const u8 gText_BerriesInRowFivePlayers[] = _("Baies attrapées à la suite\navec cinq joueurs:");
 const u8 gText_BerryPickingResults[] = _("Annonce des résultats!");
-const u8 gText_10P30P50P50P[] = _("{CLEAR_TO 0x03}10P{CLEAR_TO 0x2B}30P{CLEAR_TO 0x53}50P{CLEAR_TO 0x77}{EMOJI_MINUS}50P");
+const u8 gText_10P30P50P50P[] = _("{CLEAR_TO 3}10P{CLEAR_TO 43}30P{CLEAR_TO 83}50P{CLEAR_TO 119}{EMOJI_MINUS}50P");
 const u8 gText_AnnouncingRankings[] = _("Annonce du classement!");
 const u8 gText_AnnouncingPrizes[] = _("Remise des prix!");
 const u8 gText_1Colon[] = _("1:");
@@ -1138,7 +1036,7 @@ ALIGNED(4) const u8 gText_PickOKExit[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}OK {B_BU
 ALIGNED(4) const u8 gText_PickOKCancel[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}OK {B_BUTTON}CANCEL");
 const u8 gText_PlayersBattleResults[] = _("{PLAYER}'s BATTLE RESULTS");
 const u8 gText_TotalRecordWLD[] = _("TOTAL RECORD W:{STR_VAR_1} L:{STR_VAR_2} D:{STR_VAR_3}");
-const u8 gText_WinLoseDraw[] = _("{CLEAR_TO 0x53}WIN{CLEAR_TO 0x80}LOSE{CLEAR_TO 0xB0}DRAW");
+const u8 gText_WinLoseDraw[] = _("{CLEAR_TO 83}WIN{CLEAR_TO 128}LOSE{CLEAR_TO 176}DRAW");
 const u8 gText_CommunicationStandby5[] = _("Communication standby…");
 const u8 gDaycareText_GetAlongVeryWell[] = _("The two seem to get along\nvery well.");
 const u8 gDaycareText_GetAlong[] = _("The two seem to get along.");
@@ -1156,6 +1054,7 @@ const u8 gText_TrainerHill3F[] = _("3{SUPER_E}");
 const u8 gText_TrainerHill4F[] = _("4{SUPER_E}");
 const u8 gText_TeachWhichMoveToPkmn[] = _("Enseigner quoi à {STR_VAR_1}?");
 const u8 gText_MoveRelearnerTeachMoveConfirm[] = _("Enseigner {STR_VAR_2}?");
+const u8 gText_MoveRelearnerTeachMoveConfirmUseTm[] = _("Teach {STR_VAR_2}?\nThis will consume one {STR_VAR_3}.");
 const u8 gText_MoveRelearnerPkmnLearnedMove[] = _("{STR_VAR_1} apprend\n{STR_VAR_2}!");
 const u8 gText_MoveRelearnerPkmnTryingToLearnMove[] = _("{STR_VAR_1} tente d'apprendre\n{STR_VAR_2}.\pMais {STR_VAR_1} ne peut pas ap-\nprendre plus de 4 capacités.\pEffacer une capacité \npour {STR_VAR_2}?");
 const u8 gText_MoveRelearnerStopTryingToTeachMove[] = _("Arrêter d'apprendre\n{STR_VAR_2}?");
@@ -1163,6 +1062,7 @@ const u8 gText_MoveRelearnerAndPoof[] = _("{PAUSE 32}1, {PAUSE 15}2, and {PAUSE 
 const u8 gText_MoveRelearnerPkmnForgotMoveAndLearnedNew[] = _("{STR_VAR_1} oublie\n{STR_VAR_3}.\pEt…\p{STR_VAR_1}\napprend {STR_VAR_2}.");
 const u8 gText_MoveRelearnedPkmnDidNotLearnMove[] = _("{STR_VAR_1} did not learn the\nmove {STR_VAR_2}."); // Unused
 const u8 gText_MoveRelearnerGiveUp[] = _("Arrêter d'enseigner la nouvelle\ncapacité à {STR_VAR_1}?");
+const u8 gText_MoveRelearnerStop[] = _("Stop trying to learn new\nmoves for {STR_VAR_1}?");;
 const u8 gText_MoveRelearnerWhichMoveToForget[] = _("Oublier quelle capacité?\p");
 const u8 gText_MoveRelearnerBattleMoves[] = _("CAPACITES COMB.");
 const u8 gText_MoveRelearnerContestMovesTitle[] = _("CAPACITES CONC.");
@@ -1216,3 +1116,153 @@ const u8 gText_Volcanobadge[] = _("VOLCANOBADGE");
 const u8 gText_Earthbadge[] = _("EARTHBADGE");
 const u8 gText_OakImportantToGetToKnowPokemonThroughly[] = _("OAK: It's important to get to know\nyour POKéMON thoroughly.\p");
 const u8 gText_OakThisIsListOfPokemon[] = _("This is a list of your POKéMON,\n{PLAYER}.\pOpen this to check the skills\nand moves of your POKéMON.\pYou also choose POKéMON here if\nyou want to use an item on one.{PAUSE_UNTIL_PRESS}");
+
+const u8 gText_ExpandedPlaceholder_Antoine[] = _("ANTOINE");
+
+const u8 gText_UnkHeight[] = _("{CLEAR_TO 0x0C}???,? m");
+
+const u8 gText_UnkHeightMetric[] = _("???.? m");
+
+const u8 gText_UnkWeight[] = _("???,? kg");
+
+const u8 gText_UnkWeightMetric[] = _("???.? kg.");
+
+const u8 gText_EmptyPkmnCategory[] = _("                       POKéMON"); // Unused
+
+const u8 gText_EmptyHeight[] = _("{CLEAR_TO 0x0C}    '    “"); // Unused
+
+const u8 gText_EmptyWeight[] = _("        .   lbs."); // Unused
+
+const u8 gText_EmptyPokedexInfo1[] = _(""); // Unused
+
+const u8 gText_EmptyPokedexInfo2[] = _(""); // Unused
+
+const u8 gText_PokedexRegistration[] = _("Enregistrement du POKéDEX terminé.");
+
+const u8 gText_HTHeight[] = _("HAUT.");
+
+const u8 gText_WTWeight[] = _("POIDS");
+
+const u8 gText_SearchingPleaseWait[] = _("Recherche en cours…\nVeuillez patienter.");
+
+const u8 gText_SearchCompleted[] = _("Recherche terminée.");
+
+const u8 gText_NoMatchingPkmnWereFound[] = _("Aucun POKéMON correspondant trouvé.");
+
+const u8 gText_SearchForPkmnBasedOnParameters[] = _("Recherche de POKéMON selon certains\ncritères.");
+
+const u8 gText_SwitchPokedexListings[] = _("Changer le classement du POKéDEX.");
+
+const u8 gText_ReturnToPokedex[] = _("Revenir au POKéDEX.");
+
+const u8 gText_SelectPokedexMode[] = _("Choisir le mode du POKéDEX.");
+
+const u8 gText_SelectPokedexListingMode[] = _("Choisir le mode de classement du POKéDEX.");
+
+const u8 gText_ListByFirstLetter[] = _("Recherche par la première lettre du nom:\nPOKéMON vus.");
+
+const u8 gText_ListByBodyColor[] = _("Recherche par la couleur:\nPOKéMON vus.");
+
+const u8 gText_ListByType[] = _("Recherche par le type:\nPOKéMON pris uniquement.");
+
+const u8 gText_ExecuteSearchSwitch[] = _("Exécuter recherche/changement.");
+
+const u8 gText_DexHoennTitle[] = _("DEX HOENN");
+
+const u8 gText_DexNatTitle[] = _("DEX NATIONAL");
+
+const u8 gText_DexSortNumericalTitle[] = _("MODE NUMERIQUE");
+
+const u8 gText_DexSortAtoZTitle[] = _("MODE A à Z");
+
+const u8 gText_DexSortHeaviestTitle[] = _("MODE + - LOURD");
+
+const u8 gText_DexSortLightestTitle[] = _("MODE + - LEGER");
+
+const u8 gText_DexSortTallestTitle[] = _("MODE + - GRAND");
+
+const u8 gText_DexSortSmallestTitle[] = _("MODE + - PETIT");
+
+const u8 gText_DexSearchAlphaABC[] = _("ABC");
+
+const u8 gText_DexSearchAlphaDEF[] = _("DEF");
+
+const u8 gText_DexSearchAlphaGHI[] = _("GHI");
+
+const u8 gText_DexSearchAlphaJKL[] = _("JKL");
+
+const u8 gText_DexSearchAlphaMNO[] = _("MNO");
+
+const u8 gText_DexSearchAlphaPQR[] = _("PQR");
+
+const u8 gText_DexSearchAlphaSTU[] = _("STU");
+
+const u8 gText_DexSearchAlphaVWX[] = _("VWX");
+
+const u8 gText_DexSearchAlphaYZ[] = _("YZ");
+
+const u8 gText_DexSearchColorRed[] = _("ROUGE");
+
+const u8 gText_DexSearchColorBlue[] = _("BLEU");
+
+const u8 gText_DexSearchColorYellow[] = _("JAUNE");
+
+const u8 gText_DexSearchColorGreen[] = _("VERT");
+
+const u8 gText_DexSearchColorBlack[] = _("NOIR");
+
+const u8 gText_DexSearchColorBrown[] = _("MARRON");
+
+const u8 gText_DexSearchColorPurple[] = _("VIOLET");
+
+const u8 gText_DexSearchColorGray[] = _("GRIS");
+
+const u8 gText_DexSearchColorWhite[] = _("BLANC");
+
+const u8 gText_DexSearchColorPink[] = _("ROSE");
+
+const u8 gText_DexHoennDescription[] = _("POKéDEX de la région HOENN");
+
+const u8 gText_DexNatDescription[] = _("POKéDEX édition nationale");
+
+const u8 gText_DexSortNumericalDescription[] = _("POKéMON classés selon leur numéro.");
+
+const u8 gText_DexSortAtoZDescription[] = _("POKéMON vus et pris, classés par ordre\nalphabétique.");
+
+const u8 gText_DexSortHeaviestDescription[] = _("POKéMON pris, classés du plus lourd au\nplus léger.");
+
+const u8 gText_DexSortLightestDescription[] = _("POKéMON pris, classés du plus léger au\nplus lourd.");
+
+const u8 gText_DexSortTallestDescription[] = _("POKéMON pris, classés du plus grand au\nplus petit.");
+
+const u8 gText_DexSortSmallestDescription[] = _("POKéMON pris, classés du plus petit au\nplus grand.");
+
+const u8 gText_DexEmptyString[] = _("");
+
+const u8 gText_DexSearchDontSpecify[] = _("INDIFFERENT");
+
+const u8 gText_DexSearchTypeNone[] = _("AUCUN");
+
+const u8 gText_BoostPp[] = _("Augmenter quels PP ?");
+
+const u8 gText_Cool2[] = _("SG-FD");
+
+const u8 gText_Beauty2[] = _("BEAUTE");
+
+const u8 gText_Cute2[] = _("GRACE");
+
+const u8 gText_Smart2[] = _("INTEL.");
+
+const u8 gText_Tough2[] = _("ROBUS.");
+
+const u8 gText_Items[] = _("OBJETS");
+
+const u8 gText_Key_Items[] = _("OBJ. RARES");
+
+const u8 gText_Poke_Balls[] = _("BALLS");
+
+const u8 gText_TMs_Hms[] = _("CT & CS");
+
+const u8 gText_Berries2[] = _("BAIES");
+
+const u8 gText_Blank[] = _("");

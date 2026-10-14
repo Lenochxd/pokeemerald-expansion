@@ -67,12 +67,12 @@ static const u16 sAntoineCredits_Pal[]    = INCBIN_U16("graphics/intro/scene_2/a
 static const u32 sAntoineCredits_Gfx[]    = INCBIN_U32("graphics/intro/scene_2/antoine_credits.4bpp.smol");
 static const u16 sMayCredits_Pal[]        = INCBIN_U16("graphics/intro/scene_2/may_credits.gbapal");
 static const u16 sUnused[0xF0]            = {0};
-static const u32 sMayCredits_Gfx[]        = INCBIN_U32("graphics/intro/scene_2/may_credits.4bpp.smol");
-static const u32 sBicycle_Gfx[]           = INCBIN_U32("graphics/intro/scene_2/bicycle.4bpp.smol");
-static const u16 sLatios_Pal[]            = INCBIN_U16("graphics/intro/scene_2/latios.gbapal");
-static const u32 sLatios_Gfx[]            = INCBIN_U32("graphics/intro/scene_2/latios.4bpp.smol");
-static const u16 sLatias_Pal[]            = INCBIN_U16("graphics/intro/scene_2/latias.gbapal");
-static const u32 sLatias_Gfx[]            = INCBIN_U32("graphics/intro/scene_2/latias.4bpp.smol");
+static const u32 sMayCredits_Gfx[]        = INCGFX_U32("graphics/intro/scene_2/may_credits.png", ".4bpp.smol");
+static const u32 sBicycle_Gfx[]           = INCGFX_U32("graphics/intro/scene_2/bicycle.png", ".4bpp.smol");
+static const u16 sLatios_Pal[]            = INCGFX_U16("graphics/intro/scene_2/latios.png", ".gbapal");
+static const u32 sLatios_Gfx[]            = INCGFX_U32("graphics/intro/scene_2/latios.png", ".4bpp.smol");
+static const u16 sLatias_Pal[]            = INCGFX_U16("graphics/intro/scene_2/latias.png", ".gbapal");
+static const u32 sLatias_Gfx[]            = INCGFX_U32("graphics/intro/scene_2/latias.png", ".4bpp.smol");
 
 static void SpriteCB_MovingScenery(struct Sprite *sprite);
 static void SpriteCB_Player(struct Sprite *sprite);
