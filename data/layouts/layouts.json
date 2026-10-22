@@ -9525,8 +9525,8 @@
     {
       "id": "LAYOUT_MENSONGEVILLE",
       "name": "Mensongeville_Layout",
-      "width": 36,
-      "height": 30,
+      "width": 65,
+      "height": 49,
       "primary_tileset": "gTileset_Mensongeville",
       "secondary_tileset": "gTileset_MensongevilleSecondary",
       "border_filepath": "data/layouts/Mensongeville/border.bin",
